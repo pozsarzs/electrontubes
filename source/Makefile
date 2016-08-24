@@ -1,14 +1,14 @@
 # +----------------------------------------------------------------------------+
-# | C3 v0.6 * Colour code of components                                        |
-# | Copyright (C) 2004-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ]   |
+# | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
 # | Make file for FreePascal source.                                           |
 # +----------------------------------------------------------------------------+
 
 include ../Makefile.global
 
-srcfiles = c3.lpr
-binfiles = c3
+srcfiles = electrontubes.lpr
+binfiles = electrontubes
 
 all:
 	@echo "- Compiling source code..."

@@ -1,6 +1,6 @@
 # +----------------------------------------------------------------------------+
-# | C3 v0.6 * Colour code of components                                        |
-# | Copyright (C) 2004-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ]   |
+# | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
 # | Makefile for manuals                                                       |
 # +----------------------------------------------------------------------------+
@@ -16,27 +16,27 @@ clean:
 install:
 	@echo -n "- Installing manual files..."
 	@for x in $(languages); do \
-	  if [ -e $(name)_$$x.7 ]; \
+	  if [ -e $(name)_$$x.1 ]; \
 	  then \
-	    $(install) -d $(mandir)/$$x/man7; \
-	    $(install) -m $(txtmode) $(name)_$$x.7 $(mandir)/$$x/man7; \
-	    mv $(mandir)/$$x/man7/$(name)_$$x.7 $(mandir)/$$x/man7/$(name).7 ; \
+	    $(install) -d $(mandir)/$$x/man1; \
+	    $(install) -m $(txtmode) $(name)_$$x.1 $(mandir)/$$x/man1; \
+	    mv $(mandir)/$$x/man1/$(name)_$$x.1 $(mandir)/$$x/man1/$(name).1 ; \
 	  fi; \
 	done
-	@$(install) -d $(mandir)/man7;
-	@mv $(mandir)/en/man7/* $(mandir)/man7
-	@rmdir $(mandir)/en/man7/
+	@$(install) -d $(mandir)/man1;
+	@mv $(mandir)/en/man1/* $(mandir)/man1
+	@rmdir $(mandir)/en/man1/
 	@rmdir $(mandir)/en
 	@echo "done."
 
 uninstall:
 	@echo -n "- Removing manual files..."
 	@for x in $(languages); do \
-	  if [ -e $(name)_$$x.7 ]; \
+	  if [ -e $(name)_$$x.1 ]; \
 	  then \
-	    $(rm) $(mandir)/$$x/man7/$(name).7; \
+	    $(rm) $(mandir)/$$x/man1/$(name).1; \
 	  fi; \
 	done
-	@$(rm) $(mandir)/man7/$(name).7;
+	@$(rm) $(mandir)/man1/$(name).1;
 	@echo "done."
 
