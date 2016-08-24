@@ -1,5 +1,7 @@
-2016-08-17 Pozsar Zsolt <pozsarzs@gmail.com>
-	* Version 0.6:
+2016-08-30 Pozsar Zsolt <pozsarzs@gmail.com>
+	* Version 0.4.1:
+	EUPL licenc
 	New compiler files
 	FreeBSD version
+	Removed restriction and warning window.
 

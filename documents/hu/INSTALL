@@ -9,7 +9,7 @@ a. Bináris (txz) csomagból
 b. Forrásnyelvű csomagból
 
    Fordítás és telepítés:
-   # tar -xzf c3-0.6.tar.gz
+   # tar -xzf electrontubes-0.4.1.tar.gz
    # ./configure
    # make
    # make install
@@ -26,34 +26,34 @@ a. Bináris (deb, package, rpm, txz) csomagból
 b. Bináris (bin) csomagból
 
    Telepítés:
-   # ./c3-0.6-i586.bin
+   # ./electrontubes-0.4.1-i586.bin
 
    Eltávolítás:
-   # /opt/c3/uninstall
+   # /opt/electrontubes/uninstall
 
 c. Bináris (tar.gz) csomagból
 
    Telepítés:
-   # cp c3-0.6-i586.tar.gz /opt
+   # cp electrontubes-0.4.1-i586.tar.gz /opt
    # cd /opt
-   # tar -xzf c3-0.6-i586.tar.gz
-   # cd c3
+   # tar -xzf electrontubes-0.4.1-i586.tar.gz
+   # cd electrontubes
    # ./create_links
             vagy
-   # tar -xzf c3-0.6-i586.tar.gz
-   # cd c3
+   # tar -xzf electrontubes-0.4.1-i586.tar.gz
+   # cd electrontubes
    # ./install
 
    Eltávolítás:
-   # /opt/c3/remove_links
-   # rm -r /opt/c3/
+   # /opt/electrontubes/remove_links
+   # rm -r /opt/electrontubes/
             vagy
-   # /opt/c3/uninstall
+   # /opt/electrontubes/uninstall
 
 d. Forrásnyelvű csomagból
 
    Fordítás és telepítés:
-   $ tar -xzf c3-0.6.tar.gz
+   $ tar -xzf electrontubes-0.4.1.tar.gz
    $ ./configure
    $ make
    # make install
@@ -69,17 +69,17 @@ a. Bináris (exe) csomagból
 
 b. Bináris (msi) csomagból
 
-   > msiexec.exe /i c3-0.6-win32.msi    (vagy duplakattintással nyissa meg a
-                                         csomagot) 
+   > msiexec.exe /i electrontubes-0.4.1-win32.msi  (vagy duplakattintással
+                                                    nyissa meg a csomagot) 
 c. Bináris (zip) csomagból
 
-   > unzip c3-0.6-win32.zip             (vagy használjon csomagoló alkalmazás)
-
+   > unzip electrontubes-0.4.1-win32.zip           (vagy használjon csomagoló
+                                                    alkalmazást)
 d. Forrásnyelvű csomagból
 
    Fordítás és telepítés:
-   > tar -xzf c3-0.6.tar.gz             (vagy használjon csomagoló alkalmazást)
-   > build.bat
+   > tar -xzf electrontubes-0.4.1.tar.gz           (vagy használjon csomagoló
+   > build.bat                                      alkalmazást)
    > build.bat install
 
    Eltávolítás:

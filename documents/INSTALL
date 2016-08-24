@@ -9,7 +9,7 @@ a. From binary (txz) package
 b. From source package
 
    Build and install:
-   # tar -xzf c3-0.6.tar.gz
+   # tar -xzf electrontubes-0.4.1.tar.gz
    # ./configure
    # make
    # make install
@@ -26,34 +26,34 @@ a. From binary (deb, package, rpm, txz) package
 b. From binary (bin) package
 
    Install:
-   # ./c3-0.6-i586.bin
+   # ./electrontubes-0.4.1-i586.bin
 
    Remove:
-   # /opt/c3/uninstall
+   # /opt/electrontubes/uninstall
 
 c. From binary (tar.gz) package
 
    Install:
-   # cp c3-0.6-i586.tar.gz /opt
+   # cp electrontubes-0.4.1-i586.tar.gz /opt
    # cd /opt
-   # tar -xzf c3-0.6-i586.tar.gz
-   # cd c3
+   # tar -xzf electrontubes-0.4.1-i586.tar.gz
+   # cd electrontubes
    # ./create_links
             or
-   # tar -xzf c3-0.6-i586.tar.gz
-   # cd c3
+   # tar -xzf electrontubes-0.4.1-i586.tar.gz
+   # cd electrontubes
    # ./install
 
    Remove:
-   # /opt/c3/remove_links
-   # rm -r /opt/c3/
+   # /opt/electrontubes/remove_links
+   # rm -r /opt/electrontubes/
             or
-   # /opt/c3/uninstall
+   # /opt/electrontubes/uninstall
 
 d. From source package
 
    Build and install:
-   $ tar -xzf c3-0.6.tar.gz
+   $ tar -xzf electrontubes-0.4.1.tar.gz
    $ ./configure
    $ make
    # make install
@@ -69,16 +69,16 @@ a. From binary (exe) package
 
 b. From binary (msi) package
 
-   > msiexec.exe /i c3-0.6-win32.msi    (or double-click to open package) 
-
+   > msiexec.exe /i electrontubes-0.4.1-win32.msi (or double-click to open
+                                                   package) 
 c. From binary (zip) package
 
-   > unzip c3-0.6-win32.zip             (or use unpacking application)
+   > unzip electrontubes-0.4.1-win32.zip          (or use unpacking application)
 
 d. From source package
 
    Build and install:
-   > tar -xzf c3-0.6.tar.gz             (or use unpacking application)
+   > tar -xzf electrontubes-0.4.1.tar.gz          (or use unpacking application)
    > build.bat
    > build.bat install
 

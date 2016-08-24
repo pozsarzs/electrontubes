@@ -1,8 +1,6 @@
 # +----------------------------------------------------------------------------+
 # | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ]   |
 # | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
-# | C3 v0.6 * Colour code of components                                        |
-# | Copyright (C) 2004-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | Makefile                                                                   |
 # | Makefile for documents                                                     |
 # +----------------------------------------------------------------------------+
