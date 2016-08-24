@@ -1,0 +1,64 @@
+# +----------------------------------------------------------------------------+
+# | C3 v0.6 * Colour code of components                                        |
+# | Copyright (C) 2004-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | default.apspec                                                             |
+# | apspec file for autopackage                                                |
+# +----------------------------------------------------------------------------+
+
+[Meta]
+RootName: @pozsarzs.hu/c3:$SOFTWAREVERSION
+DisplayName: Colour code decoder
+ShortName: c3
+Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
+Packager: Pozsar Zsolt <pozsarzs@gmail.com>
+Summary: Decoder for colour code of components.
+URL: http://www.pozsarzs.hu/ccc/ccc_en.html
+License: GNU General Public License, Version 3 or later
+SoftwareVersion: 0.6
+Repository: http://www.pozsarzs.hu/ccc/ccc.xml
+AutopackageTarget: 1.0
+
+[BuildPrepare]
+# documents
+echo $build_root
+mkdir --parent $build_root/share/c3/documents/hu
+cp $source_dir/documents/* $build_root/share/c3/documents/
+cp $source_dir/documents/hu/* $build_root/share/c3/documents/hu/
+# locales
+mkdir --parent $build_root/share/c3/languages/hu
+cp $source_dir/languages/* $build_root/share/c3/languages/
+cp $source_dir/languages/hu/* $build_root/share/c3/languages/hu/
+# manuals
+mkdir --parent $build_root/share/c3/manual
+cp $source_dir/manual/* $build_root/share/c3/manual/
+# other files
+cp $source_dir/c3 $build_root/share/c3/
+cp $source_dir/README $build_root/share/c3/README
+mkdir --parent $build_root/share/application/
+cp $source_dir/c3.desktop $build_root/share/application/
+mkdir --parent $build_root/share/pixmaps/
+cp $source_dir/c3.xpm $build_root/share/pixmaps/
+
+[BuildUnprepare]
+unprepareBuild
+
+[Imports]
+echo 'share/' | import
+
+[Prepare]
+# Dependency checking
+require @xfree86.org/xlib 6.0
+
+[Install]
+installData share/c3
+outputStatus "$intl_INSTALLING_EXE"
+linkFile --silent $PREFIX/share/c3/c3 $PREFIX/bin/c3
+linkFile --silent $PREFIX/share/c3/manual/c3_en.7 $PREFIX/share/man/man7/c3.7
+linkFile --silent $PREFIX/share/c3/manual/c3_hu.7 $PREFIX/share/man/hu/man7/c3.7
+installDesktop "Application/Electronics" share/application/c3.desktop
+installIcon share/pixmaps/c3.xpm
+
+[Uninstall]
+# Usually just the following line is enough to uninstall everything
+uninstallFromLog
+

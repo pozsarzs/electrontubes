@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+  <page>
+    <title>Static anode characteristic</title>
+    <description>Select a tube what do you want to use in your circuit. Look for a datasheet about this valve what contents a static anode characteristic and copy or print it.
+The static anode characteristics show anode current (Ia) on the y-axis, anode voltage (Ua) on the x-axis, and the set of curved lines shows the grid-to-cathode voltage (Ug).</description>
+    <figure>page_01.png</figure>
+  </page>
+  <page>
+    <title>The anode load line</title>
+    <description>Determine ideal values of the power supply voltage (Ups) and the anode resistor (Ra) from datasheet.
+Calculate Ia: Ia=Ups/Ra, and mark it on y-axis (A).
+Mark Ua=Ups point on x-axis (B).
+Join these two points up with a line, it will be the anode load line.</description>
+    <figure>page_02.png</figure>
+  </page>
+  <page>
+    <title>Quiescent parameters</title>
+    <description>Select a bias point on the anode load line (blue point). Read quiescent anode current (Ia0) from y-axis, anode voltage (Ua0) from x-axis and grid voltage (Ug0).</description>
+    <figure>page_03.png</figure>
+  </page>
+  <page>
+    <title>Voltage gain</title>
+    <description>Select working range what do you use (two green points).
+Read value of the maximal grid voltage change (ΔUgmax) beetween two green points.
+Read value of the maximal anode current change (ΔIamax) beetwen green marks on y-axis.
+Read value of the maximal anode voltage change (ΔUamax) beetwen green marks on x-axis.</description>
+    <figure>page_04.png</figure>
+  </page>
+</xml>

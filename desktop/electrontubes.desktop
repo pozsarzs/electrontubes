@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Electrontubes
+Name[hu]=Elektroncsövek
+Exec=electrontubes
+Icon=electrontubes.xpm
+Comment=Electrontube bias calculator
+Comment[hu]=Elektroncső munkapont számító
+Type=Application
+Categories=Application;Electronics;
+Terminal=false
+StartupNotify=true

@@ -1,0 +1,1366 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: Electrontubes v0.3.1\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pozsár Zsolt <pozsarzs@gmail.com>\n"
+"Language-Team: Pozsár Zsolt <pozsarzs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: frmabout.message01
+msgid "Demo mode,"
+msgstr "Demó mód,"
+
+#: frmabout.message02
+msgid "registration required!"
+msgstr "regisztráció szükséges!"
+
+#: frmactivehelp.message01
+msgid "Help file error!"
+msgstr " Hibás a súgófájl formátuma!"
+
+#: frmactivehelp.message02
+msgid "There is not help file!"
+msgstr "Nincs megfelelően strukturált konfigurációs fájl!"
+
+#: frmactivehelp.message03
+msgid "(There is not picture!)"
+msgstr "(Nincs kép!)"
+
+#: frmmain.message01
+msgid "Demo"
+msgstr "Demó"
+
+#: frmmain.message02
+msgid "Full"
+msgstr "Teljes"
+
+#: frmmain.message03
+msgid "Off-line"
+msgstr "Off-line"
+
+#: frmmain.message04
+msgid "On-line"
+msgstr "On-line"
+
+#: frmmain.message05
+msgid "New version is available. Please visit CheapApps's homepage!"
+msgstr "Új változat elérhető. Kérem, látogassa meg a CheapApps honlapját!"
+
+#: frmmain.message06
+msgid "Save report to file"
+msgstr "Eredmény mentése fájlba"
+
+#: frmmain.message07
+msgid "text files (*.txt)|*.txt| all files (*.*)|*.*|"
+msgstr "szöveges fájlok (*.txt)|*.txt| minden fájl (*.*)|*.*|"
+
+#: frmmain.message08
+msgid "Write error"
+msgstr "Írási hiba"
+
+#: frmmain.message09
+msgid "File exists, overwrite?"
+msgstr "A fájl létezik, felülírjam?"
+
+#: frmmain.message10
+msgid "This is a shareware application."
+msgstr "Ez egy shareware alkalmazás."
+
+#: frmmain.message11
+msgid "If you want to use it without limitation, you need to register!"
+msgstr "Regisztrálja, ha korlátozás nélkül szeretné használni!"
+
+#: frmmain.message12
+msgid "Don't forget: this is just 1€!"
+msgstr "Ne feledje, csak 290 Ft!"
+
+#: frmmain.message13
+msgid " No picture!"
+msgstr "Nincs kép!"
+
+#: frmmain.message14
+msgid "Do you want to save your work?"
+msgstr "Elmentsem a munkáját?"
+
+#: frmmain.message15
+msgid "Bad value, fix it"
+msgstr "Rossz érték, kérem javítsa ki"
+
+#: frmmain.message16
+msgid "There is not newer version."
+msgstr "Nincs újabb változat."
+
+#: frmmain.message17
+msgid "Sizing report"
+msgstr "Méretezési eredmény"
+
+#: frmmain.message18
+msgid "Warning! Calculating error, the result can be wrong."
+msgstr "Figyelem! Számítási hiba, az eredmény hibás lehet!"
+
+#: frmmain.message19
+msgid "Save initial values"
+msgstr "Kiindulási a&datok mentése"
+
+#: frmmain.message20
+msgid "values files (*.cav)|*.cav| all files (*.*)|*.*|"
+msgstr "adatfájlok (*.cav)|*.cav|Minden fájl (*.*)|*.*||"
+
+#: frmmain.message21
+msgid "Load initial values"
+msgstr "Kiindulási adatok &betöltése"
+
+#: frmmain.message22
+msgid "This file is not owned by this application!"
+msgstr "Ez az állomány nem ezzel az alkalmazással készült!"
+
+#: frmmain.message23
+msgid "Saved data is not compatible this module!"
+msgstr "A mentett adat nem kompatibilis ezzel a modullal!"
+
+#: frmmain.message24
+msgid "Different version application has saved this file!"
+msgstr "Ez a fájl eltérő változat számú alkalmazással készült!"
+
+#: frmmain.message25
+msgid "Read error!"
+msgstr "Olvasási hiba!"
+
+#: frmmain.message26
+msgid "Print report"
+msgstr "Eredmény nyomtatása"
+
+#: frmmain.message27
+msgid "Print error!"
+msgstr "Nyomtatási hiba!"
+
+#: frmmain.message28
+msgid "Schematic draw"
+msgstr "Kapcsolási rajz"
+
+#: frmmain.message29
+msgid "result.txt"
+msgstr "eredmeny.txt"
+
+#: frmpref.message01
+msgid "Select browser application"
+msgstr "Válasszon böngészőt"
+
+#: frmpref.message02
+msgid "Select mailer application"
+msgstr "Válasszon levelezőt"
+
+#: frmpref.message03
+msgid "executables|*.exe|all files|*.*"
+msgstr "alkalmazások|*.exe|minden fájl|*.*"
+
+#: frmpref.message04
+msgid "all files|*.*"
+msgstr "minden fájl|*.*"
+
+#: frmpref.message05
+msgid "Off-line"
+msgstr "Off-line"
+
+#: frmpref.message06
+msgid "On-line"
+msgstr "On-line"
+
+#: frmserial.message01
+msgid "Wrong serial number!"
+msgstr "Rossz sorozatszám!"
+
+#: frmserial.message02
+msgid "Demo"
+msgstr "Demó"
+
+#: frmserial.message03
+msgid "Full"
+msgstr "Teljes"
+
+#: module_01.message01
+msgid "Voltage regulator with gas filled voltage stabiliser tube"
+msgstr "Feszültség stabilizátor gáztöltésű stabilizátorcsővel"
+
+#: module_01.message02
+msgid "V1|Ui|V|ignition voltage"
+msgstr "V1|Ui|V|gyújtófeszültség"
+
+#: module_01.message03
+msgid "V1|Uamin|V|minimal anode voltage"
+msgstr "V1|Uamin|V|minimális anódfeszültség"
+
+#: module_01.message04
+msgid "V1|Uamax|V|maximal anode voltage"
+msgstr "V1|Uamax|V|maximális anódfeszültség"
+
+#: module_01.message05
+msgid "V1|Iamin|mA|minimal anode current"
+msgstr "V1|Iamin|mA|minimális anódáram"
+
+#: module_01.message06
+msgid "V1|Iamax|mA|maximal anode current"
+msgstr "V1|Iamax|mA|maximális anódáram"
+
+#: module_01.message07
+msgid "Uinmin|V|minimal input voltage"
+msgstr "Uinmin|V|min. bemeneti feszültség"
+
+#: module_01.message08
+msgid "Uinmax|V|maximal input voltage"
+msgstr "Uinmax|V|max. bemeneti feszültség"
+
+#: module_01.message09
+msgid "Uout|V|output voltage"
+msgstr "Uout|V|kimeneti feszültség"
+
+#: module_01.message10
+msgid "Iout|mA|output current"
+msgstr "Iout|mA|kimeneti áram"
+
+#: module_01.message11
+msgid "Rbmin|kohm|minimal ballast resistor"
+msgstr "Rbmin|kohm|minimális előtét ellenállás"
+
+#: module_01.message12
+msgid "Rbmax|kohm|maximal ballast resistor"
+msgstr "Rbmax|kohm|maximális előtét ellenállás"
+
+#: module_01.message13
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_01.message14
+msgid "Increase the input voltage!"
+msgstr "Emelje a bemeneti feszültséget!"
+
+#: module_02.message01
+msgid "Current stabilised heating circuit with baretter (Fe-H resistor)"
+msgstr "Áramstabilizált fűtőáramkör baréterrel (Fe-H ellenállás)"
+
+#: module_02.message02
+msgid "V1|Ubmin|V|minimal baretter voltage"
+msgstr "V1|Ubmin|V|minimális baréter feszültség"
+
+#: module_02.message03
+msgid "V1|Ubmax|V|maximal baretter voltage"
+msgstr "V1|Ubmax|V|maximális baréter feszültség"
+
+#: module_02.message04
+msgid "V1|Ib|A|nominal baretter current"
+msgstr "V1|Ib|A|névleges baréter áram"
+
+#: module_02.message05
+msgid "Uin|V|input voltage"
+msgstr "Uin|V|bemeneti feszültség"
+
+#: module_02.message06
+msgid "Uh|V|total heating voltage"
+msgstr "Uh|V|teljes fűtőfeszültség"
+
+#: module_02.message07
+msgid "Ih|A|heating current"
+msgstr "Ih|A|fűtőáram"
+
+#: module_02.message08
+msgid "R1|ohm|ballast resistor"
+msgstr "R1|ohm|előtét ellenállás"
+
+#: module_02.message09
+msgid "PR1|W|power of the ballast resistor"
+msgstr "PR1|W|az előtét ellenállás teljesítménye"
+
+#: module_02.message10
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_02.message11
+msgid "Please select another baretter: Ih and Ib must be equal!"
+msgstr "Válasszon másik barétert: az Ih és az Ib értékének meg kell egyeznie."
+
+#: module_02.message12
+msgid "Bad values: Uin must be bigger than Ubmax!"
+msgstr "Rossz érték: Uin-nek nagyobbnak kell lennie az Ubmax-nál!"
+
+#: module_03.message01
+msgid "Grounded cathode amplifier with triode"
+msgstr "Földelt katódú erősítő triódával"
+
+#: module_03.message02
+msgid "V1|Ug0|V|quiescent grid voltage with correct sign"
+msgstr "V1|Ug0|V|nyugalmi rácsfeszültség helyes előjellel"
+
+#: module_03.message03
+msgid "V1|Ua0|V|quiescent anode voltage"
+msgstr "V1|Ua0|V|nyugalmi anódfeszültség"
+
+#: module_03.message04
+msgid "V1|Ia0|mA|quiescent anode current"
+msgstr "V1|Ia0|mA|nyugalmi anódáram"
+
+#: module_03.message05
+msgid "V1|DUg|V|grid voltage change"
+msgstr "V1|DUg|V|rácsfeszültség változás"
+
+#: module_03.message06
+msgid "V1|DUa|V|anode voltage change"
+msgstr "V1|DUa|V|anódfeszültség változás"
+
+#: module_03.message07
+msgid "V1|DIa|mA|anode current change"
+msgstr "V1|DIa|mA|anódáram változás"
+
+#: module_03.message08
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_03.message09
+msgid "Rg|Mohm|grid-leak resistor (from datasheet)"
+msgstr "Rg|Mohm|rácslevezető ellenállás (adatlapból)"
+
+#: module_03.message10
+msgid "Ra|kohm|anode resistor (from datasheet)"
+msgstr "Ra|kohm|anód ellenállás (adatlapból)"
+
+#: module_03.message11
+msgid "Rk|ohm|cathode resistor"
+msgstr "Rk|ohm|katód ellenállás"
+
+#: module_03.message12
+msgid "PRk|W|quiescent dissipation of the cathode resistor"
+msgstr "PRk|W|a katódellenállás nyugalmi disszipációja"
+
+#: module_03.message13
+msgid "PRg|W|quiescent dissipation of the grid-leak resistor"
+msgstr "PRg|W|a rácslevezető ellenállás nyugalmi disszipációja"
+
+#: module_03.message14
+msgid "PRa|W|quiescent dissipation of the anode resistor"
+msgstr "PRa|W|az anódellenállás nyugalmi disszipációja"
+
+#: module_03.message15
+msgid "u|-|voltage gain"
+msgstr "u|-|feszültség erősítés"
+
+#: module_03.message16
+msgid "Au|dB|voltage gain"
+msgstr "Au|dB|feszültség erősítés"
+
+#: module_03.message17
+msgid "Ri|kohm|internal resistance"
+msgstr "Ri|kohm|belső ellenállás"
+
+#: module_03.message18
+msgid "gm|mA/V|mutual conductance"
+msgstr "S|mA/V|meredekség"
+
+#: module_03.message19
+msgid "Zin|Mohm|input impedance"
+msgstr "Zin|Mohm|bemeneti impedancia"
+
+#: module_03.message20
+msgid "Zout|kohm|output impedance"
+msgstr "Zout|kohm|kimeneti impedancia"
+
+#: module_03.message21
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_04.message01
+msgid "Grounded cathode amplifier with triode (with bypassed cathode resistor)"
+msgstr "Földelt katódú erősítő triódával (kondenzátorral álthidalt katódellenállással)"
+
+#: module_04.message02
+msgid "V1|Ug0|V|quiescent grid voltage with correct sign"
+msgstr "V1|Ug0|V|nyugalmi rácsfeszültség helyes előjellel"
+
+#: module_04.message03
+msgid "V1|Ua0|V|quiescent anode voltage"
+msgstr "V1|Ua0|V|nyugalmi anódfeszültség"
+
+#: module_04.message04
+msgid "V1|Ia0|mA|quiescent anode current"
+msgstr "V1|Ia0|mA|nyugalmi anódáram"
+
+#: module_04.message05
+msgid "V1|DUg|V|grid voltage change"
+msgstr "V1|DUg|V|rácsfeszültség változás"
+
+#: module_04.message06
+msgid "V1|DUa|V|anode voltage change"
+msgstr "V1|DUa|V|anódfeszültség változás"
+
+#: module_04.message07
+msgid "V1|DIa|mA|anode current change"
+msgstr "V1|DIa|mA|anódáram változás"
+
+#: module_04.message08
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_04.message09
+msgid "Rg|Mohm|grid-leak resistor (from datasheet)"
+msgstr "Rg|Mohm|rácslevezető ellenállás (adatlapból)"
+
+#: module_04.message10
+msgid "Ra|kohm|anode resistor (from datasheet)"
+msgstr "Ra|kohm|anód ellenálás (adatlapból)"
+
+#: module_04.message11
+msgid "fl|Hz|low frequency range"
+msgstr "fl|Hz|alsó határfrekvencia"
+
+#: module_04.message12
+msgid "Rk|ohm|cathode resistor"
+msgstr "Rm|ohm|katód ellenállás"
+
+#: module_04.message13
+msgid "PRk|W|quiescent dissipation of the cathode resistor"
+msgstr "PRk|W|a katód ellenállás nyugalmi disszipációja"
+
+#: module_04.message14
+msgid "PRg|W|quiescent dissipation of the grid-leak resistor"
+msgstr "PRg|W|a rácslevezető ellenállás nyugalmi disszipációja"
+
+#: module_04.message15
+msgid "PRa|W|quiescent dissipation of the anode resistor"
+msgstr "PRa|W|az anód ellenállás nyugalmi disszipációja"
+
+#: module_04.message16
+msgid "u|-|voltage gain"
+msgstr "u|-|feszültség erősítés"
+
+#: module_04.message17
+msgid "Au|dB|voltage gain"
+msgstr "Au|dB|feszültség erősítés"
+
+#: module_04.message18
+msgid "Ri|kohm|internal resistance"
+msgstr "Ri|kohm|belső ellenállás"
+
+#: module_04.message19
+msgid "gm|mA/V|mutual conductance"
+msgstr "S|mA/V|meredekség"
+
+#: module_04.message20
+msgid "Zin|Mohm|input impedance"
+msgstr "Zin|Mohm|bemeneti impedancia"
+
+#: module_04.message21
+msgid "Zout|kohm|output impedance"
+msgstr "Zout|kohm|kimeneti impedancia"
+
+#: module_04.message22
+msgid "Ck|uF|cathode capacitor"
+msgstr "Ck|uF|katód kondenzátor"
+
+#: module_04.message23
+msgid "UCk|V|voltage of cathode capacitor"
+msgstr "UCk|V|a katód kondenzátor feszültsége"
+
+#: module_04.message24
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_05.message01
+msgid "Grounded cathode amplifier with triode with negative feedback"
+msgstr "Földelt katódú erősítő triódával és negatív visszacsatolással"
+
+#: module_05.message02
+msgid "V1|Ug0|V|quiescent grid voltage with correct sign"
+msgstr "V1|Ug0|V|nyugalmi rácsfeszültség helyes előjellel"
+
+#: module_05.message03
+msgid "V1|Ua0|V|quiescent anode voltage"
+msgstr "V1|Ua0|V|nyugalmi anódfeszültség"
+
+#: module_05.message04
+msgid "V1|Ia0|mA|quiescent anode current"
+msgstr "V1|Ia0|mA|nyugalmi anódáram"
+
+#: module_05.message05
+msgid "V1|Ri|kohm|internal resistance (from datasheet)"
+msgstr "V1|Ri|kohm|belső ellenállás (adatlapból)"
+
+#: module_05.message06
+msgid "V1|u|-|voltage gain (from datasheet)"
+msgstr "V1|u|-|feszültségerősítés (adatlapból)"
+
+#: module_05.message07
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_05.message08
+msgid "Ra|kohm|anode resistor (from datasheet)"
+msgstr "Ra|kohm|anód ellenállás (adatlapból)"
+
+#: module_05.message09
+msgid "Rf|kohm|feedback resistor (min. 3 x Ra!)"
+msgstr "Rf|kohm|visszacsatoló ellenállás (min. 3 x Ra!)"
+
+#: module_05.message10
+msgid "fl|Hz|low frequency range"
+msgstr "fl|Hz|alsó határfrekvencia"
+
+#: module_05.message11
+msgid "Av|-|requested voltage gain with feedback"
+msgstr "Av|-|igényelt feszültségerősítés a visszacsatolással"
+
+#: module_05.message12
+msgid "Rg|kohm|grid resistor"
+msgstr "Rg|kohm|rács ellenállás"
+
+#: module_05.message13
+msgid "Rk|ohm|cathode resistor"
+msgstr "Rk|ohm|katód ellenállás"
+
+#: module_05.message14
+msgid "PRk|W|quiescent dissipation of the cathode resistor"
+msgstr "PRk|W|a katódellenállás nyugalmi disszipációja"
+
+#: module_05.message15
+msgid "PRa|W|quiescent dissipation of the anode resistor"
+msgstr "PRa|W|az anódellenállás nyugalmi disszipációja"
+
+#: module_05.message16
+msgid "A0|-|gain without feedback"
+msgstr "A0|-|erősítés visszacsatolás nélkül"
+
+#: module_05.message17
+msgid "A0|dB|gain without feedback"
+msgstr "A0|dB|erősítés visszacsatolás nélkül"
+
+#: module_05.message18
+msgid "Av'|-|calculated voltage gain with feedback"
+msgstr "Av'|-|számított feszültségerősítés visszacsatolással"
+
+#: module_05.message19
+msgid "Av'|dB|calculated voltage gain with feedback"
+msgstr "Av'|dB|számított feszültségerősítés visszacsatolással"
+
+#: module_05.message20
+msgid "Zin|Mohm|input impedance"
+msgstr "Zin|Mohm|bemeneti impedancia"
+
+#: module_05.message21
+msgid "Zout|kohm|output impedance"
+msgstr "Zout|kohm|kimeneti impedancia"
+
+#: module_05.message22
+msgid "Ck|uF|cathode capacitor"
+msgstr "Ck|uF|katód kondenzátor"
+
+#: module_05.message23
+msgid "UCk|V|voltage of cathode capacitor"
+msgstr "UCk|V|a katód kondenzátor feszültsége"
+
+#: module_05.message24
+msgid "Cc|uF|couple capacitor"
+msgstr "Cc|uF|csatoló kondenzátor"
+
+#: module_05.message25
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_05.message26
+msgid "Rf must be equal or bigger than 3xRa!"
+msgstr "Az Rf legalább 3x akkora legyen mint az Ra!"
+
+#: module_05.message27
+msgid "Av must be bigger than zero!"
+msgstr "A kívánt visszacsatolt erősítésnek (Av) nagyobbnak kell lennie, mint 0!"
+
+#: module_05.message28
+msgid "fl must be bigger than zero!"
+msgstr "Az alsó határfrekvenciának (fl) nagyobbnak kell lennie, mint 0!"
+
+#: module_06.message01
+msgid "Grounded cathode amplifier with triode cascode #1"
+msgstr "Földelt katódú erősítő trióda kaszkáddal 1."
+
+#: module_06.message02
+msgid "V1|Ug0|V|quiescent grid voltage of lower triode with correct sign"
+msgstr "V1|Ug0|V|az alsó trióda nyugalmi rácsfeszültsége helyes előjellel"
+
+#: module_06.message03
+msgid "V1|Ua0|V|quiescent anode voltage of lower triode"
+msgstr "V1|Ua0|V|az alsó trióda nyugalmi anódfeszültsége"
+
+#: module_06.message04
+msgid "V1|Ia0|mA|quiescent anode current of lower triode"
+msgstr "V1|Ia0|mA|az alsó trióda nyugalmi anódárama"
+
+#: module_06.message05
+msgid "V2|Ug0|V|quiescent grid voltage of upper triode with correct sign"
+msgstr "V2|Ug0|V|a felső trióda nyugalmi rácsfeszültsége helyes előjelle"
+
+#: module_06.message06
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_06.message07
+msgid "Ra|kohm|anode resistor (from datasheet)"
+msgstr "Ra|kohm|anód ellenállás (adatlapból)"
+
+#: module_06.message08
+msgid "R1|kohm|upper resistor of voltage divider (default is 560 kohm)"
+msgstr "R1|kohm|a feszültségosztó felső tagja (alap: 560 kohm)"
+
+#: module_06.message09
+msgid "fl|Hz|low frequency range"
+msgstr "fl|Hz|alsó határfrekvencia"
+
+#: module_06.message10
+msgid "Rk|ohm|cathode resistor"
+msgstr "Rk|ohm|katód ellenállás"
+
+#: module_06.message11
+msgid "PRk|W|quiescent dissipation of the cathode resistor"
+msgstr "PRk|W|a katódellenállás nyugalmi disszipációja"
+
+#: module_06.message12
+msgid "Ck|uF|cathode capacitor"
+msgstr "Ck|uF|katód kondenzátor"
+
+#: module_06.message13
+msgid "UCk|V|voltage of cathode capacitor"
+msgstr "UCk|V|a katód kondenzátor feszültsége"
+
+#: module_06.message14
+msgid "PRa|W|quiescent dissipation of the anode resistor"
+msgstr "PRa|W|az anódellenállás nyugalmi disszipációja"
+
+#: module_06.message15
+msgid "R1|kohm|upper resistor of voltage divider"
+msgstr "R1|kohm|a feszültségosztó felső tagja"
+
+#: module_06.message16
+msgid "PR1|W|dissipation of R1 resistor"
+msgstr "PR1|W|az R1 ellenállás disszipációja"
+
+#: module_06.message17
+msgid "R2|kohm|lower resistor of voltage divider"
+msgstr "R2|kohm|a feszültségosztó alsó tagja"
+
+#: module_06.message18
+msgid "PR2|W|dissipation of R2 resistor"
+msgstr "PR2|W|az R2 ellenállás disszipációja"
+
+#: module_06.message19
+msgid "C1|nF|V2 grid capacitor"
+msgstr "C1|nF|V2 rács kondenzátor"
+
+#: module_06.message20
+msgid "UC1|V|voltage of C1 capacitor"
+msgstr "UC1|V|a C1 kondenzátor feszültsége"
+
+#: module_06.message21
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_06.message22
+msgid "fl must be bigger than zero!"
+msgstr "Az alsó határfrekvenciának (fl) nagyobbnak kell lennie, mint 0!"
+
+#: module_06.message23
+msgid "R1 must be bigger than zero!"
+msgstr "Az R1-nek nagyobbnak kell lennie, mint 0!"
+
+#: module_07.message01
+msgid "AC coupled cathode follower with triode"
+msgstr "AC csatolt katódkövető triódával"
+
+#: module_07.message02
+msgid "V1|Ug0|V|quiescent grid voltage of triode with correct sign"
+msgstr "V1|Ug0|V|nyugalmi rácsfeszültség helyes előjellel"
+
+#: module_07.message03
+msgid "V1|Ua0|V|quiescent anode voltage of triode"
+msgstr "V1|Ua0|V|nyugalmi anódfeszültség"
+
+#: module_07.message04
+msgid "V1|Ia0|mA|quiescent anode current of triode"
+msgstr "V1|Ia0|mA|nyugalmi anódáram"
+
+#: module_07.message05
+msgid "V1|Ri|kohm|internal resistance (from datasheet)"
+msgstr "V1|Ri|kohm|belső ellenállás (adatlapból)"
+
+#: module_07.message06
+msgid "V1|u|-|voltage gain (from datasheet)"
+msgstr "V1|u|-|feszültségerősítés (adatlapból)"
+
+#: module_07.message07
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_07.message08
+msgid "Rk1|kohm|load resistor (from datasheet)"
+msgstr "Rk1|kohm|terhelő ellenállás (adatlapból)"
+
+#: module_07.message09
+msgid "Rg|kohm|grid-leak resistor (from datasheet)"
+msgstr "Rg|kohm|rácslevezető ellenállás (adatlapból)"
+
+#: module_07.message10
+msgid "PRk1|W|quiescent dissipation of the lower cathode resistor"
+msgstr "PRk1|W|a terhelő ellenállás nyugalmi disszipációja"
+
+#: module_07.message11
+msgid "Rk2|kohm|upper cathode resistor"
+msgstr "Rk2|kohm|katódellenállás"
+
+#: module_07.message12
+msgid "PRk2|W|quiescent dissipation of the upper cathode resistor"
+msgstr "PRk2|W|a katódellenállás nyugalmi disszipációja"
+
+#: module_07.message13
+msgid "Zin|kohm|input impedance"
+msgstr "Zin|kohm|bemeneti impedancia"
+
+#: module_07.message14
+msgid "Zout|ohm|output impedance"
+msgstr "Zout|ohm|kimeneti impedancia"
+
+#: module_07.message15
+msgid "Au|-|calculated voltage gain"
+msgstr "Au|-|számított feszültségerősítés"
+
+#: module_07.message16
+msgid "Au|dB|calculated voltage gain"
+msgstr "Av|dB|számított feszültségerősítés"
+
+#: module_07.message17
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_08.message01
+msgid "Shunt regulated push-pull (SRPP) amplifier with triodes"
+msgstr "SRPP erősítő triódával"
+
+#: module_08.message02
+msgid "V1|Ri|kohm|internal resistance (from datasheet)"
+msgstr "V1|Ri|kohm|belső ellenállás (adatlapból)"
+
+#: module_08.message03
+msgid "V1|u|-|voltage gain (from datasheet)"
+msgstr "V1|u|-|feszültségerősítés (adatlapból)"
+
+#: module_08.message04
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_08.message05
+msgid "Rg|Mohm|grid-leak resistor (from datasheet)"
+msgstr "Rg|Mohm|rácslevezető ellenállás (adatlapból)"
+
+#: module_08.message06
+msgid "Rl|kohm|load resistor (from datasheet)"
+msgstr "Rl|kohm|terhelő ellenállás (adatlapból)"
+
+#: module_08.message07
+msgid "fl|Hz|lower frequency range"
+msgstr "fl|Hz|alsó határfrekvencia"
+
+#: module_08.message08
+msgid "Rk|ohm|cathode resistor"
+msgstr "Rk|ohm|katód ellenállás"
+
+#: module_08.message09
+msgid "PRk|W|quiescent dissipation of the cathode resistor"
+msgstr "PRk|W|a katódellenállás nyugalmi disszipációja"
+
+#: module_08.message10
+msgid "Ck|uF|cathode capacitor"
+msgstr "Ck|uF|katód kondenzátor"
+
+#: module_08.message11
+msgid "Zin|kohm|input impedance"
+msgstr "Zin|kohm|bemeneti impedancia"
+
+#: module_08.message12
+msgid "Zout|kohm|output impedance"
+msgstr "Zout|kohm|kimeneti impedancia"
+
+#: module_08.message13
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_09.message01
+msgid "Mu-follower amplifier with triodes"
+msgstr "Mű-követő erősítő triódákkal"
+
+#: module_09.message02
+msgid "V1|u|-|voltage gain (from datasheet)"
+msgstr "V1|u|-|feszültségerősítés (adatlapból)"
+
+#: module_09.message03
+msgid "V1|Ug0|V|quiescent grid voltage of triode with correct sign"
+msgstr "V1|Ug0|V|nyugalmi rácsfeszültség helyes előjellel"
+
+#: module_09.message04
+msgid "V1|Ua0|V|quiescent anode voltage of triode"
+msgstr "V1|Ua0|V|nyugalmi anódfeszültség"
+
+#: module_09.message05
+msgid "V2|Ug0|V|quiescent grid voltage of triode with correct sign"
+msgstr "V2|Ug0|V|nyugalmi rácsfeszültség helyes előjellel"
+
+#: module_09.message06
+msgid "V2|Ua0|V|quiescent anode voltage of triode"
+msgstr "V2|Ua0|V|nyugalmi anódfeszültség"
+
+#: module_09.message07
+msgid "V1-2|Ia0|mA|common quiescent anode current"
+msgstr "V1-2|Ia0|mA|közös anódáram"
+
+#: module_09.message08
+msgid "V2|UB|V|maximal anode voltage (\"B\" point on characteristic)"
+msgstr "V2|UB|V|maximális anódfeszültség (\"B\" pont a grafikonon)"
+
+#: module_09.message09
+msgid "V2|IA|mA|maximal anode current (\"A\" point on characteristic)"
+msgstr "V2|IA|mA|maximális anódáram (\"A\" pont a grafikonon)"
+
+#: module_09.message10
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_09.message11
+msgid "Rg1|kohm|grid-leak resistor (from datasheet)"
+msgstr "Rg1|kohm|rácslevezető ellenállás (adatlapból)"
+
+#: module_09.message12
+msgid "Rg2|kohm|grid-leak resistor (from datasheet)"
+msgstr "Rg2|kohm|rácslevezető ellenállás (adatlapból)"
+
+#: module_09.message13
+msgid "fl|Hz|lower frequency range"
+msgstr "fl|Hz|alsó határfrekvencia"
+
+#: module_09.message14
+msgid "Rk1|ohm|cathode resistor"
+msgstr "Rk1|ohm|katód ellenállás"
+
+#: module_09.message15
+msgid "PRk1|W|quiescent dissipation of the cathode resistor"
+msgstr "PRk1|W|a katódellenállás nyugalmi disszipációja"
+
+#: module_09.message16
+msgid "Ck|uF|cathode capacitor"
+msgstr "Ck|uF|katód kondenzátor"
+
+#: module_09.message17
+msgid "Rk2|ohm|cathode resistor"
+msgstr "Rk2|ohm|katód ellenállás"
+
+#: module_09.message18
+msgid "PRk2|W|quiescent dissipation of the cathode resistor"
+msgstr "PRk2|W|a katódellenállás nyugalmi disszipációja"
+
+#: module_09.message19
+msgid "Rl|kohm|load resistor"
+msgstr "Rl|kohm|terhelő ellenállás"
+
+#: module_09.message20
+msgid "PRl|W|quiescent dissipation of the load resistor"
+msgstr "PRl|W|a terhelő ellenállás nyugalmi disszipációja"
+
+#: module_09.message21
+msgid "Cg2|nF|grid capacitor"
+msgstr "Cg2|nF|rács kondenzátor"
+
+#: module_09.message22
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_10.message01
+msgid "Cathodyne phase inverter #1"
+msgstr "Katodin fázisfordító 1."
+
+#: module_10.message02
+msgid "V1|Ugk0|V|quiescent grid-cathode voltage of triode"
+msgstr "V1|Ugk0|V|nyugalmi rács-katód feszültség"
+
+#: module_10.message03
+msgid "V1|Uak0|V|quiescent anode-cathode voltage of triode"
+msgstr "V1|Uak0|V|nyugalmi anód-katód feszültség"
+
+#: module_10.message04
+msgid "V1|Ia0|mA|quiescent anode current of triode"
+msgstr "V1|Ia0|mA|nyugalmi anódáram"
+
+#: module_10.message05
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_10.message06
+msgid "Rg|kohm|grid-leak resistor (from datasheet)"
+msgstr "Rg|kohm|rácslevezető ellenállás (adatlapból)"
+
+#: module_10.message07
+msgid "Rk-Ra|kohm|anode and cathode resistors"
+msgstr "Rk-Ra|kohm|anód és katód ellenállások"
+
+#: module_10.message08
+msgid "R1|kohm|voltage divider resistor"
+msgstr "R1|kohm|feszültségosztó ellenállás"
+
+#: module_10.message09
+msgid "PR1|W|quiescent dissipation of the divider resistor"
+msgstr "PR1|W|a feszültségosztó ellenállás nyugalmi disszipációja"
+
+#: module_10.message10
+msgid "Rb|kohm|bias resistor"
+msgstr "Rb|kohm|munkapont beállító ellenállás"
+
+#: module_10.message11
+msgid "PRb|W|quiescent dissipation of the bias resistor"
+msgstr "PRb|W|a munkapont beállító ellenállás nyugalmi disszipációja"
+
+#: module_10.message12
+msgid "PRa-PRk|W|quiescent dissipation of anode and cathode resistors"
+msgstr "PRa-PRk|W|az anód és katód ellenállások nyugalmi disszipációja"
+
+#: module_10.message13
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_14.message01
+msgid "Grounded cathode amplifier with triode cascode #2"
+msgstr "Földelt katódú erősítő trióda kaszkáddal 2."
+
+#: module_14.message02
+msgid "V1|Ug0|V|quiescent grid voltage of lower triode with correct sign"
+msgstr "V1|Ug0|V|az alsó trióda nyugalmi rácsfeszültsége helyes előjellel"
+
+#: module_14.message03
+msgid "V1|Ua0|V|quiescent anode voltage of lower triode"
+msgstr "V1|Ua0|V|az alsó trióda nyugalmi anódfeszültsége"
+
+#: module_14.message04
+msgid "V1|Ia0|mA|quiescent anode current of lower triode"
+msgstr "V1|Ia0|mA|az alsó trióda nyugalmi anódárama"
+
+#: module_14.message05
+msgid "V2|Ug0|V|quiescent grid voltage of upper triode with correct sign"
+msgstr "V2|Ug0|V|a felső trióda nyugalmi rácsfeszültsége helyes előjellel"
+
+#: module_14.message06
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_14.message07
+msgid "Ra|kohm|anode resistor (from datasheet)"
+msgstr "Ra|kohm|anód ellenállás (adatlapból)"
+
+#: module_14.message08
+msgid "fl|Hz|low frequency range"
+msgstr "fl|Hz|alsó határfrekvencia"
+
+#: module_14.message09
+msgid "Rk|ohm|cathode resistor"
+msgstr "Rk|ohm|katód ellenállás"
+
+#: module_14.message10
+msgid "PRk|W|quiescent dissipation of the cathode resistor"
+msgstr "PRk|W|a katódellenállás nyugalmi disszipációja"
+
+#: module_14.message11
+msgid "Ck|uF|cathode capacitor"
+msgstr "Ck|uF|katód kondenzátor"
+
+#: module_14.message12
+msgid "UCk|V|voltage of cathode capacitor"
+msgstr "UCk|V|a katód kondenzátor feszültsége"
+
+#: module_14.message13
+msgid "PRa|W|quiescent dissipation of the anode resistor"
+msgstr "PRa|W|az anódellenállás nyugalmi disszipációja"
+
+#: module_14.message14
+msgid "R1|Mohm|grid-leak resistor of upper triode"
+msgstr "R1|Mohm|a felső trióda rácslevezető ellenállása"
+
+#: module_14.message15
+msgid "C1|nF|V2 grid capacitor"
+msgstr "C1|nF|V2 rács kondenzátor"
+
+#: module_14.message16
+msgid "UC1|V|voltage of C1 capacitor"
+msgstr "UC1|V|a C1 kondenzátor feszültsége"
+
+#: module_14.message17
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: module_14.message18
+msgid "fl must be bigger than zero!"
+msgstr "Az alsó határfrekvenciának (fl) nagyobbnak kell lennie, mint 0!"
+
+#: module_15.message01
+msgid "Cathodyne phase inverter #2"
+msgstr "Katodin fázisfordító 2."
+
+#: module_15.message02
+msgid "V1|Ugk0|V|quiescent grid-cathode voltage of triode with correct sign"
+msgstr "V1|Ugk0|V|nyugalmi katód-rács feszültség helyes előjellel"
+
+#: module_15.message03
+msgid "V1|Uak0|V|quiescent anode-cathode voltage of triode"
+msgstr "V1|Uak0|V|nyugalmi anód-katód feszültség"
+
+#: module_15.message04
+msgid "V1|Ia0|mA|quiescent anode current of triode"
+msgstr "V1|Ia0|mA|nyugalmi anódáram"
+
+#: module_15.message05
+msgid "Ups|V|power supply voltage"
+msgstr "Ups|V|tápfeszültség"
+
+#: module_15.message06
+msgid "Rg|kohm|grid-leak resistor (from datasheet)"
+msgstr "Rg|kohm|rácslevezető ellenállás (adatlapból)"
+
+#: module_15.message07
+msgid "Rk-Ra|kohm|anode and cathode resistors"
+msgstr "Rk-Ra|kohm|anód és katód ellenállások"
+
+#: module_15.message08
+msgid "R1|kohm|voltage divider resistor"
+msgstr "R1|kohm|feszültségosztó ellenállás"
+
+#: module_15.message09
+msgid "PR1|W|quiescent dissipation of the divider resistor"
+msgstr "PR1|W|a feszültségosztó ellenállás nyugalmi disszipációja"
+
+#: module_15.message10
+msgid "Rb|kohm|bias resistor"
+msgstr "Rb|kohm|munkapont beállító ellenállás"
+
+#: module_15.message11
+msgid "PRb|W|quiescent dissipation of the bias resistor"
+msgstr "PRb|W|a munkapont beállító ellenállás nyugalmi disszipációja"
+
+#: module_15.message12
+msgid "PRa-PRk|W|quiescent dissipation of anode and cathode resistors"
+msgstr "PRa-PRk|W|az anód és katód ellenállások nyugalmi disszipációja"
+
+#: module_15.message13
+msgid "Calculation error, please check values!"
+msgstr "Számítási hiba, ellenőrizze az értékeket!"
+
+#: TFORM1.BUTTON1.CAPTION
+msgid "Calculate! (F3)"
+msgstr "&Számolj! (F3)"
+
+#: TFORM1.BUTTON3.CAPTION
+msgid "Reset data (F2)"
+msgstr "Adatok törlése (F2)"
+
+#: TFORM1.CAPTION
+msgid "Electrontubes [CheapApps series]"
+msgstr "Elektroncsövek [CheapApps sorozat]"
+
+#: TFORM1.CHECKBOX1.CAPTION
+msgid "Hin&t"
+msgstr "Sú&gó"
+
+#: TFORM1.CHECKBOX2.CAPTION
+msgid "Hi&nt"
+msgstr "Sú&gó"
+
+#: TFORM1.CHECKBOX3.CAPTION
+msgid "Hi&nt"
+msgstr "Sú&gó"
+
+#: TFORM1.LABEL1.CAPTION
+msgid "How can I set them?"
+msgstr "Hogyan állítsam ezt be?"
+
+#: TFORM1.LABEL2.CAPTION
+msgid "Calculated values"
+msgstr "Számított értékek"
+
+#: TFORM1.LABEL3.CAPTION
+msgid "Initial values"
+msgstr "Kiindulási értékek"
+
+#: TFORM1.LABEL4.CAPTION
+msgid "Parameters"
+msgstr "Paraméterek"
+
+#: TFORM1.MENUITEM1.CAPTION
+msgid "&File"
+msgstr "&Fájl"
+
+#: TFORM1.MENUITEM10.CAPTION
+msgid "&Configuration"
+msgstr "&Konfiguráció"
+
+#: TFORM1.MENUITEM12.CAPTION
+msgid "Se&ttings..."
+msgstr "&Beállítások..."
+
+#: TFORM1.MENUITEM13.CAPTION
+msgid "&Set serial number..."
+msgstr "Sorozatszám beállítás..."
+
+#: TFORM1.MENUITEM14.CAPTION
+msgid "Save &report to file..."
+msgstr "Eredmény &mentése fájlba..."
+
+#: TFORM1.MENUITEM15.CAPTION
+msgid "Search &new version"
+msgstr "Ú&j verzió keresése"
+
+#: TFORM1.MENUITEM19.CAPTION
+msgid "Save settin&gs"
+msgstr "Beállítások menté&se"
+
+#: TFORM1.MENUITEM2.CAPTION
+msgid "&Index"
+msgstr "&Tartalom"
+
+#: TFORM1.MENUITEM20.CAPTION
+msgid "&Facebook page"
+msgstr "&Facebook oldal"
+
+#: TFORM1.MENUITEM21.CAPTION
+msgid "&Pozsi's homepage"
+msgstr "&Pozsi honlapja"
+
+#: TFORM1.MENUITEM27.CAPTION
+msgid "&Load initial values..."
+msgstr "Kiindulási adatok &betöltése..."
+
+#: TFORM1.MENUITEM29.CAPTION
+msgid "&Print report..."
+msgstr "Eredmény n&yomtatása..."
+
+#: TFORM1.MENUITEM31.CAPTION
+msgid "Load re&cent"
+msgstr "Előzménye&k"
+
+#: TFORM1.MENUITEM32.CAPTION
+msgid "On-line &registration"
+msgstr "On-line &regisztráció"
+
+#: TFORM1.MENUITEM33.CAPTION
+msgid "On-line &bugreport"
+msgstr "On-line hi&bajelentés"
+
+#: TFORM1.MENUITEM35.CAPTION
+msgid "CheapApps on Internet"
+msgstr "CheapApps az Interneten"
+
+#: TFORM1.MENUITEM36.CAPTION
+msgid "&Homepage"
+msgstr "&Honlap"
+
+#: TFORM1.MENUITEM39.CAPTION
+msgid "&Operation"
+msgstr "Műkö&dés"
+
+#: TFORM1.MENUITEM40.CAPTION
+msgid "&Reset data"
+msgstr "Adatok &törlése"
+
+#: TFORM1.MENUITEM41.CAPTION
+msgid "Calculate!"
+msgstr "&Számolj!"
+
+#: TFORM1.MENUITEM5.CAPTION
+msgid "&Help"
+msgstr "&Súgó"
+
+#: TFORM1.MENUITEM6.CAPTION
+msgid "&About..."
+msgstr "&Névjegy"
+
+#: TFORM1.MENUITEM7.CAPTION
+msgid "&Save initial values..."
+msgstr "Kiindulási a&datok mentése"
+
+#: TFORM1.MENUITEM9.CAPTION
+msgid "&Quit"
+msgstr "&Kilépés"
+
+#: TFORM1.STRINGGRID1.COLUMNS[0].TGRIDCOLUMNTITLE.CAPTION
+msgid "Name [unit]"
+msgstr "Név [egység]"
+
+#: TFORM1.STRINGGRID1.COLUMNS[1].TGRIDCOLUMNTITLE.CAPTION
+msgid "Value"
+msgstr "Érték"
+
+#: TFORM1.STRINGGRID1.COLUMNS[2].TGRIDCOLUMNTITLE.CAPTION
+msgid "Description"
+msgstr "Leírás"
+
+#: TFORM1.STRINGGRID2.COLUMNS[0].TGRIDCOLUMNTITLE.CAPTION
+msgid "Name [unit]"
+msgstr "Név [egység]"
+
+#: TFORM1.STRINGGRID2.COLUMNS[1].TGRIDCOLUMNTITLE.CAPTION
+msgid "Value"
+msgstr "Érték"
+
+#: TFORM1.STRINGGRID2.COLUMNS[2].TGRIDCOLUMNTITLE.CAPTION
+msgid "Description"
+msgstr "Leírás"
+
+#: TFORM1.STRINGGRID3.COLUMNS[0].TGRIDCOLUMNTITLE.CAPTION
+msgid "Pos."
+msgstr "Poz."
+
+#: TFORM1.STRINGGRID3.COLUMNS[1].TGRIDCOLUMNTITLE.CAPTION
+msgid "Name [unit]"
+msgstr "Név [egység]"
+
+#: TFORM1.STRINGGRID3.COLUMNS[2].TGRIDCOLUMNTITLE.CAPTION
+msgid "Value"
+msgstr "Érték"
+
+#: TFORM1.STRINGGRID3.COLUMNS[3].TGRIDCOLUMNTITLE.CAPTION
+msgid "Description"
+msgstr "Leírás"
+
+#: TFORM1.TABSHEET1.CAPTION
+msgid "General data"
+msgstr "Általános adatok"
+
+#: TFORM1.TABSHEET2.CAPTION
+msgid "Parameters of active elements"
+msgstr "Aktív elemek jellemzői"
+
+#: TFORM2.BUTTON1.CAPTION
+msgid "Close"
+msgstr "Bezárás"
+
+#: TFORM2.FORM2.CAPTION
+msgid "About"
+msgstr "Névjegy"
+
+#: TFORM2.LABEL1.CAPTION
+msgid "Electrontubes v"
+msgstr "Elektroncsövek v"
+
+#: TFORM2.LABEL11.CAPTION
+msgid "Copyright (C) 2012 Pozsár Zsolt"
+msgstr "Copyright (C) 2012 Pozsár Zsolt"
+
+#: TFORM2.LABEL2.CAPTION
+msgid "CheapApps series"
+msgstr "CheapApps sorozat"
+
+#: TFORM2.LABEL3.CAPTION
+msgid "Homepage:"
+msgstr "Honlap:"
+
+#: TFORM2.LABEL6.CAPTION
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: TFORM2.LABEL7.CAPTION
+msgid "Name:"
+msgstr "Név:"
+
+#: TFORM2.LABEL9.CAPTION
+msgid "Serial:"
+msgstr "Sorozatszám:"
+
+#: TFORM3.BUTTON1.CAPTION
+msgid "&Set"
+msgstr "&Beállít"
+
+#: TFORM3.BUTTON3.CAPTION
+msgid "&Cancel"
+msgstr "&Mégsem"
+
+#: TFORM3.FORM3.CAPTION
+msgid "Set serial"
+msgstr "Sorozatszám beállítás"
+
+#: TFORM3.LABEL1.CAPTION
+msgid "Your serial number:"
+msgstr "Az Ön sorozatszáma:"
+
+#: TFORM4.BUTTON1.CAPTION
+msgid "&Set"
+msgstr "&Beállít"
+
+#: TFORM4.BUTTON2.CAPTION
+msgid "&Cancel"
+msgstr "&Mégsem"
+
+#: TFORM4.BUTTON3.CAPTION
+msgid "&Default"
+msgstr "Alapértelmezés"
+
+#: TFORM4.CHECKBOX1.CAPTION
+msgid "Offline mode"
+msgstr "Off-line mód"
+
+#: TFORM4.CHECKBOX2.CAPTION
+msgid "Save history"
+msgstr "Előzmény mentése"
+
+#: TFORM4.FORM4.CAPTION
+msgid "Preferences"
+msgstr "Beállítások"
+
+#: TFORM4.LABEL1.CAPTION
+msgid "Browser application:"
+msgstr "Böngésző alkalmazás:"
+
+#: TFORM4.LABEL2.CAPTION
+msgid "Mailer application:"
+msgstr "Levelező alkalmazás:"
+
+#: TFORM5.BUTTON1.CAPTION
+msgid "&Close"
+msgstr "Be&zárás"
+
+#: TFORM5.BUTTON2.CAPTION
+msgid "&Previous"
+msgstr "&Előző"
+
+#: TFORM5.BUTTON3.CAPTION
+msgid "&Next"
+msgstr "&Következő"
+
+#: TFORM5.CAPTION
+msgid "How can I set them?"
+msgstr "Hogyan állítsam ezt be?"
+
+#: untcommonproc.message01
+msgid "Cannot read the users's configuration file!"
+msgstr "A felhasználó beállítása nem olvasható!"
+
+#: untcommonproc.message02
+msgid "Cannot write the user's configuration file!"
+msgstr "A felhasználó beállítása nem menthető!"
+
+#: untcommonproc.message03
+msgid "Please check browser application setting!"
+msgstr "Ellenőrizze a megadott böngésző alkalmazást!"
+
+#: untcommonproc.message04
+msgid "Please check mailer application setting!"
+msgstr "Ellenőrizze a megadott levelező alkalmazást!"
+
+#: untcommonproc.message05
+msgid "Missing files! Please reinstall application!"
+msgstr "Hiányzó fájlok! Telepítse újra a programot."
+
+#: untcommonproc.message07
+msgid "Cannot write temporary file!"
+msgstr "Ideiglenes állomány nem hozható létre!"
+

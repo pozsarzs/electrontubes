@@ -1,0 +1,19 @@
+Short information
+-----------------
+C3 v0.6 * Colour code of components
+Copyright (C) 2004-2016 Pozsar Zsolt <pozsarzs@gmail.com>
+- Licence: GNU GPL 3.0 or later
+- OS: FreeBSD, Linux and Windows
+- Language: English and Hungarian
+- Homepage: http://www.pozsarzs.hu/en/
+
+Documentation:
+[EN] Author                   documents/AUTHORS
+     Change log               documents/ChangeLog
+     Licence                  documents/COPYING
+     Installation             documents/INSTALL
+     General information      documents/README
+     Version                  documents/VERSION
+[HU] Telepítés                documents/hu/INSTALL
+     Általános információk    documents/hu/README
+

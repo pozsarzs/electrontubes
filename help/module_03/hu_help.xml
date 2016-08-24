@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+  <page>
+    <title>Sztatikus anód karakterisztika</title>
+    <description>Válassza ki a használni kívánt elektroncsövet. Keressen hozzá olyan adatlapot, amely tartalmazza a cső sztatikus anód karakterisztikáját. Másolja le illetve nyomtassa ki a grafikont.
+A sztatikus anód karakterisztika az x-tengelyen az anódfeszültséget (Ua), az y-tengelyen az anódáramot (Ia) a görbesereg a rácsfeszültséget (Ug) mutatja.</description>
+    <figure>page_01.png</figure>
+  </page>
+  <page>
+    <title>A anód munkaegyenes</title>
+    <description>Határozza meg az ideális tápfeszültség (Ups) és munkaellenállás (Ra) értékét a cső adatlapja segítségével.
+Számítsa ki az Ia értékét: Ia=Ups/Ra, majd jelölje be az y-tengelyen (A).
+Jelölje be a tápfeszültség értékét az x-tengelyen (B).
+Kösse össze a két pontot egy egyenes vonallal. Ez az egyenes az elektroncső munkaegyenese.</description>
+    <figure>page_02.png</figure>
+  </page>
+  <page>
+    <title>Nyugalmi paraméterek</title>
+    <description>Válasszon egy munkapontot a munkaegyenesen (kék pont). Olvassa le a nyugalmi anódáramot (Ia0) az y-tengelyről, az anódfeszültséget (Ua0) at x-tengelyről és a nyugalmi rácsfeszültséget (Ug0).</description>
+    <figure>page_03.png</figure>
+  </page>
+  <page>
+    <title>Feszültségerősítés</title>
+    <description>Válassza ki a használni kívánt munkatartományt.(két zöld pont).
+Olvassa le a maximális rácsfeszültség-változást (?Ugmax) a két zöld pont között.
+Olvassa le a maximális anódfeszültség-változást (?Uamax) a két zöld pont között az x-tengelyen.
+Olvassa le a maximális anódáram-változást (?Iamax) a két zöld pont között az y-tengelyen.</description>
+    <figure>page_04.png</figure>
+  </page>
+</xml>

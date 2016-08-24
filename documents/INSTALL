@@ -1,0 +1,87 @@
+                            Installation instruction
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+1. FreeBSD
+~~~~~~~~~~
+a. From binary (txz) package
+
+   Use package manager to install/remove application.
+
+b. From source package
+
+   Build and install:
+   # tar -xzf c3-0.6.tar.gz
+   # ./configure
+   # make
+   # make install
+
+   Remove:
+   # make uninstall
+
+2. Linux
+~~~~~~~~
+a. From binary (deb, package, rpm, txz) package
+
+   Use package manager to install/remove application.
+
+b. From binary (bin) package
+
+   Install:
+   # ./c3-0.6-i586.bin
+
+   Remove:
+   # /opt/c3/uninstall
+
+c. From binary (tar.gz) package
+
+   Install:
+   # cp c3-0.6-i586.tar.gz /opt
+   # cd /opt
+   # tar -xzf c3-0.6-i586.tar.gz
+   # cd c3
+   # ./create_links
+            or
+   # tar -xzf c3-0.6-i586.tar.gz
+   # cd c3
+   # ./install
+
+   Remove:
+   # /opt/c3/remove_links
+   # rm -r /opt/c3/
+            or
+   # /opt/c3/uninstall
+
+d. From source package
+
+   Build and install:
+   $ tar -xzf c3-0.6.tar.gz
+   $ ./configure
+   $ make
+   # make install
+
+   Remove:
+   # make uninstall
+
+3. Windows
+~~~~~~~~~~
+a. From binary (exe) package
+
+   Run installer file and follow intructions.
+
+b. From binary (msi) package
+
+   > msiexec.exe /i c3-0.6-win32.msi    (or double-click to open package) 
+
+c. From binary (zip) package
+
+   > unzip c3-0.6-win32.zip             (or use unpacking application)
+
+d. From source package
+
+   Build and install:
+   > tar -xzf c3-0.6.tar.gz             (or use unpacking application)
+   > build.bat
+   > build.bat install
+
+   Remove:
+   > build.bat uninstall
+

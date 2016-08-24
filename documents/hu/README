@@ -1,0 +1,94 @@
+
+                           Információk az alkalmazásról
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Általános információk
+~~~~~~~~~~~~~~~~~~~~~~~~
+   Ez a program szín- és számjelölésű elektronikai alkatrészek azonosításához
+nyújt segítséget.
+
+Kategóriák:
+    1. ellenállások
+     - 3 sávos színkód
+     - 4 sávos színkód
+     - 5 sávos színkód
+     - 6 sávos színkód
+    2. kondenzátorok
+     - 3 sávos színkód (kerámia)
+     - 5 sávos színkód (kerámia)
+     - 5 pontos színkód
+     - 4 sávos színkód (tantál kondenzátorok)
+     - számkód
+    3. 1Nxxxx diódák
+     - 3 sávos színkód
+     - 4 sávos színkód
+     - 5 sávos színkód
+    4. tekercsek
+     - 4 sávos színkód
+
+   Ez egy olyan szoftver, amely önnek nem kerül pénzbe (esetleg az internet
+használatáért kell fizetnie). Ennek egyedüli feltétele a General Public Licence
+(Általános Közreadási Feltételek) elfogadása és betartása.
+
+   Operációs rendszerek: FreeBSD, Linux és Windows.
+   Nyelvi támogatás: angol és magyar. 
+
+2. Telepítő csomagok
+~~~~~~~~~~~~~~~~~~~~
+a. FreeBSD
+   c3-0.6-FreeBSD-Port.shar   port csomag
+   c3-0.6.txz                 bináris csomag
+
+b. Linux
+   c3-0.6-1.i586.rpm          bináris csomag
+   c3-0.6-i586-1.txz          bináris csomag
+   c3-0.6-i586.bin            telepítő program
+   c3-0.6-i586.tar.gz         bináris csomag
+   c3-0.6.x86.package         bináris csomag
+   c3_0.6-1_i386.deb          bináris csomag
+
+c. Windows
+   c3-0.6-win32.exe           telepítő alkalmazás
+   c3-0.6-win32.msi           bináris csomag
+   c3-0.6-win32.zip           bináris csomag
+
+d. forrűskód
+   c3-0.6.tar.gz              forrásnyelvű csomag
+
+3. Beállítások
+~~~~~~~~~~~~~~
+   FreeBSD és linux operációs rendszeren a 'LANG' környezeti változó
+használatával állíthatja be az alkalmazás nyelvét. (angol: en_US, magyar hu_HU)
+
+4. Fontos információk
+~~~~~~~~~~~~~~~~~~~~~
+   Copyright (C) 2004-2016 Pozsár Zsolt
+
+   Ez a program szabad szoftver; terjeszthetõ és/vagy módosítható a Free
+Software Foundation által publikált GNU General Public License 3. vagy annál
+újabb verziója alapján.
+
+   A program annak reményében kerül terjesztésre, hogy hasznosnak bizonyul, de
+GARANCIA NÉLKÜL; még a PIACKÉPESSÉG illetve egy BIZONYOS CÉLRA VALÓ ALKALMASSÁG
+sincs garantálva. További részletek a GNU General Public License-ben.
+
+   Önnek ezzel a programmal meg kellett kapnia a GNU General Public Licence egy
+példányát, amennyiben nem így lenne, látogasson el ide:
+<http://www.gnu.org/licenses/>.
+
+5. Letöltés és kapcsolat
+~~~~~~~~~~~~~~~~~~~~~~~~
+   Honlap:               <http://www.pozsarzs.hu>
+   Facebook:             <http://www.facebook.com/pozsarzs.hu>
+
+   Gyártó:               Pozsár Zsolt ev.
+   Adószám:              60407850-1-36
+   Regisztrációs szám:   20703695
+   
+   E-mail:               pozsarzs@gmail.com
+   Telefon:              +36 56/470-272
+   Telefax:              +36 56/470-272
+   Mobiltelefon:         +36 30/359-8783
+   Postai cím:           Pozsár Zsolt
+                         5430 Tiszaföldvár, Kurázsi Fő út 1.
+

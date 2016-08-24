@@ -1,0 +1,4 @@
+body.normal { background-color:#fff7d9 }
+b.title1 { color: red; font-weight: bold; font-size:18px }
+b.title2 { color: black; font-weight: bold; font-size:15px }
+body, table { font-family: verdana, arial, helvetica, sans-serif; font-size:13px }

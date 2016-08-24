@@ -1,0 +1,140 @@
+object Form5: TForm5
+  Left = 359
+  Height = 458
+  Top = 79
+  Width = 332
+  ActiveControl = Memo1
+  Caption = 'How can I set them?'
+  ClientHeight = 458
+  ClientWidth = 332
+  OnCloseQuery = FormCloseQuery
+  OnShow = FormShow
+  LCLVersion = '0.9.30'
+  object Bevel1: TBevel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Label1
+    AnchorSideTop.Side = asrBottom
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Memo1
+    Left = 8
+    Height = 282
+    Top = 26
+    Width = 316
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 4
+    BorderSpacing.Right = 8
+    BorderSpacing.Bottom = 4
+  end
+  object Image1: TImage
+    AnchorSideLeft.Control = Bevel1
+    AnchorSideTop.Control = Bevel1
+    AnchorSideRight.Control = Bevel1
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Bevel1
+    AnchorSideBottom.Side = asrBottom
+    Left = 12
+    Height = 274
+    Top = 30
+    Width = 308
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Around = 4
+    Proportional = True
+    Stretch = True
+  end
+  object Label1: TLabel
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    Left = 8
+    Height = 14
+    Top = 8
+    Width = 36
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 8
+    Caption = '(Title)'
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    Left = 307
+    Height = 14
+    Top = 8
+    Width = 17
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 8
+    Caption = '0/0'
+    ParentColor = False
+  end
+  object Button1: TButton
+    AnchorSideLeft.Control = Owner
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 8
+    Height = 23
+    Top = 427
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.Left = 8
+    BorderSpacing.Bottom = 8
+    Cancel = True
+    Caption = '&Close'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    AnchorSideRight.Control = Button3
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 169
+    Height = 23
+    Top = 427
+    Width = 72
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Right = 8
+    BorderSpacing.Bottom = 8
+    Caption = '&Previous'
+    Enabled = False
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 249
+    Height = 23
+    Top = 427
+    Width = 75
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Right = 8
+    BorderSpacing.Bottom = 8
+    Caption = '&Next'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Memo1: TMemo
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Button1
+    Left = 8
+    Height = 107
+    Top = 312
+    Width = 316
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 8
+    BorderSpacing.Right = 8
+    BorderSpacing.Bottom = 8
+    ReadOnly = True
+    ScrollBars = ssAutoBoth
+    TabOrder = 3
+  end
+end

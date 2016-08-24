@@ -1,0 +1,96 @@
+
+                            About application
+                            ~~~~~~~~~~~~~~~~~
+
+1. General information
+~~~~~~~~~~~~~~~~~~~~~~
+    It is an colour code decoder for electronic components.
+
+Categories:
+    1. resistors
+     - 3 band colour code
+     - 4 band colour code
+     - 5 band colour code
+     - 6 band colour code
+    2. capacitors
+     - 3 band colour code (ceramic)
+     - 5 band colour code (ceramic)
+     - 5 band colour code
+     - 4 band colour code (tantalum capacitors)
+     - numeric code
+    3. 1Nxxxx diodes
+     - 3 band colour code
+     - 4 band colour code
+     - 5 band colour code
+    4. inductors
+     - 4 band colour code
+
+  This is a software, which does not cost money (maybe you must pay for use
+Internet).  The lope conditions is the acceptance and observance of the General
+Public Licence.
+   
+   OS support: FreeBSD, Linux and Windows.
+   Language support: English and Hungarian.
+
+2. Installer packages
+~~~~~~~~~~~~~~~~~~~~~
+a. for FreeBSD
+   c3-0.6-FreeBSD-Port.shar   port package
+   c3-0.6.txz                 binary package
+
+b. for Linux
+   c3-0.6-1.i586.rpm          binary package
+   c3-0.6-i586-1.txz          binary package
+   c3-0.6-i586.bin            installer programme
+   c3-0.6-i586.tar.gz         binary package
+   c3-0.6.x86.package         binary package
+   c3_0.6-1_i386.deb          binary package
+
+c. for Windows
+   c3-0.6-win32.exe           installer application
+   c3-0.6-win32.msi           binary package
+   c3-0.6-win32.zip           binary package
+
+d. source code
+   c3-0.6.tar.gz              source package
+
+3. Settings
+~~~~~~~~~~~
+  On linux and FreeBSD use 'LANG' environment variable to set language of the
+application. (English: en_US, Hungarian: hu_HU)
+
+4. Important information
+~~~~~~~~~~~~~~~~~~~~~~~~
+   Copyright (C) 2004-2016 Pozsar Zsolt
+
+   This program is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+   This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License along with
+this program.  If not, see <http://www.gnu.org/licenses/>.
+
+5. Download and contact
+~~~~~~~~~~~~~~~~~~~~~~~
+   Homepage:             <http://www.pozsarzs.hu>
+   Facebook:             <http://www.facebook.com/pozsarzs.hu>
+
+   Author:               Pozsar Zsolt self-employed
+   Tax ID:               60407850-1-36
+   Registration num.:    20703695
+   
+   E-mail:               <pozsarzs@gmail.com>
+   
+   Phone:                +36 56/470-272
+   Fax:                  +36 56/470-272
+   Mobile:               +36 30/359-8783
+   Postal address:       Pozsar Zsolt
+                         Kurazsi Fo ut 1.
+                         HU-5430 Tiszafoldvar
+                         Hungary
+

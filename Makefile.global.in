@@ -1,0 +1,47 @@
+# +----------------------------------------------------------------------------+
+# | Electrontubes v0.3.1 * Electrontube bias calculator [ CheapApps series ]   |
+# | Copyright (C) 2012 Pozsar Zsolt <pozsarzs@gmail.com>                       |
+# | C3 v0.6 * Colour code of components                                        |
+# | Copyright (C) 2004-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Makefile.global                                                            |
+# | Global makefile for Unix-like systems                                      |
+# +----------------------------------------------------------------------------+
+
+name		= c3
+version		= @version@
+architecture	= @architecture@
+os              = @os@
+
+prefix		= @prefix@
+bindir		= @bindir@
+datarootdir	= @datarootdir@
+exec_prefix	= @exec_prefix@
+libdir		= @libdir@
+localedir	= @datarootdir@/locale
+mandir		= @mandir@
+srcdir		= @srcdir@
+sysconfdir	= @sysconfdir@
+lcldir		= @lazdir@
+
+binmode		= 0755
+txtmode		= 0644
+
+install		= @install@
+make		= @make@
+rm		= @rm@ -f
+
+fpflag		= -T@os@ \
+                  -dUseFHS \
+                  -MObjFPC \
+                  -Scgi \
+                  -O1 \
+                  -ve \
+                  -Fu@lcldir@/units/@architecture@-@os@/ \
+                  -Fu@lcldir@/units/@architecture@-@os@/gtk2/ \
+                  -Fu@lcldir@/../components/lazutils/lib/@architecture@-@os@/ \
+                  -Fu. \
+                  -Fu./lib/@architecture@-@os@/ \
+                  -FE./lib/@architecture@-@os@/ \
+                  -dLCL \
+                  -dLCLgtk2
+

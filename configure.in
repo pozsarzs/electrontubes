@@ -1,0 +1,66 @@
+dnl +--------------------------------------------------------------------------+
+dnl | C3 v0.6 * Colour code of components                                       |
+# | Electrontubes v0.3.1 * Electrontube bias calculator [ CheapApps series ]   |
+# | Copyright (C) 2012 Pozsar Zsolt <pozsarzs@gmail.com>                       |
+dnl | Copyright (C) 2004-2016 Pozsar Zsolt <pozsarzs@gmail.com>                |
+dnl | configure.in                                                             |
+dnl | Autoconf input file for unix-like systems                                |
+dnl +--------------------------------------------------------------------------+
+
+AC_INIT(source/config.inc.in)
+AC_CONFIG_AUX_DIR(config)
+AC_CANONICAL_SYSTEM
+
+AC_PATH_PROG(rm, rm, no)
+AC_PATH_PROG(install, install, no)
+
+AC_CHECK_PROGS(make, gmake make)
+test "$make" = "" && AC_MSG_ERROR(Make not found!)
+AC_CHECK_PROGS(hfpc,ppc386,no)
+test x"$hfpc" = xno && AC_MSG_ERROR(FreePascal compiler not found!)
+
+lcldir=`find /usr -type d -name lcl | grep lazarus | grep -v doc | grep -v test`
+AC_CHECK_FILE($lcldir/lclbase.lpk,,AC_MSG_ERROR(LCL unit files not found!))
+
+AC_PREFIX_DEFAULT("/usr/local")
+test x"$prefix" = xNONE && prefix="$ac_default_prefix"
+
+AC_CHECK_FILE(documents/VERSION,,AC_MSG_ERROR(VERSION file not found!))
+version=`cat documents/VERSION`
+os=`ppc386 -iSO`
+architecture=`ppc386 -iSP`
+
+mandir="$prefix/man"
+test "$os" = "linux" && mandir="$datarootdir/man"
+
+bprefix="$prefix"
+test "$stagedir" != "" && prefix="$stagedir"
+test "$stagedir" != "" && mandir="$prefix/man"
+
+AC_SUBST(architecture)
+AC_SUBST(bindir)
+AC_SUBST(bprefix)
+AC_SUBST(datarootdir)
+AC_SUBST(fpflag)
+AC_SUBST(install)
+AC_SUBST(lcldir)
+AC_SUBST(libdir)
+AC_SUBST(make)
+AC_SUBST(mandir)
+AC_SUBST(os)
+AC_SUBST(prefix)
+AC_SUBST(rm)
+AC_SUBST(sysconfdir)
+AC_SUBST(version)
+AC_OUTPUT( Makefile.global source/config.inc )
+
+echo "
+Summary
+=======
+    Target op. system	$os
+    Target processor	$architecture
+    Install prefix	$bprefix
+
+  Type '${make}' for compilation and then '${make} install'.
+"
+test "$stagedir" != "" && echo Install to FreeBSD stage directory: $prefix

@@ -1,0 +1,9 @@
+C3 - Colour code decoder
+This is an decoder for colour code of components.
+Useable for capacitors, 1N diodes, inductors and
+resistors.
+You can redistribute and/or modify it under the
+terms of the GNU GPL 3.0 or later.
+
+Homepage: http://www.pozsarzs.hu/ccc/ccc_en.html
+Package created by: Pozsar Zsolt

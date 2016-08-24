@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+  <page>
+    <title>Sztatikus anód karakterisztika</title>
+    <description>Válassza ki a használni kívánt elektroncsövet. Keressen hozzá olyan adatlapot, amely tartalmazza a cső sztatikus anód karakterisztikáját. Másolja le illetve nyomtassa ki a grafikont.
+A sztatikus anód karakterisztika az x-tengelyen az anódfeszültséget (Ua), az y-tengelyen az anódáramot (Ia) a görbesereg a rácsfeszültséget (Ug) mutatja.</description>
+    <figure>page_01.png</figure>
+  </page>
+  <page>
+    <title>A anód munkaegyenes</title>
+    <description>Határozza meg az ideális tápfeszültség (Ups) és munkaellenállás (Ra) értékét a cső adatlapja segítségével.
+Számítsa ki az Ia értékét: Ia=Ups/Ra, majd jelölje be az y-tengelyen (A).
+Jelölje be a tápfeszültség értékét az x-tengelyen (B).
+Kösse össze a két pontot egy egyenes vonallal.</description>
+    <figure>page_02.png</figure>
+  </page>
+  <page>
+    <title>Nyugalmi paraméterek</title>
+    <description>Válassza ki a V1 trióda munkaponját az ábra alapján (bal oldalikék pont).
+Olvassa le a nyugalmi anódáramot (Ia0) az y-tengelyről, a nyugalmi anódfeszültséget (V1 Ua0) az x-tengelyről és a nyugalmi rácsfeszültséget (V1 Ug0).
+Számítsa ki és jelölje be a V2 nyugalmi anódfeszültségét (V2Ua0=Ups-V1Ua0-(Ia*Ra)) a Ia0 vonalában. (Az Ia0 értéke közös).
+Olvassa le a nyugalmi rácsfeszültség (V2 Ug0) értékét.</description>
+    <figure>page_03.png</figure>
+  </page>
+</xml>

@@ -1,0 +1,14 @@
+bin/c3
+man/hu/man7/c3.7.gz
+man/man7/c3.7.gz
+share/applications/c3.desktop
+share/doc/c3/AUTHORS
+share/doc/c3/COPYING
+share/doc/c3/ChangeLog
+share/doc/c3/INSTALL
+share/doc/c3/README
+share/doc/c3/VERSION
+share/doc/c3/hu/INSTALL
+share/doc/c3/hu/README
+share/locale/hu/LC_MESSAGES/c3.mo
+share/pixmaps/c3.xpm

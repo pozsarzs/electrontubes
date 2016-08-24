@@ -1,0 +1,16 @@
+[Meta]
+RootName: @xfree86.org/xlib
+DisplayName: X
+ShortName: xfree86
+Skeleton-Version: 1
+Skeleton-Author: Hongli Lai <h.lai@chello.nl>
+
+[Notes]
+This skeleton does not set SOFTWARE_VERSIONS
+It returns the interface version of the libX11.so.6 file, for instance:
+6.2
+
+TODO: check for other common X libraries, like libICE, libXext and so on.
+
+[Test]
+INTERFACE_VERSIONS=`testForLib -i libX11.so.6`

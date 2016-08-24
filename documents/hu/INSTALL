@@ -1,0 +1,87 @@
+                              Telepítési utasítás
+                              ~~~~~~~~~~~~~~~~~~~
+1. FreeBSD
+~~~~~~~~~~
+a. Bináris (txz) csomagból
+
+   Használja a csomagkezelőt a telepítéshez/eltávolításhoz.
+
+b. Forrásnyelvű csomagból
+
+   Fordítás és telepítés:
+   # tar -xzf c3-0.6.tar.gz
+   # ./configure
+   # make
+   # make install
+
+   Eltávolítás:
+   # make uninstall
+
+2. Linux
+~~~~~~~~
+a. Bináris (deb, package, rpm, txz) csomagból
+
+   Használja a csomagkezelőt a telepítéshez/eltávolításhoz.
+
+b. Bináris (bin) csomagból
+
+   Telepítés:
+   # ./c3-0.6-i586.bin
+
+   Eltávolítás:
+   # /opt/c3/uninstall
+
+c. Bináris (tar.gz) csomagból
+
+   Telepítés:
+   # cp c3-0.6-i586.tar.gz /opt
+   # cd /opt
+   # tar -xzf c3-0.6-i586.tar.gz
+   # cd c3
+   # ./create_links
+            vagy
+   # tar -xzf c3-0.6-i586.tar.gz
+   # cd c3
+   # ./install
+
+   Eltávolítás:
+   # /opt/c3/remove_links
+   # rm -r /opt/c3/
+            vagy
+   # /opt/c3/uninstall
+
+d. Forrásnyelvű csomagból
+
+   Fordítás és telepítés:
+   $ tar -xzf c3-0.6.tar.gz
+   $ ./configure
+   $ make
+   # make install
+
+   Eltávolítás:
+   # make uninstall
+
+3. Windows
+~~~~~~~~~~
+a. Bináris (exe) csomagból
+
+   Futtassa a telepítőfájl és kövesse az utasításokat.
+
+b. Bináris (msi) csomagból
+
+   > msiexec.exe /i c3-0.6-win32.msi    (vagy duplakattintással nyissa meg a
+                                         csomagot) 
+c. Bináris (zip) csomagból
+
+   > unzip c3-0.6-win32.zip             (vagy használjon csomagoló alkalmazás)
+
+d. Forrásnyelvű csomagból
+
+   Fordítás és telepítés:
+   > tar -xzf c3-0.6.tar.gz             (vagy használjon csomagoló alkalmazást)
+   > build.bat
+   > build.bat install
+
+   Eltávolítás:
+   > build.bat uninstall
+
