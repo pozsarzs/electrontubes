@@ -5,7 +5,7 @@ object Form1: TForm1
   Width = 689
   ActiveControl = Panel3
   Caption = 'Electrontubes [CheapApps series]'
-  ClientHeight = 443
+  ClientHeight = 447
   ClientWidth = 689
   Constraints.MinHeight = 457
   Constraints.MinWidth = 682
@@ -318,14 +318,14 @@ object Form1: TForm1
   OnCloseQuery = FormCloseQuery
   OnShow = FormShow
   Position = poDesktopCenter
-  LCLVersion = '0.9.28.2'
+  LCLVersion = '1.2.4.0'
   object ComboBox1: TComboBox
     AnchorSideLeft.Control = Owner
     AnchorSideTop.Control = Owner
     AnchorSideRight.Control = Owner
     AnchorSideRight.Side = asrBottom
     Left = 4
-    Height = 29
+    Height = 25
     Top = 4
     Width = 681
     Anchors = [akTop, akLeft, akRight]
@@ -346,8 +346,8 @@ object Form1: TForm1
     AnchorSideBottom.Control = StatusBar1
     Cursor = crVSplit
     Left = 0
-    Height = 385
-    Top = 37
+    Height = 395
+    Top = 33
     Width = 320
     Anchors = [akTop, akLeft, akBottom]
     BorderSpacing.Top = 4
@@ -379,8 +379,8 @@ object Form1: TForm1
         TabOrder = 0
         object TabSheet1: TTabSheet
           Caption = 'General data'
-          ClientHeight = 173
-          ClientWidth = 316
+          ClientHeight = 171
+          ClientWidth = 314
           object Panel2: TPanel
             AnchorSideLeft.Control = TabSheet1
             AnchorSideTop.Control = TabSheet1
@@ -389,18 +389,18 @@ object Form1: TForm1
             AnchorSideBottom.Control = TabSheet1
             AnchorSideBottom.Side = asrBottom
             Left = 0
-            Height = 173
+            Height = 171
             Top = 0
-            Width = 316
+            Width = 314
             Anchors = [akTop, akLeft, akRight, akBottom]
-            ClientHeight = 173
-            ClientWidth = 316
+            ClientHeight = 171
+            ClientWidth = 314
             TabOrder = 0
             object Label3: TLabel
               Left = 8
-              Height = 14
+              Height = 11
               Top = 11
-              Width = 72
+              Width = 71
               Caption = 'Initial values'
               Font.Style = [fsBold]
               ParentColor = False
@@ -414,10 +414,10 @@ object Form1: TForm1
               AnchorSideRight.Side = asrBottom
               AnchorSideBottom.Control = Panel2
               AnchorSideBottom.Side = asrBottom
-              Left = 4
+              Left = 5
               Height = 138
-              Top = 31
-              Width = 308
+              Top = 28
+              Width = 304
               Anchors = [akTop, akLeft, akRight, akBottom]
               BorderSpacing.Left = 4
               BorderSpacing.Top = 6
@@ -445,10 +445,10 @@ object Form1: TForm1
               OnEditingDone = StringGrid1EditingDone
             end
             object CheckBox2: TCheckBox
-              Left = 268
-              Height = 21
+              Left = 265
+              Height = 22
               Top = 8
-              Width = 43
+              Width = 44
               Anchors = [akTop, akRight]
               BidiMode = bdRightToLeft
               Caption = 'Hi&nt'
@@ -460,8 +460,8 @@ object Form1: TForm1
         end
         object TabSheet2: TTabSheet
           Caption = 'Parameters of active elements'
-          ClientHeight = 173
-          ClientWidth = 316
+          ClientHeight = 171
+          ClientWidth = 314
           object Panel4: TPanel
             AnchorSideLeft.Control = TabSheet2
             AnchorSideTop.Control = TabSheet2
@@ -566,25 +566,25 @@ object Form1: TForm1
     object PairSplitterSide2: TPairSplitterSide
       Cursor = crArrow
       Left = 0
-      Height = 177
-      Top = 0
+      Height = 190
+      Top = 205
       Width = 320
       ClientWidth = 320
-      ClientHeight = 177
+      ClientHeight = 190
       object Panel1: TPanel
         Left = 0
-        Height = 177
+        Height = 190
         Top = 0
         Width = 320
         Align = alClient
-        ClientHeight = 177
+        ClientHeight = 190
         ClientWidth = 320
         TabOrder = 0
         object Label2: TLabel
           Left = 8
-          Height = 14
+          Height = 11
           Top = 10
-          Width = 100
+          Width = 99
           Caption = 'Calculated values'
           Font.Style = [fsBold]
           ParentColor = False
@@ -595,7 +595,7 @@ object Form1: TForm1
           AnchorSideRight.Side = asrBottom
           AnchorSideBottom.Side = asrBottom
           Left = 4
-          Height = 141
+          Height = 154
           Top = 30
           Width = 310
           Anchors = [akTop, akLeft, akRight, akBottom]
@@ -625,10 +625,10 @@ object Form1: TForm1
           TabOrder = 0
         end
         object CheckBox1: TCheckBox
-          Left = 272
-          Height = 21
+          Left = 271
+          Height = 22
           Top = 7
-          Width = 43
+          Width = 44
           Anchors = [akTop, akRight]
           BidiMode = bdRightToLeft
           Caption = 'Hin&t'
@@ -641,8 +641,8 @@ object Form1: TForm1
   end
   object StatusBar1: TStatusBar
     Left = 0
-    Height = 17
-    Top = 426
+    Height = 15
+    Top = 432
     Width = 689
     Panels = <    
       item
@@ -664,7 +664,7 @@ object Form1: TForm1
     AnchorSideBottom.Side = asrBottom
     Left = 573
     Height = 25
-    Top = 397
+    Top = 401
     Width = 112
     Anchors = [akRight, akBottom]
     BorderSpacing.Bottom = 2
@@ -684,15 +684,15 @@ object Form1: TForm1
     AnchorSideRight.Side = asrBottom
     AnchorSideBottom.Control = Button1
     Left = 324
-    Height = 354
-    Top = 37
+    Height = 362
+    Top = 33
     Width = 361
     Anchors = [akTop, akLeft, akRight, akBottom]
     BorderSpacing.Left = 4
     BorderSpacing.Top = 4
     BorderSpacing.Right = 4
     BorderSpacing.Bottom = 6
-    ClientHeight = 354
+    ClientHeight = 362
     ClientWidth = 361
     TabOrder = 5
     object Image1: TImage
@@ -702,10 +702,10 @@ object Form1: TForm1
       AnchorSideRight.Side = asrBottom
       AnchorSideBottom.Control = Panel3
       AnchorSideBottom.Side = asrBottom
-      Left = 1
-      Height = 352
-      Top = 1
-      Width = 359
+      Left = 2
+      Height = 358
+      Top = 2
+      Width = 357
       Anchors = [akTop, akLeft, akRight, akBottom]
       BorderSpacing.Left = 1
       BorderSpacing.Top = 1
@@ -734,7 +734,7 @@ object Form1: TForm1
     AnchorSideBottom.Control = StatusBar1
     Left = 324
     Height = 25
-    Top = 397
+    Top = 403
     Width = 112
     Anchors = [akLeft, akBottom]
     BorderSpacing.Left = 4
@@ -1026,91 +1026,6 @@ object Form1: TForm1
     end
     object MenuItem10: TMenuItem
       Caption = '&Configuration'
-      object MenuItem32: TMenuItem
-        Caption = 'On-line &registration'
-        Bitmap.Data = {
-          36040000424D3604000000000000360000002800000010000000100000000100
-          2000000000000004000064000000640000000000000000000000000000000001
-          010000000000272524036A6C6D2C6C68664A6662605358656E6F4B6B7E81476E
-          85844C6B7F7A5867715C606364285D5754030000000000000000000101000000
-          0000000000004A000000000000002F64834D2883B8C71490D6FF0C96E5FF0B96
-          E7FF0D92E2FF158AD2FF287CB0B1326483200000000000000000000000000000
-          000000000000001333070764996A0693DDF00DA8F8FF1AA5EEF925A4EAE229A2
-          E7DA239FE7E2139AEDFA1F9EECFF267FB35B0000000000000000010304010300
-          0002000000002174A36D20ABEDF922B4F9FF36A5DDCD4A97C079354F5F44252C
-          2F3332536545378DBE7C3FA2DBDC357CA5580000000000000000000000000000
-          0000126090353CA9E0E755C8FAFF4BABD9A53648562600000000000000000000
-          0000000000000000000033678537275570270000000000000000001D393E0000
-          1937217FB39D5FCFFFFF61B5DDE4213A53540208143706101C39050F1B390510
-          1C3A050E1C36000000000000000000000000245068000000000072B8D2CE7FE2
-          F6EB67CCF4F564CDFAFF53C3F5FA2CBBF5EA0AADF5EB0BABF5EA0AA7F5EA0AA5
-          F2E90B9FE7E40872B16600000000020C110000000000000000005071837C9CE3
-          FDFF71D1F6FA64CEF9FE62C6F0F852BDEBF427ADE8F324AAE7F322A8E6F320A4
-          E5F321A5E7FA2091CDB800000000000000000001020000000000225878812D79
-          A6BA5FC5F0FD5DC7F1F7267CAEBC246A93A5246B95A81D6995A81D6894A81C68
-          94A71C6894A916618DA80A4E783A0000000000000000000203007CB9D0CD93EE
-          FFFF74D6FBFD65D1FBFF54CFFFFF46CAFFFF3AC5FFFF18B7FCFF09B0FAFF0BAF
-          F8FF0AACF6FF0DADFAFF1087C7AD06121F130000000000010200405B6F5B9AE0
-          F4CD7ECFEBE66CD9FEFF55BDE9F158BEEBC550BBE8C644B5E7C72BACE5C72AAA
-          E4C729A7E2C629AAE8C8228FC8B9196D9E2500000000020E1600000000000000
-          00006A98A9747DDFFCFF3BB0E4EF003A644C0000000000000000000000000000
-          000000000000000000000000000001162B2A05375D0500000000000000000000
-          0000556D7F1F7BC2D9C962DBFFFF2EABE3D709598B5F00000000000000000000
-          000000000000000000001067985E0A86C9CE00507F3100000000000101000204
-          030100000000527285457CCEE8E458DBFFFF2AB5ECEE1A9ADABA0D689F840A4F
-          7C700C669D830E8DCFB603A0E8EB23C1FFFF216F958C1A3F5B03000000000000
-          000000000000000000003E5B68376FB3D1CC65D9FFFF3DD0FDFF24C1F6F919BA
-          F4F415B9F6F81EC0FDFF3CC3FEFF4297BFC32B607C280A2D4800020303000000
-          000000000000000000000000000022323B093E5D6F6165A4C4C468C5EDF261C8
-          F3FB5CBFEAF1539BBFC23761795B1B31410D1109080000000000
-        }
-        ImageIndex = 13
-        OnClick = MenuItem32Click
-      end
-      object MenuItem13: TMenuItem
-        Caption = '&Set serial number...'
-        Bitmap.Data = {
-          36040000424D3604000000000000360000002800000010000000100000000100
-          2000000000000004000064000000640000000000000000000000FFFFFF004E4F
-          4FFF4E4F4FFF4E4F4FFF4E4F4FFF4E4F4FFF4E4F4FFF4E4F4FFF4E4F4FFF4E4F
-          4FFF4E4F4FFF4E4F4FFF4E4F4FFF4E4F4FFF4E4F4FFFFFFFFF00FFFFFF005457
-          56FFFFFFFF00FEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFEFEFFFEFE
-          FEFFFEFEFEFFFEFEFEFFFEFEFEFFFFFFFF00545756FFFFFFFF00FFFFFF005C5F
-          5EFFFFFFFF00F3F4F4FFF2F3F3FFF1F2F2FF53C38BFF069A4EFF069A4EFFEEEE
-          EEFFEDEDEDFFECECECFFEBECECFFFEFEFEFF5C5F5EFFFFFFFF00FFFFFF006467
-          66FFFFFFFF00F4F5F5FF646766FF53C38BFF069A4EFF069A4EFF069A4EFFEFF0
-          F0FFEEEFEFFFEEEEEEFFEDEDEDFFFEFEFEFF646766FFFFFFFF00FFFFFF006C6F
-          6EFFFFFFFF00F6F7F7FF53C38BFF069A4EFF069A4EFF069A4EFF069A4EFF069A
-          4EFFF0F0F0FFEFF0F0FFEEEFEFFFFEFEFEFF6C6F6EFFFFFFFF00FFFFFF007477
-          76FFFFFFFF00069A4EFF069A4EFF069A4EFF069A4EFFF4F5F5FF069A4EFF069A
-          4EFFF1F2F2FFF0F1F1FFF0F0F0FFFEFEFEFF747776FFFFFFFF00FFFFFF007F80
-          7FFFFFFFFF00069A4EFF069A4EFF069A4EFF7F807FFF7F807FFF7F807FFF069A
-          4EFF069A4EFFF2F3F3FFF1F2F2FFFEFEFEFF7F7F7FFFFFFFFF00FFFFFF008687
-          87FFFFFFFF00069A4EFF069A4EFFF4F5F5FFF4F5F5FFF4F5F5FFF3F4F4FF069A
-          4EFF069A4EFFF3F4F4FFF3F3F3FFFEFEFEFF868686FFFFFFFF00FFFFFF008D8E
-          8EFFFFFFFF00F7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8
-          F8FF069A4EFF069A4EFFF4F5F5FFFEFEFEFF8D8E8EFFFFFFFF00FFFFFF009496
-          95FFFFFFFF00F7F8F8FF949695FF949695FF949695FF949695FF949695FFF7F8
-          F8FFF7F8F8FF069A4EFF069A4EFFFEFEFEFF949695FFFFFFFF00FFFFFF009C9E
-          9DFFFFFFFF00F7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8
-          F8FFF7F8F8FFF7F8F8FF069A4EFF069A4EFF9C9E9DFFFFFFFF00FFFFFF00A4A6
-          A5FFFFFFFF00F7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8
-          F8FFF7F8F8FFF7F8F8FFF7F8F8FF069A4EFF069A4EFFFFFFFF00FFFFFF00ACAE
-          ADFFFFFFFF00F7F8F8FFACAEADFFACAEADFFACAEADFFACAEADFFACAEADFFACAE
-          ADFFACAEADFFF7F8F8FFF7F8F8FFFEFEFEFF069A4EFF069A4EFFFFFFFF00B4B6
-          B5FFFFFFFF00F7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8F8FFF7F8
-          F8FFF7F8F8FFF7F8F8FFF7F8F8FFFEFEFEFFB4B6B5FFFFFFFF00FFFFFF00BCBE
-          BDFFFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
-          FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00BCBEBDFFFFFFFF00FFFFFF00C5C6
-          C6FFC5C6C6FFC5C6C6FFC5C6C6FFC5C6C6FFC5C6C6FFC5C6C6FFC5C6C6FFC5C6
-          C6FFC5C6C6FFC5C6C6FFC5C6C6FFC5C6C6FFC5C6C6FFFFFFFF00
-        }
-        ImageIndex = 3
-        OnClick = MenuItem13Click
-      end
-      object MenuItem34: TMenuItem
-        Caption = '-'
-      end
       object MenuItem12: TMenuItem
         Caption = 'Se&ttings...'
         Bitmap.Data = {

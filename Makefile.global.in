@@ -34,9 +34,14 @@ fpflag		= -T@os@ \
                   -Scgi \
                   -O1 \
                   -ve \
+                  -Fu./synapse/ \
+                  -Fu./modules/ \
                   -Fu@lcldir@/units/@architecture@-@os@/ \
                   -Fu@lcldir@/units/@architecture@-@os@/gtk2/ \
                   -Fu@lcldir@/../components/lazutils/lib/@architecture@-@os@/ \
+                  -Fu@lcldir@/../components/printers/lib/@architecture@-@os@/gtk2/ \
+                  -Fu@lcldir@/../components/cairocanvas/lib/@architecture@-@os@/gtk2/ \
+                  -Fu@lcldir@/../packager/units/@architecture@-@os@/ \
                   -Fu. \
                   -Fu./lib/@architecture@-@os@/ \
                   -FE./lib/@architecture@-@os@/ \

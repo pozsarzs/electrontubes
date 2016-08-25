@@ -136,7 +136,6 @@ begin
     then StatusBar1.Panels.Items[1].Text:=' '+MESSAGE05
     else StatusBar1.Panels.Items[1].Text:=' '+MESSAGE06;
     MenuItem15.Enabled:=not offline;
-    MenuItem32.Enabled:=not offline;
     MenuItem33.Enabled:=not offline;
     MenuItem35.Enabled:=not offline;
   end;

@@ -13,9 +13,7 @@ uses
   {$IFDEF WIN32}Windows,{$ENDIF} Classes, SysUtils, LResources, Dialogs,
   GraphUtil, Graphics, INIFiles, dos,
   // foreign units:
-  httpsend,
-  // own units:
-  untchkregkey;
+  httpsend;
 
 var
   b: byte;                                              // general byte variable
@@ -34,6 +32,7 @@ var
   userdir: string;                                            // users directory
   username: string[30];                               // users registration name
   savehistory: boolean;                                     // save load history
+  appmode: byte;
 
 const
   APPNAME='electrontubes';

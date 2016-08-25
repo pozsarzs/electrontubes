@@ -1,10 +1,19 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.3.1 * Electrontube bias calculator [ CheapApps series ] | }
-{ | Copyright (C) 2012 Pozsar Zsolt <pozsarzs@gmail.com>                     | }
-{ | frmmain.lpr                                                              | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
+{ | frmmain.pas                                                              | }
 { | Main form                                                                | }
 { +--------------------------------------------------------------------------+ }
-{ ************  This file is not public, contents trade secret! ************** }
+
+{
+  Copyright (C) 2012-2016 Pozsar Zsolt
+
+  This program is free software: you can redistribute it and/or modify
+it under the terms of the European Union Public License version 1.1.
+
+  This program is distributed WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+}
 
 unit frmmain; 
 {$MODE OBJFPC}{$H+}
@@ -13,10 +22,7 @@ uses
   {$IFDEF WIN32} Windows, {$ENDIF}  Classes, SysUtils, FileUtil, Forms, Controls,
   Graphics, Dialogs, Grids, Menus, StdCtrls, PairSplitter, ExtCtrls, ComCtrls,
   XMLPropStorage, PrintersDlgs, Process, DOM, XMLRead, XMLWrite, Printers,
-  {$IFDEF LINUX} Types, {$ENDIF} dos,
-  // own forms:
-  frmabout, frmactivehelp, frmserial, frmpref,
-  //own units:
+  {$IFDEF LINUX} Types, {$ENDIF} dos, frmabout, frmactivehelp, frmpref,
   untmodules, untcommonproc;
 type
   { TForm1 }
@@ -39,7 +45,6 @@ type
     MenuItem10: TMenuItem;
     MenuItem11: TMenuItem;
     MenuItem12: TMenuItem;
-    MenuItem13: TMenuItem;
     MenuItem14: TMenuItem;
     MenuItem15: TMenuItem;
     MenuItem17: TMenuItem;
@@ -52,9 +57,7 @@ type
     MenuItem27: TMenuItem;
     MenuItem29: TMenuItem;
     MenuItem31: TMenuItem;
-    MenuItem32: TMenuItem;
     MenuItem33: TMenuItem;
-    MenuItem34: TMenuItem;
     MenuItem35: TMenuItem;
     MenuItem36: TMenuItem;
     MenuItem39: TMenuItem;
@@ -94,7 +97,6 @@ type
     procedure FormShow(Sender: TObject);
     procedure Label1Click(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
-    procedure MenuItem13Click(Sender: TObject);
     procedure MenuItem14Click(Sender: TObject);
     procedure MenuItem15Click(Sender: TObject);
     procedure MenuItem27Click(Sender: TObject);
@@ -802,12 +804,6 @@ begin
   else runbrowser(untcommonproc.HOMEPAGE+'/cheapapps/registration_en.php');
 end;
 
-// Set serial number
-procedure TForm1.MenuItem13Click(Sender: TObject);
-begin
-  Form3.ShowModal;
-end;
-
 // Settings
 procedure TForm1.MenuItem12Click(Sender: TObject);
 begin
@@ -1044,13 +1040,11 @@ begin
   getexepath;
   loadcfg;
   Application.Title:=Form2.Label1.Caption;
-  if (Application.Params[1]='-o') or (Application.Params[1]='--offline')
-  then untcommonproc.offline:=true;
+  if appmode=30 then untcommonproc.offline:=true;
   if untcommonproc.offline=true
   then StatusBar1.Panels.Items[1].Text:=' '+MESSAGE03
   else StatusBar1.Panels.Items[1].Text:=' '+MESSAGE04;
   MenuItem15.Enabled:=not offline;
-  MenuItem32.Enabled:=not offline;
   MenuItem33.Enabled:=not offline;
   MenuItem35.Enabled:=not offline;
   CheckBox2.Checked:=untcommonproc.showhint1;

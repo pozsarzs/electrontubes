@@ -316,7 +316,7 @@ object Form4: TForm4
   }
   OnShow = FormShow
   Position = poMainFormCenter
-  LCLVersion = '0.9.30'
+  LCLVersion = '1.2.4.0'
   object Bevel2: TBevel
     Left = 8
     Height = 45
@@ -326,17 +326,17 @@ object Form4: TForm4
   end
   object Label1: TLabel
     Left = 8
-    Height = 14
+    Height = 11
     Top = 8
-    Width = 98
+    Width = 97
     Caption = 'Browser application:'
     ParentColor = False
   end
   object Label2: TLabel
     Left = 8
-    Height = 14
+    Height = 11
     Top = 56
-    Width = 87
+    Width = 86
     Caption = 'Mailer application:'
     ParentColor = False
   end
@@ -382,9 +382,9 @@ object Form4: TForm4
   end
   object CheckBox1: TCheckBox
     Left = 16
-    Height = 17
+    Height = 22
     Top = 110
-    Width = 81
+    Width = 86
     Caption = 'Offline mode'
     TabOrder = 4
   end
@@ -417,9 +417,9 @@ object Form4: TForm4
   end
   object CheckBox2: TCheckBox
     Left = 164
-    Height = 17
+    Height = 22
     Top = 110
-    Width = 80
+    Width = 85
     Caption = 'Save history'
     TabOrder = 8
   end
