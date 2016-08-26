@@ -139,8 +139,8 @@ begin
   with Form1 do
   begin
     if untcommonproc.offline=true
-    then StatusBar1.Panels.Items[1].Text:=' '+MESSAGE05
-    else StatusBar1.Panels.Items[1].Text:=' '+MESSAGE06;
+    then StatusBar1.Panels.Items[0].Text:=' '+MESSAGE05
+    else StatusBar1.Panels.Items[0].Text:=' '+MESSAGE06;
     MenuItem15.Enabled:=not offline;
     MenuItem33.Enabled:=not offline;
     MenuItem35.Enabled:=not offline;

@@ -143,7 +143,7 @@ procedure loadcfg;
 var
   ini: TINIFile;
 begin
-  ini:=TIniFile.Create(DIR_CONFIG+cfn);
+  ini:=TIniFile.Create(userdir+DIR_CONFIG+CFN);
   try
     offline:=ini.ReadBool('General','OffLineMode',false);
     savehistory:=ini.ReadBool('General','SaveHistory',true);
@@ -163,7 +163,7 @@ procedure loadhis;
 var
   his: TINIFile;
 begin
-  his:=TIniFile.Create(DIR_CONFIG+hfn);
+  his:=TIniFile.Create(userdir+DIR_CONFIG+hfn);
   try
     for b:=0 to 4 do
       recentfiles[b]:=his.ReadString('History','RecentFile'+inttostr(b),'');
@@ -236,7 +236,7 @@ var
 // I use alternative solution for save configuration, because INIFiles unit has
 // got some bugs.
 begin
-  assignfile(ini,DIR_CONFIG+cfn);
+  assignfile(ini,userdir+DIR_CONFIG+CFN);
   try
     rewrite(ini);
     writeln(ini,'; '+appname+' v'+version);
@@ -266,7 +266,7 @@ var
 // I use alternative solution for save configuration, because INIFiles unit has
 // got some bugs.
 begin
-  assignfile(his,DIR_CONFIG+hfn);
+  assignfile(his,userdir+DIR_CONFIG+HFN);
   try
     rewrite(his);
     writeln(his,'; '+appname+' v'+version);

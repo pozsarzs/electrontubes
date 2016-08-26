@@ -51,15 +51,11 @@ type
     MenuItem18: TMenuItem;
     MenuItem19: TMenuItem;
     MenuItem2: TMenuItem;
-    MenuItem20: TMenuItem;
-    MenuItem21: TMenuItem;
-    MenuItem22: TMenuItem;
     MenuItem27: TMenuItem;
     MenuItem29: TMenuItem;
     MenuItem31: TMenuItem;
     MenuItem33: TMenuItem;
     MenuItem35: TMenuItem;
-    MenuItem36: TMenuItem;
     MenuItem39: TMenuItem;
     MenuItem4: TMenuItem;
     MenuItem40: TMenuItem;
@@ -101,14 +97,12 @@ type
     procedure MenuItem15Click(Sender: TObject);
     procedure MenuItem27Click(Sender: TObject);
     procedure MenuItem29Click(Sender: TObject);
+    procedure MenuItem35Click(Sender: TObject);
     procedure MenuItem40Click(Sender: TObject);
     procedure MenuItem41Click(Sender: TObject);
     procedure MenuItem19Click(Sender: TObject);
-    procedure MenuItem21Click(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
-    procedure MenuItem32Click(Sender: TObject);
     procedure MenuItem33Click(Sender: TObject);
-    procedure MenuItem36Click(Sender: TObject);
     procedure MenuItem4Click(Sender: TObject);
     procedure MenuItem6Click(Sender: TObject);
     procedure MenuItem7Click(Sender: TObject);
@@ -144,9 +138,9 @@ Resourcestring
   MESSAGE07='text files (*.txt)|*.txt| all files (*.*)|*.*|';
   MESSAGE08='Write error';
   MESSAGE09='File exists, overwrite?';
-  MESSAGE10='This is a shareware application.';
-  MESSAGE11='If you want to use it without limitation, you need to register!';
-  MESSAGE12='Don''t forget: this is just 1€!';
+//  MESSAGE10='This is a shareware application.';
+//  MESSAGE11='If you want to use it without limitation, you need to register!';
+//  MESSAGE12='Don''t forget: this is just 1€!';
   MESSAGE13=' No picture!';
   MESSAGE14='Do you want to save your work?';
   MESSAGE15='Bad value, fix it';
@@ -286,8 +280,8 @@ begin
   for b:=1 to Form1.StringGrid3.RowCount-1 do g:=g+Form1.StringGrid3.Cells[2,b];
   if changeddata_sample=g then changeddata:=false else changeddata:=true;
   if changeddata
-  then Form1.StatusBar1.Panels.Items[2].Text:=' *'
-  else Form1.StatusBar1.Panels.Items[2].Text:='';
+  then Form1.StatusBar1.Panels.Items[1].Text:=' *'
+  else Form1.StatusBar1.Panels.Items[1].Text:='';
 end;
 
 procedure TForm1.DrawGraphic(X, Y, AWidth, Aheight: Integer; Graphic: TGraphic);
@@ -395,7 +389,7 @@ begin
         if b<StringGrid2.RowCount then Add(' '+Splitter1(NameDataOut[modnum,b-1],1)+':'+s+StringGrid2.Cells[1,b]+' '+unt);
       end;
       Add('--------------------------------------------------------------------------------');
-      Add(Form2.Label1.Caption+' (C)2012 Pozsár Zsolt <http://www.cheapapps-series.info>');
+      Add(Form2.Label1.Caption);
       SaveToFile(SaveDialog1.FileName);
     end;
     changeddata_getsample;
@@ -701,7 +695,7 @@ begin
       Printer.canvas.Pen.Width:=2;
       Printer.Canvas.Line(x1, y2-38,x2,y2-38);
       Printer.Canvas.Font.Size:=10;
-      Printer.Canvas.TextOut(x1,y2-25,Form2.Label1.Caption+' (C)2012 Pozsár Zsolt <http://www.cheapapps-series.info>');
+      Printer.Canvas.TextOut(x1,y2-25,Form2.Label1.Caption);
       Printer.EndDoc;
     except
       Printer.Abort;
@@ -787,14 +781,6 @@ begin
 end;
 
 // -- Configuration menu -------------------------------------------------------
-// On-line registration
-procedure TForm1.MenuItem32Click(Sender: TObject);
-begin
-  if untcommonproc.lang='hu'
-  then runbrowser(untcommonproc.HOMEPAGE+'/cheapapps/registration_hu.php')
-  else runbrowser(untcommonproc.HOMEPAGE+'/cheapapps/registration_en.php');
-end;
-
 // Settings
 procedure TForm1.MenuItem12Click(Sender: TObject);
 begin
@@ -811,15 +797,19 @@ end;
 // Help
 procedure TForm1.MenuItem2Click(Sender: TObject);
 begin
-{$IFDEF LINUX}
-  if FSearch('help/'+lang+'.html',exepath)<>''
-  then runbrowser(exepath+'help/'+lang+'.html')
-  else runbrowser(exepath+'help/en.html');
-{$ENDIF}
+{$IFDEF UNIX}{$IFDEF UseFHS}
+  if FSearch('help/'+lang+'.html',INSTPATH+'share/'+APPNAME)<>''
+  then runbrowser(INSTPATH+'share/'+APPNAME+'/help/'+lang+'.html')
+  else runbrowser(INSTPATH+'share/'+APPNAME+'/help/en.html');
+{$ELSE}
+  if FSearch('help/'+lang+'.html',EXEPATH)<>''
+  then runbrowser(EXEPATH+'help/'+lang+'.html')
+  else runbrowser(EXEPATH+'help/en.html');
+{$ENDIF}{$ENDIF}
 {$IFDEF WIN32}
-  if FSearch('help\'+lang+'.html',exepath)<>''
-  then runbrowser(exepath+'help\'+lang+'.html')
-  else runbrowser(exepath+'help\en.html');
+  if FSearch('help\'+lang+'.html',EXEPATH)<>''
+  then runbrowser(EXEPATH+'help\'+lang+'.html')
+  else runbrowser(EXEPATH+'help\en.html');
 {$ENDIF}
 end;
 
@@ -840,16 +830,8 @@ begin
   else runbrowser(untcommonproc.HOMEPAGE+'/cheapapps/bugreport_en.php');
 end;
 
-// Internet/Project's homepage
-procedure TForm1.MenuItem36Click(Sender: TObject);
-begin
-  if untcommonproc.lang='hu'
-  then runbrowser(untcommonproc.HOMEPAGE)
-  else runbrowser(untcommonproc.HOMEPAGE+'/english');
-end;
-
 // Internet/Pozsi's homepage
-procedure TForm1.MenuItem21Click(Sender: TObject);
+procedure TForm1.MenuItem35Click(Sender: TObject);
 begin
   if untcommonproc.lang='hu'
   then runbrowser(untcommonproc.HOMEPAGE)
@@ -873,7 +855,7 @@ begin
     if MessageDlg(MESSAGE14,mtConfirmation, [mbYes, mbNo],0)=mrYes
     then MenuItem14Click(Sender);
     changeddata:=false;
-    StatusBar1.Panels.Items[2].Text:='';
+    StatusBar1.Panels.Items[1].Text:='';
   end;
   for modnum:=0 to 63 do
     if ComboBox1.Items.Strings[ComboBox1.ItemIndex]=untmodules.NameModule[modnum]
@@ -881,18 +863,20 @@ begin
   s:=inttostr(modnum+1);
   if length(s)=1 then s:='0'+s;
   try
-    {$IFDEF LINUX}
-    Image1.Picture.LoadFromFile(exepath+'figures/module_'+s+'.png');
-    {$ENDIF}
-    {$IFDEF WIN32}
-    Image1.Picture.LoadFromFile(exepath+'figures\module_'+s+'.png');
-    {$ENDIF}
-    if StatusBar1.Panels.Items[3].Text=MESSAGE13
-    then StatusBar1.Panels.Items[3].Text:=oldmessage;
+   {$IFDEF UNIX}{$IFDEF UseFHS}
+    Image1.Picture.LoadFromFile(INSTPATH+'share/'+APPNAME+'/figures/module_'+s+'.png');
+   {$ELSE}
+    Image1.Picture.LoadFromFile(EXEPATH+'figures/module_'+s+'.png');
+   {$ENDIF}{$ENDIF}
+   {$IFDEF WIN32}
+    Image1.Picture.LoadFromFile(EXEPATH+'figures\module_'+s+'.png');
+   {$ENDIF}
+    if StatusBar1.Panels.Items[2].Text=MESSAGE13
+    then StatusBar1.Panels.Items[2].Text:=oldmessage;
   except
-    if StatusBar1.Panels.Items[3].Text<>MESSAGE13
-    then oldmessage:=StatusBar1.Panels.Items[3].Text;
-    StatusBar1.Panels.Items[3].Text:=MESSAGE13;
+    if StatusBar1.Panels.Items[2].Text<>MESSAGE13
+    then oldmessage:=StatusBar1.Panels.Items[2].Text;
+    StatusBar1.Panels.Items[2].Text:=MESSAGE13;
     Image1.Picture.Clear;
   end;
   Label1.Enabled:=HTSLActive[modnum];
@@ -1027,8 +1011,8 @@ begin
   Application.Title:=Form2.Label1.Caption;
   if appmode=30 then untcommonproc.offline:=true;
   if untcommonproc.offline=true
-  then StatusBar1.Panels.Items[1].Text:=' '+MESSAGE03
-  else StatusBar1.Panels.Items[1].Text:=' '+MESSAGE04;
+  then StatusBar1.Panels.Items[0].Text:=' '+MESSAGE03
+  else StatusBar1.Panels.Items[0].Text:=' '+MESSAGE04;
   MenuItem15.Enabled:=not offline;
   MenuItem33.Enabled:=not offline;
   MenuItem35.Enabled:=not offline;
@@ -1036,7 +1020,7 @@ begin
   CheckBox1.Checked:=untcommonproc.showhint2;
   CheckBox3.Checked:=untcommonproc.showhint3;
   if offline=false then
-    if searchupdate then StatusBar1.Panels.Items[3].Text:=' '+MESSAGE05;
+    if searchupdate then StatusBar1.Panels.Items[2].Text:=' '+MESSAGE05;
   CollectNames;
   for b:=0 to 63 do
     if length(untmodules.NameModule[b])<>0
