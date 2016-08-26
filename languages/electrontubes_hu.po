@@ -1,24 +1,5 @@
 msgid ""
-msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
-"Project-Id-Version: Electrontubes v0.3.1\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Pozsár Zsolt <pozsarzs@gmail.com>\n"
-"Language-Team: Pozsár Zsolt <pozsarzs@gmail.com>\n"
-"MIME-Version: 1.0\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Hungarian\n"
-"X-Poedit-Country: HUNGARY\n"
-"X-Poedit-SourceCharset: utf-8\n"
-
-#: frmabout.message01
-msgid "Demo mode,"
-msgstr "Demó mód,"
-
-#: frmabout.message02
-msgid "registration required!"
-msgstr "regisztráció szükséges!"
+msgstr "Content-Type: text/plain; charset=UTF-8"
 
 #: frmactivehelp.message01
 msgid "Help file error!"
@@ -32,14 +13,6 @@ msgstr "Nincs megfelelően strukturált konfigurációs fájl!"
 msgid "(There is not picture!)"
 msgstr "(Nincs kép!)"
 
-#: frmmain.message01
-msgid "Demo"
-msgstr "Demó"
-
-#: frmmain.message02
-msgid "Full"
-msgstr "Teljes"
-
 #: frmmain.message03
 msgid "Off-line"
 msgstr "Off-line"
@@ -49,8 +22,8 @@ msgid "On-line"
 msgstr "On-line"
 
 #: frmmain.message05
-msgid "New version is available. Please visit CheapApps's homepage!"
-msgstr "Új változat elérhető. Kérem, látogassa meg a CheapApps honlapját!"
+msgid "New version is available. Please visit homepage!"
+msgstr "Új változat elérhető. Kérem, látogassa meg a honlapot!"
 
 #: frmmain.message06
 msgid "Save report to file"
@@ -67,18 +40,6 @@ msgstr "Írási hiba"
 #: frmmain.message09
 msgid "File exists, overwrite?"
 msgstr "A fájl létezik, felülírjam?"
-
-#: frmmain.message10
-msgid "This is a shareware application."
-msgstr "Ez egy shareware alkalmazás."
-
-#: frmmain.message11
-msgid "If you want to use it without limitation, you need to register!"
-msgstr "Regisztrálja, ha korlátozás nélkül szeretné használni!"
-
-#: frmmain.message12
-msgid "Don't forget: this is just 1€!"
-msgstr "Ne feledje, csak 290 Ft!"
 
 #: frmmain.message13
 msgid " No picture!"
@@ -171,18 +132,6 @@ msgstr "Off-line"
 #: frmpref.message06
 msgid "On-line"
 msgstr "On-line"
-
-#: frmserial.message01
-msgid "Wrong serial number!"
-msgstr "Rossz sorozatszám!"
-
-#: frmserial.message02
-msgid "Demo"
-msgstr "Demó"
-
-#: frmserial.message03
-msgid "Full"
-msgstr "Teljes"
 
 #: module_01.message01
 msgid "Voltage regulator with gas filled voltage stabiliser tube"
@@ -1070,15 +1019,15 @@ msgstr "Elektroncsövek [CheapApps sorozat]"
 
 #: TFORM1.CHECKBOX1.CAPTION
 msgid "Hin&t"
-msgstr "Sú&gó"
+msgstr "Leí&rás"
 
 #: TFORM1.CHECKBOX2.CAPTION
 msgid "Hi&nt"
-msgstr "Sú&gó"
+msgstr "Leí&rás"
 
 #: TFORM1.CHECKBOX3.CAPTION
 msgid "Hi&nt"
-msgstr "Sú&gó"
+msgstr "Leí&rás"
 
 #: TFORM1.LABEL1.CAPTION
 msgid "How can I set them?"
@@ -1125,16 +1074,8 @@ msgid "Save settin&gs"
 msgstr "Beállítások menté&se"
 
 #: TFORM1.MENUITEM2.CAPTION
-msgid "&Index"
+msgid "&Content"
 msgstr "&Tartalom"
-
-#: TFORM1.MENUITEM20.CAPTION
-msgid "&Facebook page"
-msgstr "&Facebook oldal"
-
-#: TFORM1.MENUITEM21.CAPTION
-msgid "&Pozsi's homepage"
-msgstr "&Pozsi honlapja"
 
 #: TFORM1.MENUITEM27.CAPTION
 msgid "&Load initial values..."
@@ -1148,19 +1089,11 @@ msgstr "Eredmény n&yomtatása..."
 msgid "Load re&cent"
 msgstr "Előzménye&k"
 
-#: TFORM1.MENUITEM32.CAPTION
-msgid "On-line &registration"
-msgstr "On-line &regisztráció"
-
 #: TFORM1.MENUITEM33.CAPTION
 msgid "On-line &bugreport"
 msgstr "On-line hi&bajelentés"
 
 #: TFORM1.MENUITEM35.CAPTION
-msgid "CheapApps on Internet"
-msgstr "CheapApps az Interneten"
-
-#: TFORM1.MENUITEM36.CAPTION
 msgid "&Homepage"
 msgstr "&Honlap"
 
@@ -1178,7 +1111,7 @@ msgstr "&Számolj!"
 
 #: TFORM1.MENUITEM5.CAPTION
 msgid "&Help"
-msgstr "&Súgó"
+msgstr "&Segítség"
 
 #: TFORM1.MENUITEM6.CAPTION
 msgid "&About..."
@@ -1250,15 +1183,11 @@ msgstr "Névjegy"
 
 #: TFORM2.LABEL1.CAPTION
 msgid "Electrontubes v"
-msgstr "Elektroncsövek v"
+msgstr "Electrontubes v"
 
 #: TFORM2.LABEL11.CAPTION
-msgid "Copyright (C) 2012 Pozsár Zsolt"
+msgid "Copyright (C) 2012-2016 Pozsár Zsolt"
 msgstr "Copyright (C) 2012 Pozsár Zsolt"
-
-#: TFORM2.LABEL2.CAPTION
-msgid "CheapApps series"
-msgstr "CheapApps sorozat"
 
 #: TFORM2.LABEL3.CAPTION
 msgid "Homepage:"
@@ -1272,10 +1201,6 @@ msgstr "E-mail:"
 msgid "Name:"
 msgstr "Név:"
 
-#: TFORM2.LABEL9.CAPTION
-msgid "Serial:"
-msgstr "Sorozatszám:"
-
 #: TFORM3.BUTTON1.CAPTION
 msgid "&Set"
 msgstr "&Beállít"
@@ -1283,14 +1208,6 @@ msgstr "&Beállít"
 #: TFORM3.BUTTON3.CAPTION
 msgid "&Cancel"
 msgstr "&Mégsem"
-
-#: TFORM3.FORM3.CAPTION
-msgid "Set serial"
-msgstr "Sorozatszám beállítás"
-
-#: TFORM3.LABEL1.CAPTION
-msgid "Your serial number:"
-msgstr "Az Ön sorozatszáma:"
 
 #: TFORM4.BUTTON1.CAPTION
 msgid "&Set"

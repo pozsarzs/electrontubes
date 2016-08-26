@@ -1,5 +1,5 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator                      | }
 { | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | commonproc.pp                                                            | }
 { | Common procedures and functions                                          | }
@@ -51,9 +51,9 @@ const
   SHGFP_TYPE_CURRENT=0;
  {$ENDIF}
  {$IFDEF UNIX}
-  DIR_CONFIG='/.config/cheapapps/';
+  DIR_CONFIG='/.config/'+APPNAME;
  {$ENDIF}{$IFDEF WIN32}
-  DIR_CONFIG='\AppData\Local\cheapapps\config\';
+  DIR_CONFIG='\AppData\Local\'+APPNAME+'\config\';
  {$ENDIF}
 
 function getexepath: string;

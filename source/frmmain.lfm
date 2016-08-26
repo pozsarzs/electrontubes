@@ -4,7 +4,7 @@ object Form1: TForm1
   Top = 118
   Width = 689
   ActiveControl = Panel3
-  Caption = 'Electrontubes [CheapApps series]'
+  Caption = 'Electrontubes'
   ClientHeight = 447
   ClientWidth = 689
   Constraints.MinHeight = 457
@@ -1072,7 +1072,7 @@ object Form1: TForm1
     object MenuItem5: TMenuItem
       Caption = '&Help'
       object MenuItem2: TMenuItem
-        Caption = '&Index'
+        Caption = '&Content'
         Bitmap.Data = {
           36040000424D3604000000000000360000002800000010000000100000000100
           2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
@@ -1199,7 +1199,7 @@ object Form1: TForm1
         OnClick = MenuItem33Click
       end
       object MenuItem35: TMenuItem
-        Caption = '&Pozsi''s homepage'
+        Caption = '&Homepage'
         Bitmap.Data = {
           36040000424D3604000000000000360000002800000010000000100000000100
           2000000000000004000064000000640000000000000000000000000000000000

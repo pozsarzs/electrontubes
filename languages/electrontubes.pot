@@ -1,14 +1,6 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: frmabout.message01
-msgid "Demo mode,"
-msgstr ""
-
-#: frmabout.message02
-msgid "registration required!"
-msgstr ""
-
 #: frmactivehelp.message01
 msgid "Help file error!"
 msgstr ""
@@ -21,28 +13,16 @@ msgstr ""
 msgid "(There is not picture!)"
 msgstr ""
 
-#: frmmain.message01
-msgctxt "frmmain.message01"
-msgid "Demo"
-msgstr ""
-
-#: frmmain.message02
-msgctxt "frmmain.message02"
-msgid "Full"
-msgstr ""
-
 #: frmmain.message03
-msgctxt "frmmain.message03"
 msgid "Off-line"
 msgstr ""
 
 #: frmmain.message04
-msgctxt "frmmain.message04"
 msgid "On-line"
 msgstr ""
 
 #: frmmain.message05
-msgid "New version is available. Please visit CheapApps's homepage!"
+msgid "New version is available. Please visit homepage!"
 msgstr ""
 
 #: frmmain.message06
@@ -59,18 +39,6 @@ msgstr ""
 
 #: frmmain.message09
 msgid "File exists, overwrite?"
-msgstr ""
-
-#: frmmain.message10
-msgid "This is a shareware application."
-msgstr ""
-
-#: frmmain.message11
-msgid "If you want to use it without limitation, you need to register!"
-msgstr ""
-
-#: frmmain.message12
-msgid "Don't forget: this is just 1€!"
 msgstr ""
 
 #: frmmain.message13
@@ -158,27 +126,11 @@ msgid "all files|*.*"
 msgstr ""
 
 #: frmpref.message05
-msgctxt "frmpref.message05"
 msgid "Off-line"
 msgstr ""
 
 #: frmpref.message06
-msgctxt "frmpref.message06"
 msgid "On-line"
-msgstr ""
-
-#: frmserial.message01
-msgid "Wrong serial number!"
-msgstr ""
-
-#: frmserial.message02
-msgctxt "frmserial.message02"
-msgid "Demo"
-msgstr ""
-
-#: frmserial.message03
-msgctxt "frmserial.message03"
-msgid "Full"
 msgstr ""
 
 #: module_01.message01
@@ -230,7 +182,6 @@ msgid "Rbmax|kohm|maximal ballast resistor"
 msgstr ""
 
 #: module_01.message13
-msgctxt "module_01.message13"
 msgid "Calculation error, please check values!"
 msgstr ""
 
@@ -275,7 +226,6 @@ msgid "PR1|W|power of the ballast resistor"
 msgstr ""
 
 #: module_02.message10
-msgctxt "module_02.message10"
 msgid "Calculation error, please check values!"
 msgstr ""
 
@@ -292,102 +242,82 @@ msgid "Grounded cathode amplifier with triode"
 msgstr ""
 
 #: module_03.message02
-msgctxt "module_03.message02"
 msgid "V1|Ug0|V|quiescent grid voltage with correct sign"
 msgstr ""
 
 #: module_03.message03
-msgctxt "module_03.message03"
 msgid "V1|Ua0|V|quiescent anode voltage"
 msgstr ""
 
 #: module_03.message04
-msgctxt "module_03.message04"
 msgid "V1|Ia0|mA|quiescent anode current"
 msgstr ""
 
 #: module_03.message05
-msgctxt "module_03.message05"
 msgid "V1|DUg|V|grid voltage change"
 msgstr ""
 
 #: module_03.message06
-msgctxt "module_03.message06"
 msgid "V1|DUa|V|anode voltage change"
 msgstr ""
 
 #: module_03.message07
-msgctxt "module_03.message07"
 msgid "V1|DIa|mA|anode current change"
 msgstr ""
 
 #: module_03.message08
-msgctxt "module_03.message08"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
 #: module_03.message09
-msgctxt "module_03.message09"
 msgid "Rg|Mohm|grid-leak resistor (from datasheet)"
 msgstr ""
 
 #: module_03.message10
-msgctxt "module_03.message10"
 msgid "Ra|kohm|anode resistor (from datasheet)"
 msgstr ""
 
 #: module_03.message11
-msgctxt "module_03.message11"
 msgid "Rk|ohm|cathode resistor"
 msgstr ""
 
 #: module_03.message12
-msgctxt "module_03.message12"
 msgid "PRk|W|quiescent dissipation of the cathode resistor"
 msgstr ""
 
 #: module_03.message13
-msgctxt "module_03.message13"
 msgid "PRg|W|quiescent dissipation of the grid-leak resistor"
 msgstr ""
 
 #: module_03.message14
-msgctxt "module_03.message14"
 msgid "PRa|W|quiescent dissipation of the anode resistor"
 msgstr ""
 
 #: module_03.message15
-msgctxt "module_03.message15"
 msgid "u|-|voltage gain"
 msgstr ""
 
 #: module_03.message16
-msgctxt "module_03.message16"
 msgid "Au|dB|voltage gain"
 msgstr ""
 
 #: module_03.message17
-msgctxt "module_03.message17"
 msgid "Ri|kohm|internal resistance"
 msgstr ""
 
 #: module_03.message18
-msgctxt "module_03.message18"
 msgid "gm|mA/V|mutual conductance"
 msgstr ""
 
 #: module_03.message19
-msgctxt "module_03.message19"
 msgid "Zin|Mohm|input impedance"
 msgstr ""
 
 #: module_03.message20
-msgctxt "module_03.message20"
 msgid "Zout|kohm|output impedance"
 msgstr ""
 
 #: module_03.message21
-msgctxt "module_03.message21"
 msgid "Calculation error, please check values!"
 msgstr ""
 
@@ -396,122 +326,98 @@ msgid "Grounded cathode amplifier with triode (with bypassed cathode resistor)"
 msgstr ""
 
 #: module_04.message02
-msgctxt "module_04.message02"
 msgid "V1|Ug0|V|quiescent grid voltage with correct sign"
 msgstr ""
 
 #: module_04.message03
-msgctxt "module_04.message03"
 msgid "V1|Ua0|V|quiescent anode voltage"
 msgstr ""
 
 #: module_04.message04
-msgctxt "module_04.message04"
 msgid "V1|Ia0|mA|quiescent anode current"
 msgstr ""
 
 #: module_04.message05
-msgctxt "module_04.message05"
 msgid "V1|DUg|V|grid voltage change"
 msgstr ""
 
 #: module_04.message06
-msgctxt "module_04.message06"
 msgid "V1|DUa|V|anode voltage change"
 msgstr ""
 
 #: module_04.message07
-msgctxt "module_04.message07"
 msgid "V1|DIa|mA|anode current change"
 msgstr ""
 
 #: module_04.message08
-msgctxt "module_04.message08"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
 #: module_04.message09
-msgctxt "module_04.message09"
 msgid "Rg|Mohm|grid-leak resistor (from datasheet)"
 msgstr ""
 
 #: module_04.message10
-msgctxt "module_04.message10"
 msgid "Ra|kohm|anode resistor (from datasheet)"
 msgstr ""
 
 #: module_04.message11
-msgctxt "module_04.message11"
 msgid "fl|Hz|low frequency range"
 msgstr ""
 
 #: module_04.message12
-msgctxt "module_04.message12"
 msgid "Rk|ohm|cathode resistor"
 msgstr ""
 
 #: module_04.message13
-msgctxt "module_04.message13"
 msgid "PRk|W|quiescent dissipation of the cathode resistor"
 msgstr ""
 
 #: module_04.message14
-msgctxt "module_04.message14"
 msgid "PRg|W|quiescent dissipation of the grid-leak resistor"
 msgstr ""
 
 #: module_04.message15
-msgctxt "module_04.message15"
 msgid "PRa|W|quiescent dissipation of the anode resistor"
 msgstr ""
 
 #: module_04.message16
-msgctxt "module_04.message16"
 msgid "u|-|voltage gain"
 msgstr ""
 
 #: module_04.message17
-msgctxt "module_04.message17"
 msgid "Au|dB|voltage gain"
 msgstr ""
 
 #: module_04.message18
-msgctxt "module_04.message18"
 msgid "Ri|kohm|internal resistance"
 msgstr ""
 
 #: module_04.message19
-msgctxt "module_04.message19"
 msgid "gm|mA/V|mutual conductance"
 msgstr ""
 
 #: module_04.message20
-msgctxt "module_04.message20"
 msgid "Zin|Mohm|input impedance"
 msgstr ""
 
 #: module_04.message21
-msgctxt "module_04.message21"
 msgid "Zout|kohm|output impedance"
 msgstr ""
 
 #: module_04.message22
-msgctxt "module_04.message22"
 msgid "Ck|uF|cathode capacitor"
 msgstr ""
 
 #: module_04.message23
-msgctxt "module_04.message23"
 msgid "UCk|V|voltage of cathode capacitor"
 msgstr ""
 
 #: module_04.message24
-msgctxt "module_04.message24"
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_04.message25
-msgctxt "module_04.message25"
 msgid "fl must be bigger than zero!"
 msgstr ""
 
@@ -520,37 +426,30 @@ msgid "Grounded cathode amplifier with triode with negative feedback"
 msgstr ""
 
 #: module_05.message02
-msgctxt "module_05.message02"
 msgid "V1|Ug0|V|quiescent grid voltage with correct sign"
 msgstr ""
 
 #: module_05.message03
-msgctxt "module_05.message03"
 msgid "V1|Ua0|V|quiescent anode voltage"
 msgstr ""
 
 #: module_05.message04
-msgctxt "module_05.message04"
 msgid "V1|Ia0|mA|quiescent anode current"
 msgstr ""
 
 #: module_05.message05
-msgctxt "module_05.message05"
 msgid "V1|Ri|kohm|internal resistance (from datasheet)"
 msgstr ""
 
 #: module_05.message06
-msgctxt "module_05.message06"
 msgid "V1|u|-|voltage gain (from datasheet)"
 msgstr ""
 
 #: module_05.message07
-msgctxt "module_05.message07"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
 #: module_05.message08
-msgctxt "module_05.message08"
 msgid "Ra|kohm|anode resistor (from datasheet)"
 msgstr ""
 
@@ -559,7 +458,6 @@ msgid "Rf|kohm|feedback resistor (min. 3 x Ra!)"
 msgstr ""
 
 #: module_05.message10
-msgctxt "module_05.message10"
 msgid "fl|Hz|low frequency range"
 msgstr ""
 
@@ -572,17 +470,14 @@ msgid "Rg|kohm|grid resistor"
 msgstr ""
 
 #: module_05.message13
-msgctxt "module_05.message13"
 msgid "Rk|ohm|cathode resistor"
 msgstr ""
 
 #: module_05.message14
-msgctxt "module_05.message14"
 msgid "PRk|W|quiescent dissipation of the cathode resistor"
 msgstr ""
 
 #: module_05.message15
-msgctxt "module_05.message15"
 msgid "PRa|W|quiescent dissipation of the anode resistor"
 msgstr ""
 
@@ -603,22 +498,18 @@ msgid "Av'|dB|calculated voltage gain with feedback"
 msgstr ""
 
 #: module_05.message20
-msgctxt "module_05.message20"
 msgid "Zin|Mohm|input impedance"
 msgstr ""
 
 #: module_05.message21
-msgctxt "module_05.message21"
 msgid "Zout|kohm|output impedance"
 msgstr ""
 
 #: module_05.message22
-msgctxt "module_05.message22"
 msgid "Ck|uF|cathode capacitor"
 msgstr ""
 
 #: module_05.message23
-msgctxt "module_05.message23"
 msgid "UCk|V|voltage of cathode capacitor"
 msgstr ""
 
@@ -627,7 +518,6 @@ msgid "Cc|uF|couple capacitor"
 msgstr ""
 
 #: module_05.message25
-msgctxt "module_05.message25"
 msgid "Calculation error, please check values!"
 msgstr ""
 
@@ -640,7 +530,6 @@ msgid "Av must be bigger than zero!"
 msgstr ""
 
 #: module_05.message28
-msgctxt "module_05.message28"
 msgid "fl must be bigger than zero!"
 msgstr ""
 
@@ -649,32 +538,26 @@ msgid "Grounded cathode amplifier with triode cascode #1"
 msgstr ""
 
 #: module_06.message02
-msgctxt "module_06.message02"
 msgid "V1|Ug0|V|quiescent grid voltage of lower triode with correct sign"
 msgstr ""
 
 #: module_06.message03
-msgctxt "module_06.message03"
 msgid "V1|Ua0|V|quiescent anode voltage of lower triode"
 msgstr ""
 
 #: module_06.message04
-msgctxt "module_06.message04"
 msgid "V1|Ia0|mA|quiescent anode current of lower triode"
 msgstr ""
 
 #: module_06.message05
-msgctxt "module_06.message05"
 msgid "V2|Ug0|V|quiescent grid voltage of upper triode with correct sign"
 msgstr ""
 
 #: module_06.message06
-msgctxt "module_06.message06"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
 #: module_06.message07
-msgctxt "module_06.message07"
 msgid "Ra|kohm|anode resistor (from datasheet)"
 msgstr ""
 
@@ -683,32 +566,26 @@ msgid "R1|kohm|upper resistor of voltage divider (default is 560 kohm)"
 msgstr ""
 
 #: module_06.message09
-msgctxt "module_06.message09"
 msgid "fl|Hz|low frequency range"
 msgstr ""
 
 #: module_06.message10
-msgctxt "module_06.message10"
 msgid "Rk|ohm|cathode resistor"
 msgstr ""
 
 #: module_06.message11
-msgctxt "module_06.message11"
 msgid "PRk|W|quiescent dissipation of the cathode resistor"
 msgstr ""
 
 #: module_06.message12
-msgctxt "module_06.message12"
 msgid "Ck|uF|cathode capacitor"
 msgstr ""
 
 #: module_06.message13
-msgctxt "module_06.message13"
 msgid "UCk|V|voltage of cathode capacitor"
 msgstr ""
 
 #: module_06.message14
-msgctxt "module_06.message14"
 msgid "PRa|W|quiescent dissipation of the anode resistor"
 msgstr ""
 
@@ -729,22 +606,18 @@ msgid "PR2|W|dissipation of R2 resistor"
 msgstr ""
 
 #: module_06.message19
-msgctxt "module_06.message19"
 msgid "C1|nF|V2 grid capacitor"
 msgstr ""
 
 #: module_06.message20
-msgctxt "module_06.message20"
 msgid "UC1|V|voltage of C1 capacitor"
 msgstr ""
 
 #: module_06.message21
-msgctxt "module_06.message21"
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_06.message22
-msgctxt "module_06.message22"
 msgid "fl must be bigger than zero!"
 msgstr ""
 
@@ -757,32 +630,26 @@ msgid "AC coupled cathode follower with triode"
 msgstr ""
 
 #: module_07.message02
-msgctxt "module_07.message02"
 msgid "V1|Ug0|V|quiescent grid voltage of triode with correct sign"
 msgstr ""
 
 #: module_07.message03
-msgctxt "module_07.message03"
 msgid "V1|Ua0|V|quiescent anode voltage of triode"
 msgstr ""
 
 #: module_07.message04
-msgctxt "module_07.message04"
 msgid "V1|Ia0|mA|quiescent anode current of triode"
 msgstr ""
 
 #: module_07.message05
-msgctxt "module_07.message05"
 msgid "V1|Ri|kohm|internal resistance (from datasheet)"
 msgstr ""
 
 #: module_07.message06
-msgctxt "module_07.message06"
 msgid "V1|u|-|voltage gain (from datasheet)"
 msgstr ""
 
 #: module_07.message07
-msgctxt "module_07.message07"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
@@ -791,7 +658,6 @@ msgid "Rk1|kohm|load resistor (from datasheet)"
 msgstr ""
 
 #: module_07.message09
-msgctxt "module_07.message09"
 msgid "Rg|kohm|grid-leak resistor (from datasheet)"
 msgstr ""
 
@@ -808,7 +674,6 @@ msgid "PRk2|W|quiescent dissipation of the upper cathode resistor"
 msgstr ""
 
 #: module_07.message13
-msgctxt "module_07.message13"
 msgid "Zin|kohm|input impedance"
 msgstr ""
 
@@ -825,7 +690,6 @@ msgid "Au|dB|calculated voltage gain"
 msgstr ""
 
 #: module_07.message17
-msgctxt "module_07.message17"
 msgid "Calculation error, please check values!"
 msgstr ""
 
@@ -834,22 +698,18 @@ msgid "Shunt regulated push-pull (SRPP) amplifier with triodes"
 msgstr ""
 
 #: module_08.message02
-msgctxt "module_08.message02"
 msgid "V1|Ri|kohm|internal resistance (from datasheet)"
 msgstr ""
 
 #: module_08.message03
-msgctxt "module_08.message03"
 msgid "V1|u|-|voltage gain (from datasheet)"
 msgstr ""
 
 #: module_08.message04
-msgctxt "module_08.message04"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
 #: module_08.message05
-msgctxt "module_08.message05"
 msgid "Rg|Mohm|grid-leak resistor (from datasheet)"
 msgstr ""
 
@@ -858,37 +718,30 @@ msgid "Rl|kohm|load resistor (from datasheet)"
 msgstr ""
 
 #: module_08.message07
-msgctxt "module_08.message07"
 msgid "fl|Hz|lower frequency range"
 msgstr ""
 
 #: module_08.message08
-msgctxt "module_08.message08"
 msgid "Rk|ohm|cathode resistor"
 msgstr ""
 
 #: module_08.message09
-msgctxt "module_08.message09"
 msgid "PRk|W|quiescent dissipation of the cathode resistor"
 msgstr ""
 
 #: module_08.message10
-msgctxt "module_08.message10"
 msgid "Ck|uF|cathode capacitor"
 msgstr ""
 
 #: module_08.message11
-msgctxt "module_08.message11"
 msgid "Zin|kohm|input impedance"
 msgstr ""
 
 #: module_08.message12
-msgctxt "module_08.message12"
 msgid "Zout|kohm|output impedance"
 msgstr ""
 
 #: module_08.message13
-msgctxt "module_08.message13"
 msgid "Calculation error, please check values!"
 msgstr ""
 
@@ -897,17 +750,14 @@ msgid "Mu-follower amplifier with triodes"
 msgstr ""
 
 #: module_09.message02
-msgctxt "module_09.message02"
 msgid "V1|u|-|voltage gain (from datasheet)"
 msgstr ""
 
 #: module_09.message03
-msgctxt "module_09.message03"
 msgid "V1|Ug0|V|quiescent grid voltage of triode with correct sign"
 msgstr ""
 
 #: module_09.message04
-msgctxt "module_09.message04"
 msgid "V1|Ua0|V|quiescent anode voltage of triode"
 msgstr ""
 
@@ -932,7 +782,6 @@ msgid "V2|IA|mA|maximal anode current (\"A\" point on characteristic)"
 msgstr ""
 
 #: module_09.message10
-msgctxt "module_09.message10"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
@@ -945,7 +794,6 @@ msgid "Rg2|kohm|grid-leak resistor (from datasheet)"
 msgstr ""
 
 #: module_09.message13
-msgctxt "module_09.message13"
 msgid "fl|Hz|lower frequency range"
 msgstr ""
 
@@ -958,7 +806,6 @@ msgid "PRk1|W|quiescent dissipation of the cathode resistor"
 msgstr ""
 
 #: module_09.message16
-msgctxt "module_09.message16"
 msgid "Ck|uF|cathode capacitor"
 msgstr ""
 
@@ -983,7 +830,6 @@ msgid "Cg2|nF|grid capacitor"
 msgstr ""
 
 #: module_09.message22
-msgctxt "module_09.message22"
 msgid "Calculation error, please check values!"
 msgstr ""
 
@@ -992,134 +838,50 @@ msgid "Cathodyne phase inverter #1"
 msgstr ""
 
 #: module_10.message02
-msgctxt "module_10.message02"
 msgid "V1|Ugk0|V|quiescent grid-cathode voltage of triode with correct sign"
 msgstr ""
 
 #: module_10.message03
-msgctxt "module_10.message03"
 msgid "V1|Uak0|V|quiescent anode-cathode voltage of triode"
 msgstr ""
 
 #: module_10.message04
-msgctxt "module_10.message04"
 msgid "V1|Ia0|mA|quiescent anode current of triode"
 msgstr ""
 
 #: module_10.message05
-msgctxt "module_10.message05"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
 #: module_10.message06
-msgctxt "module_10.message06"
 msgid "Rg|kohm|grid-leak resistor (from datasheet)"
 msgstr ""
 
 #: module_10.message07
-msgctxt "module_10.message07"
 msgid "Rk-Ra|kohm|anode and cathode resistors"
 msgstr ""
 
 #: module_10.message08
-msgctxt "module_10.message08"
 msgid "R1|kohm|voltage divider resistor"
 msgstr ""
 
 #: module_10.message09
-msgctxt "module_10.message09"
 msgid "PR1|W|quiescent dissipation of the divider resistor"
 msgstr ""
 
 #: module_10.message10
-msgctxt "module_10.message10"
 msgid "Rb|kohm|bias resistor"
 msgstr ""
 
 #: module_10.message11
-msgctxt "module_10.message11"
 msgid "PRb|W|quiescent dissipation of the bias resistor"
 msgstr ""
 
 #: module_10.message12
-msgctxt "module_10.message12"
 msgid "PRa-PRk|W|quiescent dissipation of anode and cathode resistors"
 msgstr ""
 
 #: module_10.message13
-msgctxt "module_10.message13"
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_11.message01
-msgid "AC coupled long-tailed phase inverter"
-msgstr ""
-
-#: module_11.message02
-msgctxt "module_11.message02"
-msgid "|||"
-msgstr ""
-
-#: module_11.message03
-msgctxt "module_11.message03"
-msgid "||"
-msgstr ""
-
-#: module_11.message04
-msgctxt "module_11.message04"
-msgid "||"
-msgstr ""
-
-#: module_11.message05
-msgctxt "module_11.message05"
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_12.message01
-msgid "Grounded cathode amplifier with pentode"
-msgstr ""
-
-#: module_12.message02
-msgctxt "module_12.message02"
-msgid "|||"
-msgstr ""
-
-#: module_12.message03
-msgctxt "module_12.message03"
-msgid "||"
-msgstr ""
-
-#: module_12.message04
-msgctxt "module_12.message04"
-msgid "||"
-msgstr ""
-
-#: module_12.message05
-msgctxt "module_12.message05"
-msgid "Calculation error, please check values!"
-msgstr ""
-
-#: module_13.message01
-msgid "Single-ended power amplifier with pentode"
-msgstr ""
-
-#: module_13.message02
-msgctxt "module_13.message02"
-msgid "|||"
-msgstr ""
-
-#: module_13.message03
-msgctxt "module_13.message03"
-msgid "||"
-msgstr ""
-
-#: module_13.message04
-msgctxt "module_13.message04"
-msgid "||"
-msgstr ""
-
-#: module_13.message05
-msgctxt "module_13.message05"
 msgid "Calculation error, please check values!"
 msgstr ""
 
@@ -1128,62 +890,50 @@ msgid "Grounded cathode amplifier with triode cascode #2"
 msgstr ""
 
 #: module_14.message02
-msgctxt "module_14.message02"
 msgid "V1|Ug0|V|quiescent grid voltage of lower triode with correct sign"
 msgstr ""
 
 #: module_14.message03
-msgctxt "module_14.message03"
 msgid "V1|Ua0|V|quiescent anode voltage of lower triode"
 msgstr ""
 
 #: module_14.message04
-msgctxt "module_14.message04"
 msgid "V1|Ia0|mA|quiescent anode current of lower triode"
 msgstr ""
 
 #: module_14.message05
-msgctxt "module_14.message05"
 msgid "V2|Ug0|V|quiescent grid voltage of upper triode with correct sign"
 msgstr ""
 
 #: module_14.message06
-msgctxt "module_14.message06"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
 #: module_14.message07
-msgctxt "module_14.message07"
 msgid "Ra|kohm|anode resistor (from datasheet)"
 msgstr ""
 
 #: module_14.message08
-msgctxt "module_14.message08"
 msgid "fl|Hz|low frequency range"
 msgstr ""
 
 #: module_14.message09
-msgctxt "module_14.message09"
 msgid "Rk|ohm|cathode resistor"
 msgstr ""
 
 #: module_14.message10
-msgctxt "module_14.message10"
 msgid "PRk|W|quiescent dissipation of the cathode resistor"
 msgstr ""
 
 #: module_14.message11
-msgctxt "module_14.message11"
 msgid "Ck|uF|cathode capacitor"
 msgstr ""
 
 #: module_14.message12
-msgctxt "module_14.message12"
 msgid "UCk|V|voltage of cathode capacitor"
 msgstr ""
 
 #: module_14.message13
-msgctxt "module_14.message13"
 msgid "PRa|W|quiescent dissipation of the anode resistor"
 msgstr ""
 
@@ -1192,22 +942,18 @@ msgid "Rg2|Mohm|grid-leak resistor of upper triode"
 msgstr ""
 
 #: module_14.message15
-msgctxt "module_14.message15"
 msgid "C1|nF|V2 grid capacitor"
 msgstr ""
 
 #: module_14.message16
-msgctxt "module_14.message16"
 msgid "UC1|V|voltage of C1 capacitor"
 msgstr ""
 
 #: module_14.message17
-msgctxt "module_14.message17"
 msgid "Calculation error, please check values!"
 msgstr ""
 
 #: module_14.message18
-msgctxt "module_14.message18"
 msgid "fl must be bigger than zero!"
 msgstr ""
 
@@ -1216,393 +962,291 @@ msgid "Cathodyne phase inverter #2"
 msgstr ""
 
 #: module_15.message02
-msgctxt "module_15.message02"
 msgid "V1|Ugk0|V|quiescent grid-cathode voltage of triode with correct sign"
 msgstr ""
 
 #: module_15.message03
-msgctxt "module_15.message03"
 msgid "V1|Uak0|V|quiescent anode-cathode voltage of triode"
 msgstr ""
 
 #: module_15.message04
-msgctxt "module_15.message04"
 msgid "V1|Ia0|mA|quiescent anode current of triode"
 msgstr ""
 
 #: module_15.message05
-msgctxt "module_15.message05"
 msgid "Ups|V|power supply voltage"
 msgstr ""
 
 #: module_15.message06
-msgctxt "module_15.message06"
 msgid "Rg|kohm|grid-leak resistor (from datasheet)"
 msgstr ""
 
 #: module_15.message07
-msgctxt "module_15.message07"
 msgid "Rk-Ra|kohm|anode and cathode resistors"
 msgstr ""
 
 #: module_15.message08
-msgctxt "module_15.message08"
 msgid "R1|kohm|voltage divider resistor"
 msgstr ""
 
 #: module_15.message09
-msgctxt "module_15.message09"
 msgid "PR1|W|quiescent dissipation of the divider resistor"
 msgstr ""
 
 #: module_15.message10
-msgctxt "module_15.message10"
 msgid "Rb|kohm|bias resistor"
 msgstr ""
 
 #: module_15.message11
-msgctxt "module_15.message11"
 msgid "PRb|W|quiescent dissipation of the bias resistor"
 msgstr ""
 
 #: module_15.message12
-msgctxt "module_15.message12"
 msgid "PRa-PRk|W|quiescent dissipation of anode and cathode resistors"
 msgstr ""
 
 #: module_15.message13
-msgctxt "module_15.message13"
 msgid "Calculation error, please check values!"
 msgstr ""
 
-#: TFORM1.BUTTON1.CAPTION
+#: tform1.button1.caption
 msgid "Calculate! (F3)"
 msgstr ""
 
-#: TFORM1.BUTTON3.CAPTION
+#: tform1.button3.caption
 msgid "Reset data (F2)"
 msgstr ""
 
-#: TFORM1.CAPTION
-msgid "Electrontubes [CheapApps series]"
+#: tform1.caption
+msgid "Electrontubes"
 msgstr ""
 
-#: TFORM1.CHECKBOX1.CAPTION
+#: tform1.checkbox1.caption
 msgid "Hin&t"
 msgstr ""
 
-#: TFORM1.CHECKBOX2.CAPTION
-msgctxt "TFORM1.CHECKBOX2.CAPTION"
+#: tform1.checkbox2.caption
 msgid "Hi&nt"
 msgstr ""
 
-#: TFORM1.CHECKBOX3.CAPTION
-msgctxt "TFORM1.CHECKBOX3.CAPTION"
+#: tform1.checkbox3.caption
 msgid "Hi&nt"
 msgstr ""
 
-#: TFORM1.LABEL1.CAPTION
-msgctxt "TFORM1.LABEL1.CAPTION"
+#: tform1.label1.caption
 msgid "How can I set them?"
 msgstr ""
 
-#: TFORM1.LABEL2.CAPTION
+#: tform1.label2.caption
 msgid "Calculated values"
 msgstr ""
 
-#: TFORM1.LABEL3.CAPTION
+#: tform1.label3.caption
 msgid "Initial values"
 msgstr ""
 
-#: TFORM1.LABEL4.CAPTION
+#: tform1.label4.caption
 msgid "Parameters"
 msgstr ""
 
-#: TFORM1.MENUITEM1.CAPTION
+#: tform1.menuitem1.caption
 msgid "&File"
 msgstr ""
 
-#: TFORM1.MENUITEM10.CAPTION
+#: tform1.menuitem10.caption
 msgid "&Configuration"
 msgstr ""
 
-#: TFORM1.MENUITEM11.CAPTION
-msgctxt "TFORM1.MENUITEM11.CAPTION"
-msgid "-"
-msgstr ""
-
-#: TFORM1.MENUITEM12.CAPTION
+#: tform1.menuitem12.caption
 msgid "Se&ttings..."
 msgstr ""
 
-#: TFORM1.MENUITEM13.CAPTION
-msgid "&Set serial number..."
-msgstr ""
-
-#: TFORM1.MENUITEM14.CAPTION
+#: tform1.menuitem14.caption
 msgid "Save &report to file..."
 msgstr ""
 
-#: TFORM1.MENUITEM15.CAPTION
+#: tform1.menuitem15.caption
 msgid "Search &new version"
 msgstr ""
 
-#: TFORM1.MENUITEM17.CAPTION
-msgctxt "TFORM1.MENUITEM17.CAPTION"
-msgid "-"
-msgstr ""
-
-#: TFORM1.MENUITEM18.CAPTION
-msgctxt "TFORM1.MENUITEM18.CAPTION"
-msgid "-"
-msgstr ""
-
-#: TFORM1.MENUITEM19.CAPTION
+#: tform1.menuitem19.caption
 msgid "Save settin&gs"
 msgstr ""
 
-#: TFORM1.MENUITEM2.CAPTION
-msgid "&Index"
+#: tform1.menuitem2.caption
+msgid "&Content"
 msgstr ""
 
-#: TFORM1.MENUITEM20.CAPTION
-msgid "&Facebook page"
-msgstr ""
-
-#: TFORM1.MENUITEM21.CAPTION
-msgid "&Pozsi's homepage"
-msgstr ""
-
-#: TFORM1.MENUITEM22.CAPTION
-msgctxt "TFORM1.MENUITEM22.CAPTION"
-msgid "-"
-msgstr ""
-
-#: TFORM1.MENUITEM27.CAPTION
+#: tform1.menuitem27.caption
 msgid "&Load initial values..."
 msgstr ""
 
-#: TFORM1.MENUITEM29.CAPTION
+#: tform1.menuitem29.caption
 msgid "&Print report..."
 msgstr ""
 
-#: TFORM1.MENUITEM31.CAPTION
+#: tform1.menuitem31.caption
 msgid "Load re&cent"
 msgstr ""
 
-#: TFORM1.MENUITEM32.CAPTION
-msgid "On-line &registration"
-msgstr ""
-
-#: TFORM1.MENUITEM33.CAPTION
+#: tform1.menuitem33.caption
 msgid "On-line &bugreport"
 msgstr ""
 
-#: TFORM1.MENUITEM34.CAPTION
-msgctxt "TFORM1.MENUITEM34.CAPTION"
-msgid "-"
-msgstr ""
-
-#: TFORM1.MENUITEM35.CAPTION
-msgid "CheapApps on Internet"
-msgstr ""
-
-#: TFORM1.MENUITEM36.CAPTION
+#: tform1.menuitem35.caption
 msgid "&Homepage"
 msgstr ""
 
-#: TFORM1.MENUITEM39.CAPTION
+#: tform1.menuitem39.caption
 msgid "&Operation"
 msgstr ""
 
-#: TFORM1.MENUITEM4.CAPTION
-msgctxt "TFORM1.MENUITEM4.CAPTION"
-msgid "-"
-msgstr ""
-
-#: TFORM1.MENUITEM40.CAPTION
+#: tform1.menuitem40.caption
 msgid "&Reset data"
 msgstr ""
 
-#: TFORM1.MENUITEM41.CAPTION
+#: tform1.menuitem41.caption
 msgid "Calculate!"
 msgstr ""
 
-#: TFORM1.MENUITEM5.CAPTION
+#: tform1.menuitem5.caption
 msgid "&Help"
 msgstr ""
 
-#: TFORM1.MENUITEM6.CAPTION
+#: tform1.menuitem6.caption
 msgid "&About..."
 msgstr ""
 
-#: TFORM1.MENUITEM7.CAPTION
+#: tform1.menuitem7.caption
 msgid "&Save initial values..."
 msgstr ""
 
-#: TFORM1.MENUITEM8.CAPTION
-msgctxt "TFORM1.MENUITEM8.CAPTION"
-msgid "-"
-msgstr ""
-
-#: TFORM1.MENUITEM9.CAPTION
+#: tform1.menuitem9.caption
 msgid "&Quit"
 msgstr ""
 
-#: TFORM1.STRINGGRID1.COLUMNS.TITLE.CAPTION
-msgctxt "TFORM1.STRINGGRID1.COLUMNS.TITLE.CAPTION"
+#: tform1.stringgrid1.columns[0].title.caption
+msgid "Name [unit]"
+msgstr ""
+
+#: tform1.stringgrid1.columns[1].title.caption
+msgid "Value"
+msgstr ""
+
+#: tform1.stringgrid1.columns[2].title.caption
 msgid "Description"
 msgstr ""
 
-#: TFORM1.STRINGGRID2.COLUMNS.TITLE.CAPTION
-msgctxt "TFORM1.STRINGGRID2.COLUMNS.TITLE.CAPTION"
+#: tform1.stringgrid2.columns[0].title.caption
+msgid "Name [unit]"
+msgstr ""
+
+#: tform1.stringgrid2.columns[1].title.caption
+msgid "Value"
+msgstr ""
+
+#: tform1.stringgrid2.columns[2].title.caption
 msgid "Description"
 msgstr ""
 
-#: TFORM1.STRINGGRID3.COLUMNS.TITLE.CAPTION
-msgctxt "TFORM1.STRINGGRID3.COLUMNS.TITLE.CAPTION"
+#: tform1.stringgrid3.columns[0].title.caption
+msgid "Pos."
+msgstr ""
+
+#: tform1.stringgrid3.columns[1].title.caption
+msgid "Name [unit]"
+msgstr ""
+
+#: tform1.stringgrid3.columns[2].title.caption
+msgid "Value"
+msgstr ""
+
+#: tform1.stringgrid3.columns[3].title.caption
 msgid "Description"
 msgstr ""
 
-#: TFORM1.TABSHEET1.CAPTION
+#: tform1.tabsheet1.caption
 msgid "General data"
 msgstr ""
 
-#: TFORM1.TABSHEET2.CAPTION
+#: tform1.tabsheet2.caption
 msgid "Parameters of active elements"
 msgstr ""
 
-#: TFORM2.BUTTON1.CAPTION
+#: tform2.button1.caption
 msgid "Close"
 msgstr ""
 
-#: TFORM2.FORM2.CAPTION
+#: tform2.caption
 msgid "About"
 msgstr ""
 
-#: TFORM2.LABEL1.CAPTION
+#: tform2.label1.caption
 msgid "Electrontubes v"
 msgstr ""
 
-#: TFORM2.LABEL11.CAPTION
-msgid "Copyright (C) 2012 Pozsár Zsolt"
+#: tform2.label11.caption
+msgid "Copyright (C) 2012-2016 Pozsár Zsolt"
 msgstr ""
 
-#: TFORM2.LABEL2.CAPTION
-msgid "CheapApps series"
-msgstr ""
-
-#: TFORM2.LABEL3.CAPTION
+#: tform2.label3.caption
 msgid "Homepage:"
 msgstr ""
 
-#: TFORM2.LABEL6.CAPTION
+#: tform2.label6.caption
 msgid "E-mail:"
 msgstr ""
 
-#: TFORM2.LABEL7.CAPTION
-msgid "Name:"
+#: tform2.label7.caption
+msgid "Licence: EUPL v1.1"
 msgstr ""
 
-#: TFORM2.LABEL9.CAPTION
-msgid "Serial:"
-msgstr ""
-
-#: TFORM3.BUTTON1.CAPTION
-msgctxt "TFORM3.BUTTON1.CAPTION"
+#: tform4.button1.caption
 msgid "&Set"
 msgstr ""
 
-#: TFORM3.BUTTON3.CAPTION
-msgctxt "TFORM3.BUTTON3.CAPTION"
+#: tform4.button2.caption
 msgid "&Cancel"
 msgstr ""
 
-#: TFORM3.FORM3.CAPTION
-msgid "Set serial"
-msgstr ""
-
-#: TFORM3.LABEL1.CAPTION
-msgid "Your serial number:"
-msgstr ""
-
-#: TFORM3.STATICTEXT2.CAPTION
-msgctxt "TFORM3.STATICTEXT2.CAPTION"
-msgid "-"
-msgstr ""
-
-#: TFORM3.STATICTEXT3.CAPTION
-msgctxt "TFORM3.STATICTEXT3.CAPTION"
-msgid "-"
-msgstr ""
-
-#: TFORM4.BUTTON1.CAPTION
-msgctxt "TFORM4.BUTTON1.CAPTION"
-msgid "&Set"
-msgstr ""
-
-#: TFORM4.BUTTON2.CAPTION
-msgctxt "TFORM4.BUTTON2.CAPTION"
-msgid "&Cancel"
-msgstr ""
-
-#: TFORM4.BUTTON3.CAPTION
+#: tform4.button3.caption
 msgid "&Default"
 msgstr ""
 
-#: TFORM4.BUTTON4.CAPTION
-msgctxt "TFORM4.BUTTON4.CAPTION"
-msgid "..."
-msgstr ""
-
-#: TFORM4.BUTTON5.CAPTION
-msgctxt "TFORM4.BUTTON5.CAPTION"
-msgid "..."
-msgstr ""
-
-#: TFORM4.CHECKBOX1.CAPTION
-msgid "Offline mode"
-msgstr ""
-
-#: TFORM4.CHECKBOX2.CAPTION
-msgid "Save history"
-msgstr ""
-
-#: TFORM4.FORM4.CAPTION
+#: tform4.caption
 msgid "Preferences"
 msgstr ""
 
-#: TFORM4.LABEL1.CAPTION
+#: tform4.checkbox1.caption
+msgid "Offline mode"
+msgstr ""
+
+#: tform4.checkbox2.caption
+msgid "Save history"
+msgstr ""
+
+#: tform4.label1.caption
 msgid "Browser application:"
 msgstr ""
 
-#: TFORM4.LABEL2.CAPTION
+#: tform4.label2.caption
 msgid "Mailer application:"
 msgstr ""
 
-#: TFORM5.BUTTON1.CAPTION
+#: tform5.button1.caption
 msgid "&Close"
 msgstr ""
 
-#: TFORM5.BUTTON2.CAPTION
+#: tform5.button2.caption
 msgid "&Previous"
 msgstr ""
 
-#: TFORM5.BUTTON3.CAPTION
+#: tform5.button3.caption
 msgid "&Next"
 msgstr ""
 
-#: TFORM5.FORM5.CAPTION
-msgctxt "TFORM5.FORM5.CAPTION"
+#: tform5.caption
 msgid "How can I set them?"
-msgstr ""
-
-#: TFORM5.LABEL1.CAPTION
-msgid "(Title)"
-msgstr ""
-
-#: TFORM5.LABEL2.CAPTION
-msgid "0/0"
 msgstr ""
 
 #: untcommonproc.message01

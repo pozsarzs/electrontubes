@@ -1,5 +1,5 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator                      | }
 { | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | module_01.pas                                                            | }
 { | Module (static, fp unit - v0.3+)                                         | }

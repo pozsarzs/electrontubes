@@ -1,5 +1,5 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator                      | }
 { | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmmain.pas                                                              | }
 { | Main form                                                                | }
@@ -129,18 +129,18 @@ var
 procedure AddToRecentFiles(filename: string);
 
 Resourcestring
-  MESSAGE01='Demo';
-  MESSAGE02='Full';
+//  MESSAGE01='';
+//  MESSAGE02='';
   MESSAGE03='Off-line';
   MESSAGE04='On-line';
-  MESSAGE05='New version is available. Please visit CheapApps''s homepage!';
+  MESSAGE05='New version is available. Please visit homepage!';
   MESSAGE06='Save report to file';
   MESSAGE07='text files (*.txt)|*.txt| all files (*.*)|*.*|';
   MESSAGE08='Write error';
   MESSAGE09='File exists, overwrite?';
-//  MESSAGE10='This is a shareware application.';
-//  MESSAGE11='If you want to use it without limitation, you need to register!';
-//  MESSAGE12='Don''t forget: this is just 1€!';
+//  MESSAGE10='';
+//  MESSAGE11='';
+//  MESSAGE12='';
   MESSAGE13=' No picture!';
   MESSAGE14='Do you want to save your work?';
   MESSAGE15='Bad value, fix it';
@@ -1008,7 +1008,7 @@ begin
   getlang;
   getexepath;
   loadcfg;
-  Application.Title:=Form2.Label1.Caption;
+  Form1.Caption:=Form2.Label1.Caption;
   if appmode=30 then untcommonproc.offline:=true;
   if untcommonproc.offline=true
   then StatusBar1.Panels.Items[0].Text:=' '+MESSAGE03

@@ -1,5 +1,5 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator                      | }
 { | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmactivehlp.pp                                                          | }
 { | Set serial number form                                                   | }
@@ -132,7 +132,7 @@ begin
   page:=0;
   try
    {$IFDEF UNIX}{$IFDEF UseFHS}
-    ReadXMLFile(xdoc,untcommonproc.INSTPATH+'/share/'+APPNAME+'help/module_'+
+    ReadXMLFile(xdoc,untcommonproc.INSTPATH+'/share/'+APPNAME+'/help/module_'+
       smn+'/'+untcommonproc.lang+'_help.xml');
    {$ELSE}
     ReadXMLFile(xdoc,untcommonproc.EXEPATH+'help/module_'+smn+'/'+

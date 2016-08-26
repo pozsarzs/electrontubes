@@ -62,7 +62,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
+        <TopLine Value="89"/>
         <CursorPos X="1" Y="7"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
@@ -257,7 +257,7 @@
         <EditorIndex Value="14"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="1" Y="7"/>
+        <CursorPos X="38" Y="19"/>
         <UsageCount Value="61"/>
         <Loaded Value="True"/>
       </Unit16>

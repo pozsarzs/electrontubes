@@ -329,14 +329,6 @@ object Form2: TForm2
     ParentColor = False
     ParentFont = False
   end
-  object Label2: TLabel
-    Left = 8
-    Height = 11
-    Top = 32
-    Width = 87
-    Caption = 'CheapApps series'
-    ParentColor = False
-  end
   object Label3: TLabel
     Left = 9
     Height = 11
@@ -369,7 +361,7 @@ object Form2: TForm2
   object Label7: TLabel
     Left = 9
     Height = 11
-    Top = 64
+    Top = 56
     Width = 94
     Caption = 'Licence: EUPL v1.1'
     ParentColor = False
@@ -384,7 +376,7 @@ object Form2: TForm2
   object Label11: TLabel
     Left = 8
     Height = 11
-    Top = 48
+    Top = 40
     Width = 184
     Caption = 'Copyright (C) 2012-2016 Pozsár Zsolt'
     ParentColor = False

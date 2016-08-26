@@ -1,5 +1,5 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator                      | }
 { | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmabout.pp                                                              | }
 { | About form                                                               | }
@@ -30,7 +30,6 @@ type
     Label1: TLabel;
     Label10: TLabel;
     Label11: TLabel;
-    Label2: TLabel;
     Label3: TLabel;
     Label5: TLabel;
     Label6: TLabel;
