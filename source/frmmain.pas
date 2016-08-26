@@ -784,14 +784,6 @@ begin
       s:=FormatFloat('######.###',GetOutputData(modnum,b-1));
       if s='' then StringGrid2.Cells[1,b]:='0' else StringGrid2.Cells[1,b]:=s;
     end;
-  if untcommonproc.r=false then
-  begin
-    Button1.Enabled:=false;
-    Button3.Enabled:=false;
-    MenuItem17.Enabled:=false;
-    MenuItem18.Enabled:=false;
-    ShowMessage(MESSAGE10+#10+#13+#10+#13+MESSAGE11+#10+#13+#10+#13+MESSAGE12);
-  end;
 end;
 
 // -- Configuration menu -------------------------------------------------------

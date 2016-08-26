@@ -1,39 +1,41 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.3.1 * Electrontube bias calculator [ CheapApps series ] | }
-{ | Copyright (C) 2012 Pozsar Zsolt <pozsarzs@gmail.com>                     | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | commonproc.pp                                                            | }
 { | Common procedures and functions                                          | }
 { +--------------------------------------------------------------------------+ }
-{ ************  This file is not public, contents trade secret! ************** }
+
+{
+  Copyright (C) 2012-2016 Pozsar Zsolt
+
+  This program is free software: you can redistribute it and/or modify
+it under the terms of the European Union Public License version 1.1.
+
+  This program is distributed WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+}
 
 unit untcommonproc; 
 {$MODE OBJFPC}{$H-}
 interface
 uses
   {$IFDEF WIN32}Windows,{$ENDIF} Classes, SysUtils, LResources, Dialogs,
-  GraphUtil, Graphics, INIFiles, dos,
-  // foreign units:
-  httpsend;
-
+  GraphUtil, Graphics, INIFiles, dos, httpsend;
 var
   b: byte;                                              // general byte variable
   browserapp: string;                            // external browser application
-  confdir: string;                              // users configuration directory
   docdir: string;                                    // users document directory
   exepath, p: shortstring;                        // path of the executable file
   lang: string[2];                                                   // language
   mailerapp: string;                              // external mailer application
   offline: boolean;                                             // off-line mode
-  r: boolean;                                                    // registration
   s: string;                                          // general string variable
-  serialnumber: string;                                   // users serial number
   showhint1, showhint2, showhint3: boolean;                 // show descriptions
   tmpdir: string;                                // directory of temporary files
   userdir: string;                                            // users directory
   username: string[30];                               // users registration name
   savehistory: boolean;                                     // save load history
-  appmode: byte;
-
+  appmode: byte;                                               // operation mode
 const
   APPNAME='electrontubes';
   EMAIL='pozsarzs@gmail.com';
@@ -47,6 +49,11 @@ const
  {$IFDEF WIN32}
   CSIDL_PROFILE=40;
   SHGFP_TYPE_CURRENT=0;
+ {$ENDIF}
+ {$IFDEF UNIX}
+  DIR_CONFIG='/.config/cheapapps/';
+ {$ENDIF}{$IFDEF WIN32}
+  DIR_CONFIG='\AppData\Local\cheapapps\config\';
  {$ENDIF}
 
 function getexepath: string;
@@ -91,7 +98,7 @@ var
   Size : integer;
 {$ENDIF}
 begin
- {$IFDEF LINUX}
+ {$IFDEF UNIX}
   s:=getenv('LANG');
  {$ENDIF}
  {$IFDEF WIN32}
@@ -136,9 +143,8 @@ procedure loadcfg;
 var
   ini: TINIFile;
 begin
-  ini:=TIniFile.Create(confdir+cfn);
+  ini:=TIniFile.Create(DIR_CONFIG+cfn);
   try
-    serialnumber:=ini.ReadString('General','SerialNumber','');
     offline:=ini.ReadBool('General','OffLineMode',false);
     savehistory:=ini.ReadBool('General','SaveHistory',true);
     browserapp:=ini.ReadString('Applications','Browser','');
@@ -157,7 +163,7 @@ procedure loadhis;
 var
   his: TINIFile;
 begin
-  his:=TIniFile.Create(confdir+hfn);
+  his:=TIniFile.Create(DIR_CONFIG+hfn);
   try
     for b:=0 to 4 do
       recentfiles[b]:=his.ReadString('History','RecentFile'+inttostr(b),'');
@@ -190,26 +196,15 @@ var
 {$ENDIF}
 
 begin
- {$IFDEF LINUX}
+ {$IFDEF UNIX}
   tmpdir:='/tmp/';
   userdir:=getenvironmentvariable('HOME');
-  confdir:=userdir+'/.CheapApps/';
-  {$I-}mkdir(confdir);{$I+} ioresult;
-  userdir:=userdir+'/CheapApps/';
-  {$I-}mkdir(userdir);{$I+} ioresult;
-  {$I-}mkdir(userdir+'/Reg_keys');{$I+} ioresult;
  {$ENDIF}
  {$IFDEF WIN32}
   tmpdir:=getwindowstemp;
   userdir:=getuserprofile;
-  confdir:=userdir+'\Application data\';
-  {$I-}mkdir(confdir);{$I+} ioresult;
-  confdir:=confdir+'\CheapApps\';
-  {$I-}mkdir(confdir);{$I+} ioresult;
-  userdir:=userdir+'\CheapApps\';
-  {$I-}mkdir(userdir);{$I+} ioresult;
-  {$I-}mkdir(userdir+'\Reg_keys');{$I+} ioresult;
  {$ENDIF}
+  forcedirectories(userdir+DIR_CONFIG);
 end;
 
 // Run browser application
@@ -241,13 +236,12 @@ var
 // I use alternative solution for save configuration, because INIFiles unit has
 // got some bugs.
 begin
-  assignfile(ini,confdir+cfn);
+  assignfile(ini,DIR_CONFIG+cfn);
   try
     rewrite(ini);
     writeln(ini,'; '+appname+' v'+version);
     writeln(ini,'');
     writeln(ini,'[General]');
-    writeln(ini,'SerialNumber=',serialnumber);
     write(ini,'OffLineMode=');if offline=true then writeln(ini,'1') else writeln(ini,'0');
     write(ini,'SaveHistory=');if savehistory=true then writeln(ini,'1') else writeln(ini,'0');
     writeln(ini,'');
@@ -272,7 +266,7 @@ var
 // I use alternative solution for save configuration, because INIFiles unit has
 // got some bugs.
 begin
-  assignfile(his,confdir+hfn);
+  assignfile(his,DIR_CONFIG+hfn);
   try
     rewrite(his);
     writeln(his,'; '+appname+' v'+version);
