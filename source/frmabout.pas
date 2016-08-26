@@ -1,19 +1,26 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.3.1 * Electrontube bias calculator [ CheapApps series ] | }
-{ | Copyright (C) 2012 Pozsar Zsolt <pozsarzs@gmail.com>                     | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmabout.pp                                                              | }
 { | About form                                                               | }
 { +--------------------------------------------------------------------------+ }
-{ ************  This file is not public, contents trade secret! ************** }
+
+{
+  Copyright (C) 2012-2016 Pozsar Zsolt
+
+  This program is free software: you can redistribute it and/or modify
+it under the terms of the European Union Public License version 1.1.
+
+  This program is distributed WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+}
 
 unit frmabout;
 {$MODE OBJFPC}{$H+}
 interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ExtCtrls,
-  // own units:
-  untcommonproc;
+  StdCtrls, ExtCtrls, untcommonproc;
 type
   { TForm2 }
   TForm2 = class(TForm)
@@ -25,7 +32,6 @@ type
     Label11: TLabel;
     Label2: TLabel;
     Label3: TLabel;
-    Label4: TLabel;
     Label5: TLabel;
     Label6: TLabel;
     Label7: TLabel;
@@ -33,13 +39,15 @@ type
     Label9: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
-    procedure FormShow(Sender: TObject);
     procedure Label4Click(Sender: TObject);
     procedure Label4MouseEnter(Sender: TObject);
     procedure Label4MouseLeave(Sender: TObject);
     procedure Label5Click(Sender: TObject);
     procedure Label5MouseEnter(Sender: TObject);
     procedure Label5MouseLeave(Sender: TObject);
+    procedure Label8Click(Sender: TObject);
+    procedure Label8MouseEnter(Sender: TObject);
+    procedure Label8MouseLeave(Sender: TObject);
   private
     { private declarations }
   public
@@ -48,12 +56,7 @@ type
 var
   Form2: TForm2;
 
-Resourcestring
-  MESSAGE01='Demo mode,';
-  MESSAGE02='registration required!';
-
 implementation
-
 {$R *.lfm}
 { TForm2 }
 
@@ -61,43 +64,41 @@ implementation
 procedure TForm2.FormCreate(Sender: TObject);
 begin
   Label1.Caption:=Label1.Caption+untcommonproc.VERSION;
-  Label4.Enabled:=not untcommonproc.offline;
-  Label4.Caption:=untcommonproc.PRJ_HOMEPAGE;
+  Label8.Enabled:=not untcommonproc.offline;
+  Label8.Caption:=untcommonproc.HOMEPAGE;
   Label5.Enabled:=not untcommonproc.offline;
   Label5.Caption:=untcommonproc.EMAIL;
 end;
 
-// OnShow event
-procedure TForm2.FormShow(Sender: TObject);
+procedure TForm2.Label4Click(Sender: TObject);
 begin
-  Label8.Font.Color:=clRed;
-  Label10.Font.Color:=clRed;
-  Label8.Caption:=MESSAGE01;
-  Label10.Caption:=MESSAGE02;
-  if (untcommonproc.username<>'!') and (untcommonproc.username<>'')
-  then
-  begin
-    Label8.Font.Color:=clWindowText;
-    Label10.Font.Color:=clWindowText;
-    Label8.Caption:=untcommonproc.username;
-    Label10.Caption:=untcommonproc.serialnumber;
-  end;
+
 end;
 
-// Visit homepage
 procedure TForm2.Label4MouseEnter(Sender: TObject);
 begin
-  Label4.Font.Color:=clRed;
+
 end;
 
 procedure TForm2.Label4MouseLeave(Sender: TObject);
 begin
-  Label4.Font.Color:=clBlue;
+
 end;
 
-procedure TForm2.Label4Click(Sender: TObject);
+// Visit homepage
+procedure TForm2.Label8MouseEnter(Sender: TObject);
 begin
-  runbrowser(Label4.Caption);
+  Label8.Font.Color:=clRed;
+end;
+
+procedure TForm2.Label8MouseLeave(Sender: TObject);
+begin
+  Label8.Font.Color:=clBlue;
+end;
+
+procedure TForm2.Label8Click(Sender: TObject);
+begin
+  runbrowser(Label8.Caption);
 end;
 
 // Send an e-mail

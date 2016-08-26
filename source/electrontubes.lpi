@@ -56,16 +56,15 @@
         <PackageName Value="LCL"/>
       </Item4>
     </RequiredPackages>
-    <Units Count="22">
+    <Units Count="19">
       <Unit0>
         <Filename Value="electrontubes.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="0"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="14"/>
-        <CursorPos X="19" Y="18"/>
-        <UsageCount Value="197"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="7"/>
+        <UsageCount Value="198"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit0>
@@ -76,11 +75,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmmain"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="3"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1059"/>
-        <CursorPos X="1" Y="1050"/>
-        <UsageCount Value="197"/>
+        <TopLine Value="1"/>
+        <CursorPos X="22" Y="4"/>
+        <UsageCount Value="198"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -91,11 +90,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmabout"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="1"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="29"/>
-        <CursorPos X="1" Y="54"/>
-        <UsageCount Value="195"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="7"/>
+        <UsageCount Value="196"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit2>
@@ -103,11 +102,11 @@
         <Filename Value="untcommonproc.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="untcommonproc"/>
-        <EditorIndex Value="20"/>
+        <EditorIndex Value="15"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
-        <CursorPos X="63" Y="1"/>
-        <UsageCount Value="170"/>
+        <CursorPos X="46" Y="225"/>
+        <UsageCount Value="171"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -117,11 +116,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmpref"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="120"/>
-        <CursorPos X="25" Y="128"/>
-        <UsageCount Value="194"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="7"/>
+        <UsageCount Value="195"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit4>
@@ -133,18 +132,18 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="168"/>
+        <UsageCount Value="169"/>
         <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="untmodules.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="untmodules"/>
-        <EditorIndex Value="22"/>
+        <EditorIndex Value="16"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="226"/>
-        <CursorPos X="3" Y="254"/>
-        <UsageCount Value="167"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="168"/>
         <Loaded Value="True"/>
       </Unit6>
       <Unit7>
@@ -154,11 +153,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="frmactivehelp"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="2"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="64"/>
-        <CursorPos X="1" Y="85"/>
-        <UsageCount Value="68"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="7"/>
+        <UsageCount Value="69"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit7>
@@ -170,7 +169,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit8>
       <Unit9>
@@ -181,7 +180,7 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit9>
       <Unit10>
@@ -192,130 +191,93 @@
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="modules\module_05.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_05"/>
-        <EditorIndex Value="9"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
-        <Loaded Value="True"/>
+        <UsageCount Value="59"/>
       </Unit11>
       <Unit12>
         <Filename Value="modules\module_06.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_06"/>
-        <EditorIndex Value="10"/>
+        <EditorIndex Value="9"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit12>
       <Unit13>
         <Filename Value="modules\module_14.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_14"/>
-        <EditorIndex Value="18"/>
+        <EditorIndex Value="13"/>
         <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
+        <TopLine Value="13"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit13>
       <Unit14>
         <Filename Value="modules\module_07.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_07"/>
-        <EditorIndex Value="11"/>
+        <EditorIndex Value="10"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit14>
       <Unit15>
         <Filename Value="modules\module_08.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_08"/>
-        <EditorIndex Value="12"/>
+        <EditorIndex Value="11"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit15>
       <Unit16>
         <Filename Value="modules\module_09.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_09"/>
-        <EditorIndex Value="13"/>
+        <EditorIndex Value="12"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit16>
       <Unit17>
         <Filename Value="modules\module_10.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="module_10"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="59"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="modules\module_15.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="module_15"/>
         <EditorIndex Value="14"/>
         <WindowIndex Value="0"/>
         <TopLine Value="1"/>
         <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
-        <Loaded Value="True"/>
-      </Unit17>
-      <Unit18>
-        <Filename Value="modules\module_11.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_11"/>
-        <EditorIndex Value="15"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="52"/>
-        <CursorPos X="3" Y="56"/>
-        <UsageCount Value="58"/>
+        <UsageCount Value="59"/>
         <Loaded Value="True"/>
       </Unit18>
-      <Unit19>
-        <Filename Value="modules\module_12.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_12"/>
-        <EditorIndex Value="16"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="52"/>
-        <CursorPos X="3" Y="56"/>
-        <UsageCount Value="58"/>
-        <Loaded Value="True"/>
-      </Unit19>
-      <Unit20>
-        <Filename Value="modules\module_13.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_13"/>
-        <EditorIndex Value="17"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="52"/>
-        <CursorPos X="3" Y="56"/>
-        <UsageCount Value="58"/>
-        <Loaded Value="True"/>
-      </Unit20>
-      <Unit21>
-        <Filename Value="modules\module_15.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="module_15"/>
-        <EditorIndex Value="19"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
-        <UsageCount Value="58"/>
-        <Loaded Value="True"/>
-      </Unit21>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

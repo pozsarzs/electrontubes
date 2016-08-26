@@ -37,12 +37,13 @@ var
 const
   APPNAME='electrontubes';
   EMAIL='pozsarzs@gmail.com';
-  FB_PAGE='http://www.facebook.com/cheapapps';
   HOMEPAGE='http://www.pozsarzs.hu';
-  PRJ_HOMEPAGE='http://www.cheapapps-series.info';
-  VERSION='0.3.1';
+  VERSION='0.4.1';
   CFN=APPNAME+'.ini';
   HFN=APPNAME+'.his';
+ {$IFDEF UNIX}
+  {$I config.inc}
+ {$ENDIF}
  {$IFDEF WIN32}
   CSIDL_PROFILE=40;
   SHGFP_TYPE_CURRENT=0;
@@ -51,7 +52,6 @@ const
 function getexepath: string;
 function getlang: string;
 function searchupdate: boolean;
-procedure crk;
 procedure loadcfg;
 procedure loadhis;
 procedure makeuserdir;
@@ -128,25 +128,6 @@ begin
       Free;
     end;
     txt.Free;
-  end;
-end;
-
-// Check registration key
-procedure crk;
-var
-  path: string;
-begin
-  r:=false;
- {$IFDEF LINUX}
-  path:=userdir+'Reg_keys/';
- {$ENDIF}
- {$IFDEF WIN32}
-  path:=userdir+'Reg_keys\';
- {$ENDIF}
-  if FSearch(appname+'.key',path)<>''then
-  begin
-    username:=checkregkey(path+appname+'.key', serialnumber);
-    if (username='!') or (username=' ') then r:=false else r:=true;
   end;
 end;
 

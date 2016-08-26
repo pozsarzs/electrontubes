@@ -20,10 +20,8 @@ program electrontubes;
 uses
   Dialogs, Interfaces, Forms, SysUtils,
  {$IFDEF UseFHS} unttranslator, {$ELSE} DefaultTranslator,{$ENDIF}
-  printer4lazarus, crt, frmmain, frmabout, frmpref, untmodules,
-  untcommonproc, frmactivehelp, module_01, module_02, module_03,
-  module_04, module_05, module_06, module_07, module_14, module_08,
-  module_09, module_10, module_15;
+  Printer4Lazarus, crt, frmmain, frmabout, frmactivehelp, frmpref,
+  untcommonproc;
 var
   b: byte;
   fn: string;
@@ -31,7 +29,7 @@ const
   params: array[1..3,1..3] of string=
   (
     ('-h','--help','show help'),
-    ('-v','--version','show version and build information')
+    ('-v','--version','show version and build information'),
     ('-o','--offline','off-line mode')
   );
 
@@ -72,7 +70,7 @@ end;
 procedure verinfo;
 begin
  {$IFDEF UNIX}
-  writeln(frmmain.APPNAME+' v'+frmmain.VERSION);
+  writeln(untcommonproc.APPNAME+' v'+untcommonproc.VERSION);
   writeln;
   writeln('This application was compiled at ',{$I %TIME%},' on ',{$I %DATE%},' by ',{$I %USER%});
   writeln('FPC version: ',{$I %FPCVERSION%});
@@ -80,7 +78,7 @@ begin
   writeln('Target CPU:  ',{$I %FPCTARGETCPU%});
  {$ENDIF}
  {$IFDEF WIN32}    
-  s:=frmmain.APPNAME+' v'+frmmain.VERSION+#13+#10+#13+#10;
+  s:=untcommonproc.APPNAME+' v'+untcommonproc.VERSION+#13+#10+#13+#10;
   s:=s+'This was compiled at '+{$I %TIME%}+' on '+{$I %DATE%}+' by '+{$I %USERNAME%}+'.'+#13+#10+#13+#10;
   s:=s+'FPC version: '+{$I %FPCVERSION%}+#13+#10;
   s:=s+'Target OS:   '+{$I %FPCTARGETOS%}+#13+#10;

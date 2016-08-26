@@ -1,19 +1,26 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.3.1 * Electrontube bias calculator [ CheapApps series ] | }
-{ | Copyright (C) 2012 Pozsar Zsolt <pozsarzs@gmail.com>                     | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmpref.pp                                                               | }
 { | Preferences form                                                         | }
 { +--------------------------------------------------------------------------+ }
-{ ************  This file is not public, contents trade secret! ************** }
+
+{
+  Copyright (C) 2012-2016 Pozsar Zsolt
+
+  This program is free software: you can redistribute it and/or modify
+it under the terms of the European Union Public License version 1.1.
+
+  This program is distributed WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+}
 
 unit frmpref;
 {$MODE OBJFPC}{$H+}
 interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, ExtCtrls,
-  // own units:
-  untcommonproc;
+  StdCtrls, ExtCtrls, untcommonproc;
 
 type
   { TForm4 }
@@ -56,7 +63,6 @@ Resourcestring
 
 implementation
 uses frmmain;
-
 {$R *.lfm}
 { TForm4 }
 
@@ -80,7 +86,7 @@ end;
 // Set default values
 procedure TForm4.Button3Click(Sender: TObject);
 begin
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
   Edit1.Text:='xdg-open';
   Edit2.Text:='xdg-email';
   {$ENDIF}
@@ -96,7 +102,7 @@ end;
 procedure TForm4.Button4Click(Sender: TObject);
 begin
   OpenDialog1.Title:=MESSAGE01;
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
   OpenDialog1.InitialDir:='/';
   Opendialog1.Filter:=MESSAGE03;
   {$ENDIF}
@@ -111,7 +117,7 @@ end;
 procedure TForm4.Button5Click(Sender: TObject);
 begin
   OpenDialog1.Title:=MESSAGE02;
-  {$IFDEF LINUX}
+  {$IFDEF UNIX}
   OpenDialog1.InitialDir:='/';
   Opendialog1.Filter:=MESSAGE03;
   {$ENDIF}

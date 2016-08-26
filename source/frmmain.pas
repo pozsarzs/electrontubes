@@ -104,7 +104,6 @@ type
     procedure MenuItem40Click(Sender: TObject);
     procedure MenuItem41Click(Sender: TObject);
     procedure MenuItem19Click(Sender: TObject);
-    procedure MenuItem20Click(Sender: TObject);
     procedure MenuItem21Click(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
     procedure MenuItem32Click(Sender: TObject);
@@ -853,14 +852,8 @@ end;
 procedure TForm1.MenuItem36Click(Sender: TObject);
 begin
   if untcommonproc.lang='hu'
-  then runbrowser(untcommonproc.PRJ_HOMEPAGE)
-  else runbrowser(untcommonproc.PRJ_HOMEPAGE+'/english');
-end;
-
-// Internet/Facebook page
-procedure TForm1.MenuItem20Click(Sender: TObject);
-begin
-  runbrowser(untcommonproc.FB_PAGE);
+  then runbrowser(untcommonproc.HOMEPAGE)
+  else runbrowser(untcommonproc.HOMEPAGE+'/english');
 end;
 
 // Internet/Pozsi's homepage
@@ -1050,10 +1043,6 @@ begin
   CheckBox2.Checked:=untcommonproc.showhint1;
   CheckBox1.Checked:=untcommonproc.showhint2;
   CheckBox3.Checked:=untcommonproc.showhint3;
-  crk;
-  if untcommonproc.r=false
-  then StatusBar1.Panels.Items[0].Text:=' '+MESSAGE01
-  else StatusBar1.Panels.Items[0].Text:=' '+MESSAGE02;
   if offline=false then
     if searchupdate then StatusBar1.Panels.Items[3].Text:=' '+MESSAGE05;
   CollectNames;

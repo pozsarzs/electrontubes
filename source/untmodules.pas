@@ -1,18 +1,26 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.3.1 * Electrontube bias calculator [ CheapApps series ] | }
-{ | Copyright (C) 2012 Pozsar Zsolt <pozsarzs@gmail.com>                     | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | modules.pas                                                              | }
-{ | Module collector (for v3)                                                | }
+{ | Module collector (for v0.3.1+)                                           | }
 { +--------------------------------------------------------------------------+ }
-{ ************  This file is not public, contents trade secret! ************** }
+
+{
+  Copyright (C) 2012-2016 Pozsar Zsolt
+
+  This program is free software: you can redistribute it and/or modify
+it under the terms of the European Union Public License version 1.1.
+
+  This program is distributed WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+}
 
 unit untmodules;
 {$MODE OBJFPC}{$H+}
 interface
 uses
   module_01, module_02, module_03, module_04, module_05, module_06, module_07,
-  module_08, module_09, module_10, {module_11, module_12, module_13,} module_14,
-  module_15;
+  module_08, module_09, module_10, module_14, module_15;
 var
   NameDataIn: array[0..63,0..15] of string;
   NameDataOut: array[0..63,0..15] of string;
@@ -116,31 +124,7 @@ begin
     ModuleID[9]:=Module_10.GetID;
     EMessages[9,b]:=Module_10.GetErrorMessage(b);
     HTSLActive[9]:=Module_10.GetHowToSetLinkActive;
-    {
-    NameActiveElements[10,b]:=Module_11.GetNameActiveElements(b);
-    NameDataIn[10,b]:=Module_11.GetNameDataIn(b);
-    NameDataOut[10,b]:=Module_11.GetNameDataOut(b);
-    NameModule[10]:=Module_11.GetName;
-    ModuleID[10]:=Module_11.GetID;
-    EMessages[10,b]:=Module_11.GetErrorMessage(b);
-    HTSLActive[10]:=Module_11.GetHowToSetLinkActive;
 
-    NameActiveElements[11,b]:=Module_12.GetNameActiveElements(b);
-    NameDataIn[11,b]:=Module_12.GetNameDataIn(b);
-    NameDataOut[11,b]:=Module_12.GetNameDataOut(b);
-    NameModule[11]:=Module_12.GetName;
-    ModuleID[11]:=Module_12.GetID;
-    EMessages[11,b]:=Module_12.GetErrorMessage(b);
-    HTSLActive[11]:=Module_12.GetHowToSetLinkActive;
-
-    NameActiveElements[12,b]:=Module_13.GetNameActiveElements(b);
-    NameDataIn[12,b]:=Module_13.GetNameDataIn(b);
-    NameDataOut[12,b]:=Module_13.GetNameDataOut(b);
-    NameModule[12]:=Module_13.GetName;
-    ModuleID[12]:=Module_13.GetID;
-    EMessages[12,b]:=Module_13.GetErrorMessage(b);
-    HTSLActive[12]:=Module_13.GetHowToSetLinkActive;
-    }
     NameActiveElements[13,b]:=Module_14.GetNameActiveElements(b);
     NameDataIn[13,b]:=Module_14.GetNameDataIn(b);
     NameDataOut[13,b]:=Module_14.GetNameDataOut(b);
@@ -172,9 +156,6 @@ begin
      7: Module_08.SetActiveElements(num, value);
      8: Module_09.SetActiveElements(num, value);
      9: Module_10.SetActiveElements(num, value);
-//    10: Module_11.SetActiveElements(num, value);
-//    11: Module_12.SetActiveElements(num, value);
-//    12: Module_13.SetActiveElements(num, value);
     13: Module_14.SetActiveElements(num, value);
     14: Module_15.SetActiveElements(num, value);
   end;
@@ -193,9 +174,6 @@ begin
      7: Module_08.SetDataIn(num, value);
      8: Module_09.SetDataIn(num, value);
      9: Module_10.SetDataIn(num, value);
-//    10: Module_11.SetDataIn(num, value);
-//    11: Module_12.SetDataIn(num, value);
-//    12: Module_13.SetDataIn(num, value);
     13: Module_14.SetDataIn(num, value);
     14: Module_15.SetDataIn(num, value);
   end;
@@ -216,9 +194,6 @@ begin
      7: ec:=Module_08.Calculate;
      8: ec:=Module_09.Calculate;
      9: ec:=Module_10.Calculate;
-//    10: ec:=Module_11.Calculate;
-//    11: ec:=Module_12.Calculate;
-//    12: ec:=Module_13.Calculate;
     13: ec:=Module_14.Calculate;
     14: ec:=Module_15.Calculate;
   end;
@@ -242,9 +217,6 @@ begin
      7: Result:=Module_08.GetDataOut(num);
      8: Result:=Module_09.GetDataOut(num);
      9: Result:=Module_10.GetDataOut(num);
-//    10: Result:=Module_11.GetDataOut(num);
-//    11: Result:=Module_12.GetDataOut(num);
-//    12: Result:=Module_13.GetDataOut(num);
     13: Result:=Module_14.GetDataOut(num);
     14: Result:=Module_15.GetDataOut(num);
   end;

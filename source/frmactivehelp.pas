@@ -1,13 +1,22 @@
 { +--------------------------------------------------------------------------+ }
-{ | Electrontubes v0.3.1 * Electrontube bias calculator [ CheapApps series ] | }
-{ | Copyright (C) 2012 Pozsar Zsolt <pozsarzs@gmail.com>                     | }
+{ | Electrontubes v0.4.1 * Electrontube bias calculator [ CheapApps series ] | }
+{ | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                | }
 { | frmactivehlp.pp                                                          | }
 { | Set serial number form                                                   | }
 { +--------------------------------------------------------------------------+ }
-{ ************  This file is not public, contents trade secret! ************** }
+
+{
+  Copyright (C) 2012-2016 Pozsar Zsolt
+
+  This program is free software: you can redistribute it and/or modify
+it under the terms of the European Union Public License version 1.1.
+
+  This program is distributed WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+}
 
 unit frmactivehelp;
-{$mode objfpc}{$H+}
+{$MODE OBJFPC}{$H+}
 interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
@@ -48,7 +57,7 @@ Resourcestring
 
 implementation
 uses frmmain, untcommonproc;
-
+{$R *.lfm}
 { TForm5 }
 
 // actual module number in string
@@ -78,17 +87,26 @@ begin
   i:=1;
   sss:='';
   repeat
-    if ss[i]<>#10 then sss:=sss+ss[i] else begin  Memo1.Lines.Add(sss); sss:='';end;
+    if ss[i]<>#10 then sss:=sss+ss[i] else
+    begin
+      Memo1.Lines.Add(sss);
+      sss:='';
+    end;
     i:=i+1;
   until i=length(ss)+1;
   Memo1.Lines.Add(sss);
   try
-    {$IFDEF LINUX}
-    Image1.Picture.LoadFromFile(untcommonproc.exepath+'help/module_'+smn+'/'+figure[page]);
-    {$ENDIF}
-    {$IFDEF WIN32}
-    Image1.Picture.LoadFromFile(untcommonproc.exepath+'help\module_'+smn+'\'+figure[page]);
-    {$ENDIF}
+   {$IFDEF UNIX}{$IFDEF UseFHS}
+    Image1.Picture.LoadFromFile(untcommonproc.INSTPATH+'/share/'+APPNAME+
+      '/help/module_'+smn+'/'+figure[page]);
+   {$ELSE}
+    Image1.Picture.LoadFromFile(untcommonproc.EXEPATH+'help/module_'+smn+
+      '/'+figure[page]);
+   {$ENDIF}{$ENDIF}
+   {$IFDEF WIN32}
+    Image1.Picture.LoadFromFile(untcommonproc.EXEPATH+'help\module_'+smn+
+      '\'+figure[page]);
+   {$ENDIF}
   except
     Memo1.Lines.Add(MESSAGE03);
   end;
@@ -113,12 +131,17 @@ begin
   pages:=0;
   page:=0;
   try
-    {$IFDEF WIN32}
-    ReadXMLFile(xdoc,untcommonproc.exepath+'help\module_'+smn+'\'+untcommonproc.lang+'_help.xml');
-    {$ENDIF}
-    {$IFDEF LINUX}
-    ReadXMLFile(xdoc,untcommonproc.exepath+'help/module_'+smn+'/'+untcommonproc.lang+'_help.xml');
-    {$ENDIF}
+   {$IFDEF UNIX}{$IFDEF UseFHS}
+    ReadXMLFile(xdoc,untcommonproc.INSTPATH+'/share/'+APPNAME+'help/module_'+
+      smn+'/'+untcommonproc.lang+'_help.xml');
+   {$ELSE}
+    ReadXMLFile(xdoc,untcommonproc.EXEPATH+'help/module_'+smn+'/'+
+      untcommonproc.lang+'_help.xml');
+   {$ENDIF}{$ENDIF}
+   {$IFDEF WIN32}
+    ReadXMLFile(xdoc,untcommonproc.EXEPATH+'help\module_'+smn+'\'+
+      untcommonproc.lang+'_help.xml');
+   {$ENDIF}
     Child:=xdoc.DocumentElement.FirstChild;
     while Assigned(Child) do
     begin
@@ -129,7 +152,7 @@ begin
             begin
               if Item[j].NodeName='title' then title[pages+1]:=Item[j].FirstChild.NodeValue;
               if Item[j].NodeName='description' then description[pages+1]:=Item[j].FirstChild.NodeValue;
-               if Item[j].NodeName='figure' then figure[pages+1]:=Item[j].FirstChild.NodeValue;
+              if Item[j].NodeName='figure' then figure[pages+1]:=Item[j].FirstChild.NodeValue;
             end;
             pages:=pages+1;
           finally
@@ -182,9 +205,6 @@ procedure TForm5.FormCloseQuery(Sender: TObject; var CanClose: boolean);
 begin
   Form1.ComboBox1.Enabled:=true;
 end;
-
-initialization
-  {$I frmactivehelp.lrs}
 
 end.
 
