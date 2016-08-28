@@ -1,9 +1,7 @@
 @echo off
 rem ----------------------------------------------------------------------------
-# | Electrontubes v0.3.1 * Electrontube bias calculator [ CheapApps series ]   |
-# | Copyright (C) 2012 Pozsar Zsolt <pozsarzs@gmail.com>                       |
-rem  C3 v0.6 * Colour code of components
-rem  Copyright (C) 2004-2016 Pozsar Zsolt <pozsarzs@gmail.com>
+rem  Electrontubes v0.4.1 * Electrontube bias calculator
+rem  Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>
 rem  build.bat
 rem  Utility for build/install/uninstall application on Windows
 rem ----------------------------------------------------------------------------

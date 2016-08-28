@@ -1,13 +1,11 @@
-Package: c3
-Version: 0.6
+Package: electrontubes
+Version: 0.4.1
 Section: electronics
 Priority: extra
 Architecture: i386
-Installed-Size: 4.5 MB
+Installed-Size: 5.7 MB
 Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
 Depends: libc6, libglib2.0-0, libgtk2.0-0
-Description: This is an decoder for colour code
- of components. Useable for capacitors, 1N diodes,
- inductors and resistors.
- Licenc: GPL
+Description: Electrontube bias calculator
+ Licenc: EUPL v1.1
 

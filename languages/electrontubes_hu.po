@@ -1197,9 +1197,9 @@ msgstr "Honlap:"
 msgid "E-mail:"
 msgstr "E-mail:"
 
-#: TFORM2.LABEL7.CAPTION
-msgid "Name:"
-msgstr "Név:"
+#: tform2.label7.caption
+msgid "Licence: EUPL v1.1"
+msgstr "Licenc: EUPL v1.1"
 
 #: TFORM3.BUTTON1.CAPTION
 msgid "&Set"

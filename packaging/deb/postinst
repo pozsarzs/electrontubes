@@ -2,8 +2,8 @@
 set -e
 # Automatically added by dh_installdocs
 if [ "$1" = "configure" ]; then
-  if [ -d /usr/doc -a ! -e /usr/doc/c3 -a -d /usr/share/doc/c3 ]; then
-    ln -sf /usr/share/doc/c3 /usr/doc/c3
+  if [ -d /usr/doc -a ! -e /usr/doc/electrontubes -a -d /usr/share/doc/electrontubes ]; then
+    ln -sf /usr/share/doc/electrontubes /usr/doc/electrontubes
   fi
 fi
 if [ -x update-menus ]; then

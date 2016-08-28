@@ -1,43 +1,70 @@
 # +----------------------------------------------------------------------------+
-# | C3 v0.6 * Colour code of components                                        |
-# | Copyright (C) 2004-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
+# | Electrontubes v0.4.1 * Electrontube bias calculator                        |
+# | Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>                  |
 # | default.apspec                                                             |
 # | apspec file for autopackage                                                |
 # +----------------------------------------------------------------------------+
 
 [Meta]
-RootName: @pozsarzs.hu/c3:$SOFTWAREVERSION
-DisplayName: Colour code decoder
-ShortName: c3
+RootName: @pozsarzs.hu/electrontubes:$SOFTWAREVERSION
+DisplayName: Electrontube bias calculator
+ShortName: electrontubes
 Maintainer: Pozsar Zsolt <pozsarzs@gmail.com>
 Packager: Pozsar Zsolt <pozsarzs@gmail.com>
-Summary: Decoder for colour code of components.
-URL: http://www.pozsarzs.hu/ccc/ccc_en.html
-License: GNU General Public License, Version 3 or later
-SoftwareVersion: 0.6
-Repository: http://www.pozsarzs.hu/ccc/ccc.xml
+Summary: Electrontube bias calculator
+URL: http://www.pozsarzs.hu/cheapapps/cheapapps_en.html
+License: EUPL v1.1
+SoftwareVersion: 0.4.1
+Repository: http://www.pozsarzs.hu/cheapapps/electrontubes.xml
 AutopackageTarget: 1.0
 
 [BuildPrepare]
 # documents
 echo $build_root
-mkdir --parent $build_root/share/c3/documents/hu
-cp $source_dir/documents/* $build_root/share/c3/documents/
-cp $source_dir/documents/hu/* $build_root/share/c3/documents/hu/
+mkdir --parent $build_root/share/electrontubes/documents/hu
+cp $source_dir/documents/* $build_root/share/electrontubes/documents/
+cp $source_dir/documents/hu/* $build_root/share/electrontubes/documents/hu/
+# figures
+mkdir --parent $build_root/share/electrontubes/figures
+cp $source_dir/figures/* $build_root/share/electrontubes/figures/
+# help
+mkdir --parent $build_root/share/electrontubes/help/module_03
+mkdir --parent $build_root/share/electrontubes/help/module_04
+mkdir --parent $build_root/share/electrontubes/help/module_05
+mkdir --parent $build_root/share/electrontubes/help/module_06
+mkdir --parent $build_root/share/electrontubes/help/module_07
+mkdir --parent $build_root/share/electrontubes/help/module_09
+mkdir --parent $build_root/share/electrontubes/help/module_10
+mkdir --parent $build_root/share/electrontubes/help/module_14
+mkdir --parent $build_root/share/electrontubes/help/module_15
+cp $source_dir/help/*.html $build_root/share/electrontubes/help/
+cp $source_dir/help/*.css $build_root/share/electrontubes/help/
+cp $source_dir/help/module_03/* $build_root/share/electrontubes/help/module_03/
+cp $source_dir/help/module_04/* $build_root/share/electrontubes/help/module_04/
+cp $source_dir/help/module_05/* $build_root/share/electrontubes/help/module_05/
+cp $source_dir/help/module_06/* $build_root/share/electrontubes/help/module_06/
+cp $source_dir/help/module_07/* $build_root/share/electrontubes/help/module_07/
+cp $source_dir/help/module_09/* $build_root/share/electrontubes/help/module_09/
+cp $source_dir/help/module_10/* $build_root/share/electrontubes/help/module_10/
+cp $source_dir/help/module_11/* $build_root/share/electrontubes/help/module_11/
+cp $source_dir/help/module_12/* $build_root/share/electrontubes/help/module_12/
+cp $source_dir/help/module_13/* $build_root/share/electrontubes/help/module_13/
+cp $source_dir/help/module_14/* $build_root/share/electrontubes/help/module_14/
+cp $source_dir/help/module_15/* $build_root/share/electrontubes/help/module_15/
 # locales
-mkdir --parent $build_root/share/c3/languages/hu
-cp $source_dir/languages/* $build_root/share/c3/languages/
-cp $source_dir/languages/hu/* $build_root/share/c3/languages/hu/
+mkdir --parent $build_root/share/electrontubes/languages/hu
+cp $source_dir/languages/* $build_root/share/electrontubes/languages/
+cp $source_dir/languages/hu/* $build_root/share/electrontubes/languages/hu/
 # manuals
-mkdir --parent $build_root/share/c3/manual
-cp $source_dir/manual/* $build_root/share/c3/manual/
+mkdir --parent $build_root/share/electrontubes/manual
+cp $source_dir/manual/* $build_root/share/electrontubes/manual/
 # other files
-cp $source_dir/c3 $build_root/share/c3/
-cp $source_dir/README $build_root/share/c3/README
+cp $source_dir/electrontubes $build_root/share/electrontubes/
+cp $source_dir/README $build_root/share/electrontubes/README
 mkdir --parent $build_root/share/application/
-cp $source_dir/c3.desktop $build_root/share/application/
+cp $source_dir/electrontubes.desktop $build_root/share/application/
 mkdir --parent $build_root/share/pixmaps/
-cp $source_dir/c3.xpm $build_root/share/pixmaps/
+cp $source_dir/electrontubes.xpm $build_root/share/pixmaps/
 
 [BuildUnprepare]
 unprepareBuild
@@ -50,13 +77,13 @@ echo 'share/' | import
 require @xfree86.org/xlib 6.0
 
 [Install]
-installData share/c3
+installData share/electrontubes
 outputStatus "$intl_INSTALLING_EXE"
-linkFile --silent $PREFIX/share/c3/c3 $PREFIX/bin/c3
-linkFile --silent $PREFIX/share/c3/manual/c3_en.7 $PREFIX/share/man/man7/c3.7
-linkFile --silent $PREFIX/share/c3/manual/c3_hu.7 $PREFIX/share/man/hu/man7/c3.7
-installDesktop "Application/Electronics" share/application/c3.desktop
-installIcon share/pixmaps/c3.xpm
+linkFile --silent $PREFIX/share/electrontubes/electrontubes $PREFIX/bin/electrontubes
+linkFile --silent $PREFIX/share/electrontubes/manual/electrontubes_en.1 $PREFIX/share/man/man1/electrontubes.1
+linkFile --silent $PREFIX/share/electrontubes/manual/electrontubes_hu.1 $PREFIX/share/man/hu/man1/electrontubes.1
+installDesktop "Application/Electronics" share/application/electrontubes.desktop
+installIcon share/pixmaps/electrontubes.xpm
 
 [Uninstall]
 # Usually just the following line is enough to uninstall everything
