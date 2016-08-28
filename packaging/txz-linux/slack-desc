@@ -1,11 +1,9 @@
-  |-----handy-ruler-----------------------------------|
-c3: C3 - Colour code decoder
-c3: This is an decoder for colour code of components.
-c3: Useable for capacitors, 1N diodes, inductors and
-c3: resistors.
-c3: You can redistribute and/or modify it under the
-c3: terms of the GNU GPL 3.0 or later.
-c3:
-c3: Homepage: http://www.pozsarzs.hu/ccc/ccc_en.html
-c3: Package created by: Pozsar Zsolt
+             |-----handy-ruler-----------------------------------|
+electrontubes: Electrontubes
+electrontubes: Electrontube bias calculator
+electrontubes: You can redistribute and/or modify it under the
+electrontubes: terms of the EUPL v1.1.
+electrontubes:
+electrontubes: Homepage: http://www.pozsarzs.hu/en/
+electrontubes: Package created by: Pozsar Zsolt
 
