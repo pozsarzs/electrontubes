@@ -42,10 +42,14 @@ set FPFLAG1=-TWin32 -MObjFPC -Scgi -O1 -ve -WG
 set FPFLAG2=-Fu%LAZ%\lcl\units\%ARCH%-%OS% -Fu%LAZ%\lcl\units\%ARCH%-%OS%\%OS%
 set FPFLAG3=-Fu%LAZ%\components\lazutils\lib\%ARCH%-%OS% -Fu. -Fu.\lib\%ARCH%-%OS%
 set FPFLAG4=-FE.\lib\%ARCH%-%OS% -dLCL -dLCLwin32
+set FPFLAG5=-Fu%LAZ%\components\printers\lib\%ARCH%-%OS%
+set FPFLAG6=-Fu%LAZ%\components\cairocanvas\lib\%ARCH%-%OS%
+set FPFLAG7=-Fu%LAZ%\packager\units\%ARCH%-%OS%
+
 cd source
 echo Compiling source code...
 echo.
-%PPC% %FPFLAG1% %FPFLAG2% %FPFLAG3% %FPFLAG4% electrontubes.lpr
+%PPC% %FPFLAG1% %FPFLAG2% %FPFLAG3% %FPFLAG4% %FPFLAG5% %FPFLAG6% %FPFLAG7% electrontubes.lpr
 echo.
 if errorlevel 0 echo Run 'build.bat install' to install application.
 cd ..
