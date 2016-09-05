@@ -41,9 +41,9 @@ if not exist "%LAZ%" ( echo Error: Folder not found! & goto end )
 set FPFLAG1=-TWin32 -MObjFPC -Scgi -O1 -ve -WG
 set FPFLAG2=-Fu%LAZ%\lcl\units\%ARCH%-%OS% -Fu%LAZ%\lcl\units\%ARCH%-%OS%\%OS%
 set FPFLAG3=-Fu%LAZ%\components\lazutils\lib\%ARCH%-%OS% -Fu. -Fu.\lib\%ARCH%-%OS%
-set FPFLAG4=-FE.\lib\%ARCH%-%OS% -dLCL -dLCLwin32
-set FPFLAG5=-Fu%LAZ%\components\printers\lib\%ARCH%-%OS%
-set FPFLAG6=-Fu%LAZ%\components\cairocanvas\lib\%ARCH%-%OS%
+set FPFLAG4=-FE.\lib\%ARCH%-%OS% -dLCL -dLCLwin32 -Fu.\synapse -Fu.\modules
+set FPFLAG5=-Fu%LAZ%\components\printers\lib\%ARCH%-%OS%\%OS%
+set FPFLAG6=-Fu%LAZ%\components\cairocanvas\lib\%ARCH%-%OS%\%OS%
 set FPFLAG7=-Fu%LAZ%\packager\units\%ARCH%-%OS%
 
 cd source
@@ -94,6 +94,7 @@ del /q %INSTDIR%\figures\Makefile
 md %INSTDIR%\help
 copy /y help\*.html %INSTDIR%\help\
 copy /y help\*.css %INSTDIR%\help\
+md %INSTDIR%\help\module_03
 copy /y help\module_03\*.* %INSTDIR%\help\module_03\
 md %INSTDIR%\help\module_04
 copy /y help\module_04\*.* %INSTDIR%\help\module_04\
