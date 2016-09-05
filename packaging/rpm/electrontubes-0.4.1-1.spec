@@ -1,6 +1,6 @@
 Group: Sciences/Other
 License: EUPL v1.1
-Name: 
+Name: electrontubes
 Packager: Pozsar Zsolt <pozsarzs@gmail.com>
 Release: 1
 Summary: Electrontube bias calculator
