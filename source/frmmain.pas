@@ -22,7 +22,7 @@ uses
   {$IFDEF WIN32} Windows, {$ENDIF}  Classes, SysUtils, FileUtil, Forms, Controls,
   Graphics, Dialogs, Grids, Menus, StdCtrls, PairSplitter, ExtCtrls, ComCtrls,
   XMLPropStorage, PrintersDlgs, Process, DOM, XMLRead, XMLWrite, Printers,
-  {$IFDEF LINUX} Types, {$ENDIF} dos, frmabout, frmactivehelp, frmpref,
+  {$IFDEF UNIX} Types, {$ENDIF} dos, frmabout, frmactivehelp, frmpref,
   untmodules, untcommonproc;
 type
   { TForm1 }

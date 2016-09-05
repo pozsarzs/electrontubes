@@ -1,12 +1,12 @@
 # $FreeBSD$
 
-PORTNAME=	c3
-PORTVERSION=	0.6
+PORTNAME=	electrontubes
+PORTVERSION=	0.4.1
 CATEGORIES=	science
 MASTER_SITES=	http://www.pozsarzs.hu/sources/
 
 MAINTAINER=	pozsarzs@gmail.com
-COMMENT=	Colour code decoder
+COMMENT=	Electrontube bias calculator
 
 GNU_CONFIGURE=	yes
 

@@ -36,12 +36,16 @@ fpflag		= -T@os@ \
                   -ve \
                   -Fu./synapse/ \
                   -Fu./modules/ \
+                  -Fi@lcldir@/../components/printers/unix/ \
+                  -Fu@lcldir@/../components/cairocanvas/ \
+                  -Fu@lcldir@/../components/cairocanvas/lib/@architecture@-@os@/gtk2/ \
+                  -Fu@lcldir@/../components/lazutils/lib/@architecture@-@os@/ \
+                  -Fu@lcldir@/../components/printers/ \
+                  -Fu@lcldir@/../components/printers/lib/@architecture@-@os@/gtk2/ \
+                  -Fu@lcldir@/../components/printers/unix/ \
+                  -Fu@lcldir@/../packager/units/@architecture@-@os@/ \
                   -Fu@lcldir@/units/@architecture@-@os@/ \
                   -Fu@lcldir@/units/@architecture@-@os@/gtk2/ \
-                  -Fu@lcldir@/../components/lazutils/lib/@architecture@-@os@/ \
-                  -Fu@lcldir@/../components/printers/lib/@architecture@-@os@/gtk2/ \
-                  -Fu@lcldir@/../components/cairocanvas/lib/@architecture@-@os@/gtk2/ \
-                  -Fu@lcldir@/../packager/units/@architecture@-@os@/ \
                   -Fu. \
                   -Fu./lib/@architecture@-@os@/ \
                   -FE./lib/@architecture@-@os@/ \

@@ -1,9 +1,8 @@
-C3 - Colour code decoder
-This is an decoder for colour code of components.
-Useable for capacitors, 1N diodes, inductors and
-resistors.
+Electrontubes
+Electrontube bias calculator
 You can redistribute and/or modify it under the
-terms of the GNU GPL 3.0 or later.
+terms of the EUPL v1.1.
 
-Homepage: http://www.pozsarzs.hu/ccc/ccc_en.html
+Homepage: http://www.pozsarzs.hu/en/
 Package created by: Pozsar Zsolt
+
