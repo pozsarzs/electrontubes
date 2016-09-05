@@ -6,7 +6,7 @@ Release: 1
 Summary: Electrontube bias calculator
 Url: http://www.pozsarzs.hu/cheapapps/cheapapps_en.html
 Vendor: Pozsar Zsolt
-Version: 0.6
+Version: 0.4.1
 
 %description
 Electrontube bias calculator.

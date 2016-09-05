@@ -1187,7 +1187,7 @@ msgstr "Electrontubes v"
 
 #: TFORM2.LABEL11.CAPTION
 msgid "Copyright (C) 2012-2016 Pozsár Zsolt"
-msgstr "Copyright (C) 2012 Pozsár Zsolt"
+msgstr "Copyright (C) 2012-2016 Pozsár Zsolt"
 
 #: TFORM2.LABEL3.CAPTION
 msgid "Homepage:"
