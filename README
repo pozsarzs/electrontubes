@@ -1,19 +1,11 @@
 Short information
 -----------------
-Electrontubes v0.4.1 * Electrontube bias calculator
+Electrontubes * Electrontube bias calculator
 Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>
-- Licence: EUPL v1.1
-- OS: FreeBSD, Linux and Windows
-- Language: English and Hungarian
-- Homepage: http://www.pozsarzs.hu/en/
-
-Documentation:
-[EN] Author                   documents/AUTHORS
-     Change log               documents/ChangeLog
-     Licence                  documents/COPYING
-     Installation             documents/INSTALL
-     General information      documents/README
-     Version                  documents/VERSION
-[HU] Telepítés                documents/hu/INSTALL
-     Általános információk    documents/hu/README
-
+- OS: FreeBSD, Linux, Windows
+- UI: CUI
+- Software version: v0.4.1
+- Software licence: EUPL v1.1
+- Software language: en, hu
+- Documentation language: en, hu
+- Homepage: <http://www.pozsarzs.hu/en/>
