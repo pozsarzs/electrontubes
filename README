@@ -3,7 +3,7 @@ Short information
 Electrontubes * Electrontube bias calculator
 Copyright (C) 2012-2016 Pozsar Zsolt <pozsarzs@gmail.com>
 - OS: FreeBSD, Linux, Windows
-- UI: CUI
+- UI: GUI
 - Software version: v0.4.1
 - Software licence: EUPL v1.1
 - Software language: en, hu
